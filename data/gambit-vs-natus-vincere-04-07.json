@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "id": "1",
+      "name": "Gambit",
+      "value": "1.68",
+      "isActive": true,
+      "status": "NOT_RESULTED",
+      "competitorId": "gt:7164",
+      "points": "10"
+    },
+    {
+      "id": "2",
+      "name": "Natus Vincere",
+      "value": "2.13",
+      "isActive": true,
+      "status": "NOT_RESULTED",
+      "competitorId": "gin:bfa2fe2c-2e1c-48e5-9c25-f9d2d2bb8f71",
+      "points": "14"
+    }
+  ]
+]
