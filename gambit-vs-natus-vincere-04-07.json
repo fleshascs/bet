@@ -1,0 +1,193 @@
+{
+  "id": "5:23831e20-23c9-41c6-9fb5-e1fc6ef5c407",
+  "disabled": false,
+  "providerId": "5",
+  "hasMatchLog": false,
+  "slug": "gambit-vs-natus-vincere-04-07",
+  "meta": [
+    {
+      "name": "round",
+      "value": "25"
+    },
+    {
+      "name": "game_state",
+      "value": "map"
+    },
+    {
+      "name": "state_number",
+      "value": "4"
+    },
+    {
+      "name": "original_id",
+      "value": "23831e20-23c9-41c6-9fb5-e1fc6ef5c407"
+    }
+  ],
+  "fixture": {
+    "score": "2:1",
+    "title": "Gambit vs Natus Vincere",
+    "status": "LIVE",
+    "type": "MATCH",
+    "startTime": "2021-07-04T17:05:00+00:00",
+    "sportId": "esports_counter_strike",
+    "liveCoverage": true,
+    "streams": [
+      {
+        "id": "c3gu5lcjgm7g0h9jjjlg",
+        "locale": "en_US",
+        "url": "https://player.twitch.tv/?channel=starladder_cs_en&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+        "platforms": [
+          {
+            "type": "mobile",
+            "enabled": true
+          },
+          {
+            "type": "desktop",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "c3gu5ooj6oqg0gmiu5tg",
+        "locale": "ru_RU",
+        "url": "https://player.twitch.tv/?channel=starladder5&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+        "platforms": [
+          {
+            "type": "mobile",
+            "enabled": true
+          },
+          {
+            "type": "desktop",
+            "enabled": true
+          }
+        ]
+      }
+    ],
+    "tournament": {
+      "id": "gin:57e811c9-c177-4069-ac7c-6fc65fea26b5",
+      "name": "StarLadder CIS RMR 2021",
+      "masterId": "gin:57e811c9-c177-4069-ac7c-6fc65fea26b5",
+      "countryCode": "WW-CIS",
+      "logo": "cdn.gin.bet/tournaments/600px-StarLadder_CIS_RMR60d1843f178f6651636493.png",
+      "description": "",
+      "showTournamentInfo": true,
+      "prizePool": "$100,000 USD",
+      "dateStart": "2021-06-26T21:00:00+00:00",
+      "dateEnd": "",
+      "isLocalizationOverridden": false,
+      "slug": "starladder-cis-rmr-2021-22-06",
+      "sportId": "esports_counter_strike"
+    },
+    "competitors": [
+      {
+        "id": "gt:7164",
+        "name": "Gambit",
+        "type": "TEAM",
+        "homeAway": "HOME",
+        "logo": "cdn.gin.bet/team/600px-Gambit_Esports5bb860f234d92010501764.png",
+        "templatePosition": 1,
+        "score": [
+          {
+            "id": "map:1",
+            "type": "map",
+            "points": "0",
+            "number": 1
+          },
+          {
+            "id": "map:2",
+            "type": "map",
+            "points": "16",
+            "number": 2
+          },
+          {
+            "id": "total",
+            "type": "total",
+            "points": "2",
+            "number": 0
+          },
+          {
+            "id": "map:3",
+            "type": "map",
+            "points": "9",
+            "number": 3
+          },
+          {
+            "id": "map:4",
+            "type": "map",
+            "points": "10",
+            "number": 4
+          }
+        ]
+      },
+      {
+        "id": "gin:bfa2fe2c-2e1c-48e5-9c25-f9d2d2bb8f71",
+        "name": "Natus Vincere",
+        "type": "TEAM",
+        "homeAway": "AWAY",
+        "logo": "cdn.gin.bet/team/Natus_Vincere_2021_allmode60dad1c186fbc863586851.png",
+        "templatePosition": 2,
+        "score": [
+          {
+            "id": "map:1",
+            "type": "map",
+            "points": "0",
+            "number": 1
+          },
+          {
+            "id": "map:2",
+            "type": "map",
+            "points": "7",
+            "number": 2
+          },
+          {
+            "id": "total",
+            "type": "total",
+            "points": "1",
+            "number": 0
+          },
+          {
+            "id": "map:3",
+            "type": "map",
+            "points": "16",
+            "number": 3
+          },
+          {
+            "id": "map:4",
+            "type": "map",
+            "points": "14",
+            "number": 4
+          }
+        ]
+      }
+    ]
+  },
+  "markets": [
+    {
+      "id": "1",
+      "name": "Winner",
+      "status": "ACTIVE",
+      "typeId": 1,
+      "priority": 1,
+      "tags": [],
+      "specifiers": [],
+      "odds": [
+        {
+          "id": "1",
+          "name": "Gambit",
+          "value": "1.75",
+          "isActive": true,
+          "status": "NOT_RESULTED",
+          "competitorId": "gt:7164"
+        },
+        {
+          "id": "2",
+          "name": "Natus Vincere",
+          "value": "2.03",
+          "isActive": true,
+          "status": "NOT_RESULTED",
+          "competitorId": "gin:bfa2fe2c-2e1c-48e5-9c25-f9d2d2bb8f71"
+        }
+      ]
+    }
+  ],
+  "marketsCount": 12
+}
