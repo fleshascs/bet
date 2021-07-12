@@ -1,4 +1,4 @@
-import { authHeaders, token, uri } from '../config';
+import { authHeaders, token, uri } from './config';
 import { WebSocketLink } from 'apollo-link-ws';
 import { ApolloLink } from 'apollo-link';
 import { SubscriptionClient } from 'subscriptions-transport-ws';

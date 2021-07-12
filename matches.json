@@ -1,0 +1,3750 @@
+[
+  {
+    "id": "5:74773381-896d-4010-a5fc-02fb0cdec729",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "sprout-vs-enterprise-12-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "3"
+      },
+      {
+        "name": "original_id",
+        "value": "74773381-896d-4010-a5fc-02fb0cdec729"
+      },
+      {
+        "name": "round",
+        "value": "28"
+      }
+    ],
+    "fixture": {
+      "score": "1:1",
+      "title": "Sprout vs ENTERPRISE",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-12T17:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3m7acm8cvh00g16nvkg",
+          "locale": "de_DE",
+          "url": "https://player.twitch.tv/?channel=99damage&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:29e4d0f0-5972-4057-b2f3-a3df9aad4da8",
+        "name": "ESEA Season 37: Premier Relegation - Europe",
+        "masterId": "gin:29e4d0f0-5972-4057-b2f3-a3df9aad4da8",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-ESEA_Premier_logo60ebf562820d0256797030.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:54:59+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-premier-relegation-europe-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:20643",
+          "name": "Sprout",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/t206435d8092cb5b655435233148.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "20",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "round_overtime:1",
+              "type": "round_overtime",
+              "points": "3",
+              "number": 1
+            },
+            {
+              "id": "round_overtime:2",
+              "type": "round_overtime",
+              "points": "2",
+              "number": 2
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "16",
+              "number": 2
+            },
+            {
+              "id": "map:3",
+              "type": "map",
+              "points": "14",
+              "number": 3
+            }
+          ]
+        },
+        {
+          "id": "gt:49839",
+          "name": "ENTERPRISE",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/162px-ENTERPRICE_logo5ea423198894a584989453.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "22",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "round_overtime:1",
+              "type": "round_overtime",
+              "points": "3",
+              "number": 1
+            },
+            {
+              "id": "round_overtime:2",
+              "type": "round_overtime",
+              "points": "4",
+              "number": 2
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "12",
+              "number": 2
+            },
+            {
+              "id": "map:3",
+              "type": "map",
+              "points": "13",
+              "number": 3
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [],
+    "marketsCount": 5
+  },
+  {
+    "id": "5:e5446e53-abb6-41e5-8753-082111fd6019",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "virtus-pro-vs-astralis-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "e5446e53-abb6-41e5-8753-082111fd6019"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Virtus.Pro vs Astralis",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T14:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:2f422cda-866a-485c-b150-3b9bd9ef4190",
+        "name": "Intel Extreme Masters Season XVI - Cologne",
+        "masterId": "gin:2f422cda-866a-485c-b150-3b9bd9ef4190",
+        "countryCode": "DE",
+        "logo": "cdn.gin.bet/tournaments/IEM-2020-LOGO60d961f4080d0105235523.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$1,000,000 USD",
+        "dateStart": "2021-07-05T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "intel-extreme-masters-season-xvi-cologne-17-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:4636",
+          "name": "Virtus.Pro",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-Virtuspro_20195c3eb21024c8a045660650.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gt:7169",
+          "name": "Astralis",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/t71695d80931f403e0636219199.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Virtus.Pro",
+            "value": "2.21",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:4636"
+          },
+          {
+            "id": "2",
+            "name": "Astralis",
+            "value": "1.63",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7169"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "hcp",
+            "value": "1.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Virtus.Pro (+1.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:4636"
+          },
+          {
+            "id": "2",
+            "name": "Astralis (-1.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7169"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "26.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.74",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 278
+  },
+  {
+    "id": "5:24e76b82-cb65-4664-9266-ba892e617cfd",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "gambit-vs-faze-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "24e76b82-cb65-4664-9266-ba892e617cfd"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Gambit vs FaZe",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T17:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:2f422cda-866a-485c-b150-3b9bd9ef4190",
+        "name": "Intel Extreme Masters Season XVI - Cologne",
+        "masterId": "gin:2f422cda-866a-485c-b150-3b9bd9ef4190",
+        "countryCode": "DE",
+        "logo": "cdn.gin.bet/tournaments/IEM-2020-LOGO60d961f4080d0105235523.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$1,000,000 USD",
+        "dateStart": "2021-07-05T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "intel-extreme-masters-season-xvi-cologne-17-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:7164",
+          "name": "Gambit",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-Gambit_Esports5bb860f234d92010501764.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gt:7170",
+          "name": "FaZe",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/600px-FaZe_Clan_20185bacfdd7031fe911548574.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Gambit",
+            "value": "1.37",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7164"
+          },
+          {
+            "id": "2",
+            "name": "FaZe",
+            "value": "2.98",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7170"
+          }
+        ]
+      },
+      {
+        "id": "299h-2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Gambit (-2.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7164"
+          },
+          {
+            "id": "2",
+            "name": "FaZe (+2.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7170"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 281
+  },
+  {
+    "id": "5:4e7018da-7d80-4f31-b675-83ea0127b504",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "young-ninjas-vs-copenhagen-flames-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "4e7018da-7d80-4f31-b675-83ea0127b504"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Young Ninjas vs Copenhagen Flames",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T08:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "name": "Pinn Cup II",
+        "masterId": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "countryCode": "WW-EUR",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$100,000 USD",
+        "dateStart": "2021-06-27T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "pinn-cup-ii-22-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6",
+          "name": "Young Ninjas",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/t724546000dd1ab708b258633061.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+          "name": "Copenhagen Flames",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/74615be1728fca17c804707459.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Young Ninjas",
+            "value": "2.89",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+          },
+          {
+            "id": "2",
+            "name": "Copenhagen Flames",
+            "value": "1.39",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+          }
+        ]
+      },
+      {
+        "id": "299h3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Young Ninjas (+3.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+          },
+          {
+            "id": "2",
+            "name": "Copenhagen Flames (-3.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "26.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 204
+  },
+  {
+    "id": "5:24775b4f-a153-4d79-9521-c91fd74fb7de",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "havu-vs-entropiq-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "24775b4f-a153-4d79-9521-c91fd74fb7de"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "HAVU vs Entropiq",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T11:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "name": "Pinn Cup II",
+        "masterId": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "countryCode": "WW-EUR",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$100,000 USD",
+        "dateStart": "2021-06-27T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "pinn-cup-ii-22-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:15087",
+          "name": "HAVU",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-HAVU_20195d81eb0c1544c998639274.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:5f5fd25a-c946-4445-95a4-79287c16c71a",
+          "name": "Entropiq",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/109px-Entropiq_no_word5f53eb3647b83323903895.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "HAVU",
+            "value": "2.77",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:15087"
+          },
+          {
+            "id": "2",
+            "name": "Entropiq",
+            "value": "1.42",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:5f5fd25a-c946-4445-95a4-79287c16c71a"
+          }
+        ]
+      },
+      {
+        "id": "299h2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "HAVU (+2.5)",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:15087"
+          },
+          {
+            "id": "2",
+            "name": "Entropiq (-2.5)",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:5f5fd25a-c946-4445-95a4-79287c16c71a"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "26.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 204
+  },
+  {
+    "id": "5:aa6682e8-a1bc-424a-8271-38a605b35d7f",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "mibr-vs-fiend-13-07",
+    "meta": [
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "aa6682e8-a1bc-424a-8271-38a605b35d7f"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "MIBR vs Fiend",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T14:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "name": "Pinn Cup II",
+        "masterId": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "countryCode": "WW-EUR",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$100,000 USD",
+        "dateStart": "2021-06-27T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "pinn-cup-ii-22-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:a045962e-a754-48b9-9448-1608645f1592",
+          "name": "Fiend",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/600px-Team_Fiend6073f73353bc9666612295.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:d2b3b2a0-bb17-4548-9dd0-4b3af557c633",
+          "name": "MIBR",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F5bd81834777a2403871834.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "MIBR",
+            "value": "2.51",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:d2b3b2a0-bb17-4548-9dd0-4b3af557c633"
+          },
+          {
+            "id": "2",
+            "name": "Fiend",
+            "value": "1.50",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:a045962e-a754-48b9-9448-1608645f1592"
+          }
+        ]
+      },
+      {
+        "id": "299h2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "MIBR (+2.5)",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:d2b3b2a0-bb17-4548-9dd0-4b3af557c633"
+          },
+          {
+            "id": "2",
+            "name": "Fiend (-2.5)",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:a045962e-a754-48b9-9448-1608645f1592"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.93",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.81",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 207
+  },
+  {
+    "id": "5:6b770642-5abd-483d-8c41-bc829da97c58",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "lynn-vision-vs-wings-up-13-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "6b770642-5abd-483d-8c41-bc829da97c58"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Lynn Vision vs Wings Up",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T06:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:fce89832-f5eb-4177-a5d4-b27998147c92",
+        "name": "Funspark ULTI 2021: Asia Season 2",
+        "masterId": "gin:fce89832-f5eb-4177-a5d4-b27998147c92",
+        "countryCode": "WW-ASI",
+        "logo": "cdn.gin.bet/tournaments/Funspark_ULTI_202160dd6bab596da411974685.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$15,000 USD",
+        "dateStart": "2021-07-02T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "funspark-ulti-2021-asia-season-2-01-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "betting:0:2960-esports_counter_strike",
+          "name": "Lynn Vision",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/Lynn_Vision_Gaming_20205fc7437894b5c751917141.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:211a0fd7-67b5-47a5-b519-b5177a7e87c5",
+          "name": "Wings Up",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/Wings_Up_Gaming_std[1]5f869a8af1cf6432854081.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Lynn Vision",
+            "value": "1.40",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2960-esports_counter_strike"
+          },
+          {
+            "id": "2",
+            "name": "Wings Up",
+            "value": "2.85",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:211a0fd7-67b5-47a5-b519-b5177a7e87c5"
+          }
+        ]
+      },
+      {
+        "id": "299h-3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Lynn Vision (-3.5)",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2960-esports_counter_strike"
+          },
+          {
+            "id": "2",
+            "name": "Wings Up (+3.5)",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:211a0fd7-67b5-47a5-b519-b5177a7e87c5"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 82
+  },
+  {
+    "id": "5:878687e1-fadc-40cc-8b1d-e319ac92e2c1",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "pact-vs-bankapepsi-12-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "878687e1-fadc-40cc-8b1d-e319ac92e2c1"
+      },
+      {
+        "name": "round",
+        "value": "2"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "3"
+      }
+    ],
+    "fixture": {
+      "score": "1:1",
+      "title": "PACT vs bankaPEPSI",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-12T18:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3m99tenoqa00j83jt70",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=watchfulTV&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.6299999952316284",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:46233928-eee7-4bfa-9796-21ae0772214e",
+        "name": "ESEA Advanced Season 37 Europe",
+        "masterId": "gin:46233928-eee7-4bfa-9796-21ae0772214e",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/ESEA_League%20%281%29608f97ba6c67d646871607.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-05-03T06:26:31+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-advanced-division-europe-03-05",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:18133",
+          "name": "PACT",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/1f7701c3-485a-4843-a16c-ed34220d9317-pact-white5f3675eca93fa757955865.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "11",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "16",
+              "number": 2
+            },
+            {
+              "id": "map:3",
+              "type": "map",
+              "points": "0",
+              "number": 3
+            }
+          ]
+        },
+        {
+          "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+          "name": "bankaPEPSI",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/55px-BankaPEPSI_allmode60a35d8c7fc63611076540.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "12",
+              "number": 2
+            },
+            {
+              "id": "map:3",
+              "type": "map",
+              "points": "1",
+              "number": 3
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "PACT",
+            "value": "2.16",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:18133"
+          },
+          {
+            "id": "2",
+            "name": "bankaPEPSI",
+            "value": "1.65",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m3",
+        "name": "3rd map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "3"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "PACT (+1.5)",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:18133"
+          },
+          {
+            "id": "2",
+            "name": "bankaPEPSI (-1.5)",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+          }
+        ]
+      },
+      {
+        "id": "300m3t27_5",
+        "name": "3rd map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "27.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "3"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 27.5",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 27.5",
+            "value": "1.74",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 24
+  },
+  {
+    "id": "5:bc92dbfb-8c81-45c1-a595-bb6056c21530",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "sws-gaming-vs-paqueta-gaming-12-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "bc92dbfb-8c81-45c1-a595-bb6056c21530"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "SWS Gaming vs Paqueta Gaming",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T22:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "name": "Gamers Club Liga Série A: July 2021",
+        "masterId": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "countryCode": "BR",
+        "logo": "cdn.gin.bet/tournaments/Liga_Gamers_Club_S%C3%A9rie_A_allmode60e52ba82f256265569987.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-07T04:20:51+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "gamers-club-liga-serie-a-july-2021-07-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:47940",
+          "name": "Paqueta Gaming",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/1313-Paqueta-Gaming6005ed582ac82157496625.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:e1408ee7-cd91-4591-a704-0f0bd8f337e6",
+          "name": "SWS Gaming",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/1268-SWS-Gaming5f454ffee6497974040705.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "SWS Gaming",
+            "value": "6.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e1408ee7-cd91-4591-a704-0f0bd8f337e6"
+          },
+          {
+            "id": "2",
+            "name": "Paqueta Gaming",
+            "value": "1.08",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:47940"
+          }
+        ]
+      },
+      {
+        "id": "299h7_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "7.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "SWS Gaming (+7.5)",
+            "value": "1.77",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e1408ee7-cd91-4591-a704-0f0bd8f337e6"
+          },
+          {
+            "id": "2",
+            "name": "Paqueta Gaming (-7.5)",
+            "value": "1.98",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:47940"
+          }
+        ]
+      },
+      {
+        "id": "300m1t24_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "24.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 24.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 24.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 29
+  },
+  {
+    "id": "5:e42d0b86-8625-457d-b210-897fca259e30",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "wygers-argentina-vs-wap-esports-12-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "e42d0b86-8625-457d-b210-897fca259e30"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Wygers Argentina vs WAP Esports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T22:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "name": "Alpha Pro League 2021",
+        "masterId": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/Alpha_Pro_League60d6439f947f4727674077.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$5,000 USD",
+        "dateStart": "2021-06-25T20:58:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "alpha-pro-league-2021-25-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+          "name": "Wygers Argentina",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/171px-Wygers_logo5f0435a94c671411856815.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:3ab71570-060d-4767-bc41-8a15ab17d72a",
+          "name": "WAP Esports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/6015d94571daa135410389x260191c17829d3671810666.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Wygers Argentina",
+            "value": "2.08",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+          },
+          {
+            "id": "2",
+            "name": "WAP Esports",
+            "value": "1.70",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ab71570-060d-4767-bc41-8a15ab17d72a"
+          }
+        ]
+      }
+    ],
+    "marketsCount": 3
+  },
+  {
+    "id": "5:2eabe0de-03e4-4141-a542-885913f940e6",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "wap-esports-vs-stone-esports-12-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "2eabe0de-03e4-4141-a542-885913f940e6"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "WAP Esports vs Stone Esports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T22:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:3ab71570-060d-4767-bc41-8a15ab17d72a",
+          "name": "WAP Esports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/6015d94571daa135410389x260191c17829d3671810666.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca",
+          "name": "Stone Esports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/vjDO40_e3pFe97cyKCsHmX60e3f0e291164883029305.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "WAP Esports",
+            "value": "4.11",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ab71570-060d-4767-bc41-8a15ab17d72a"
+          },
+          {
+            "id": "2",
+            "name": "Stone Esports",
+            "value": "1.21",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca"
+          }
+        ]
+      },
+      {
+        "id": "299h5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "hcp",
+            "value": "5.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "WAP Esports (+5.5)",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ab71570-060d-4767-bc41-8a15ab17d72a"
+          },
+          {
+            "id": "2",
+            "name": "Stone Esports (-5.5)",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 12
+  },
+  {
+    "id": "5:7c502593-8c15-43c7-81e7-497c28aa249e",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "cruzeiro-esports-vs-bravos-12-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "7c502593-8c15-43c7-81e7-497c28aa249e"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Cruzeiro Esports vs Bravos",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T23:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "name": "Gamers Club Liga Série A: July 2021",
+        "masterId": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "countryCode": "BR",
+        "logo": "cdn.gin.bet/tournaments/Liga_Gamers_Club_S%C3%A9rie_A_allmode60e52ba82f256265569987.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-07T04:20:51+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "gamers-club-liga-serie-a-july-2021-07-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:45829",
+          "name": "Bravos",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/106055e382b1aa39fb278260460.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+          "name": "Cruzeiro Esports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Cruzeiro Esports",
+            "value": "4.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+          },
+          {
+            "id": "2",
+            "name": "Bravos",
+            "value": "1.15",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45829"
+          }
+        ]
+      },
+      {
+        "id": "299h5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Cruzeiro Esports (+5.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+          },
+          {
+            "id": "2",
+            "name": "Bravos (-5.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45829"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 30
+  },
+  {
+    "id": "5:61258dae-4869-4c04-bde6-a4a606656888",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "hawks-vs-durany-12-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "61258dae-4869-4c04-bde6-a4a606656888"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Hawks vs Durany",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T23:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "name": "Alpha Pro League 2021",
+        "masterId": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/Alpha_Pro_League60d6439f947f4727674077.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$5,000 USD",
+        "dateStart": "2021-06-25T20:58:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "alpha-pro-league-2021-25-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:45430",
+          "name": "Hawks",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/1142-Hawks5e3ba8ac40ab7246749233.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:e0b10a81-2525-4a27-8473-61520bd548f8",
+          "name": "Durany",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/Durany_Esports_logo_std6054f4dd5283b834667733.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Hawks",
+            "value": "2.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45430"
+          },
+          {
+            "id": "2",
+            "name": "Durany",
+            "value": "1.38",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e0b10a81-2525-4a27-8473-61520bd548f8"
+          }
+        ]
+      }
+    ],
+    "marketsCount": 3
+  },
+  {
+    "id": "5:9b7dbe6c-8cf3-4600-9438-381465877015",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "w7m-vs-9z-12-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "9b7dbe6c-8cf3-4600-9438-381465877015"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "W7M vs 9z",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T23:20:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:1102225b-9d90-4918-b828-a579654ae400",
+        "name": "INVie",
+        "masterId": "gin:1102225b-9d90-4918-b828-a579654ae400",
+        "countryCode": "WW-SAM",
+        "logo": "cdn.gin.bet/tournaments/INVIE_CSGO60e4daccd0153527959112.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$15,000 USD",
+        "dateStart": "2021-07-06T22:35:54+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "invie-06-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:25592",
+          "name": "W7M",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/729px-W7M_Gaming_20185d88653975782858182284.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gt:34699",
+          "name": "9z",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/648px-9z_Team5d8b44833a65f454317522.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "W7M",
+            "value": "13.04",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:25592"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "3.21",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "9z",
+            "value": "1.39",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:34699"
+          }
+        ]
+      },
+      {
+        "id": "299h5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "W7M (+5.5)",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:25592"
+          },
+          {
+            "id": "2",
+            "name": "9z (-5.5)",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:34699"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "2.01",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.75",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 25
+  },
+  {
+    "id": "5:aa9cdccd-73b0-44a5-8b8a-04eb7d4cb066",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "coscu-army-vs-leviatan-esports-12-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "aa9cdccd-73b0-44a5-8b8a-04eb7d4cb066"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Coscu Army vs Leviatan Esports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-12T23:30:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:22917",
+          "name": "Leviatan Esports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/6015d95c625a4754139253x260191b8ab199e519255448.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e",
+          "name": "Coscu Army",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/190px-Coscu_Army5b55b2bef2990677477923.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Coscu Army",
+            "value": "1.51",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+          },
+          {
+            "id": "2",
+            "name": "Leviatan Esports",
+            "value": "2.45",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22917"
+          }
+        ]
+      },
+      {
+        "id": "299h-3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Coscu Army (-3.5)",
+            "value": "1.98",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+          },
+          {
+            "id": "2",
+            "name": "Leviatan Esports (+3.5)",
+            "value": "1.77",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22917"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 13
+  },
+  {
+    "id": "5:e09ca71c-1f7e-4cdf-81a8-bc61a9201a8c",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "big-chillin-vs-x13-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "e09ca71c-1f7e-4cdf-81a8-bc61a9201a8c"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Big Chillin vs X13",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "name": "ESEA Season 37: Premier Relegation - North America",
+        "masterId": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-ESEA_Premier_logo60ec0a15210b0157253167.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T09:23:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-premier-relegation-north-america-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:6fbf6cc1-7122-4e00-b85e-2d4a1a743b1b",
+          "name": "Big Chillin",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/1729-Big-Chillin-b97de73fbd606d549b9e19c410744791.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+          "name": "X13",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5dfdc96433bf145322491260326fd6927bf975461893.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Big Chillin",
+            "value": "1.67",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:6fbf6cc1-7122-4e00-b85e-2d4a1a743b1b"
+          },
+          {
+            "id": "2",
+            "name": "X13",
+            "value": "2.14",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+          }
+        ]
+      },
+      {
+        "id": "299h-1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Big Chillin (-1.5)",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:6fbf6cc1-7122-4e00-b85e-2d4a1a743b1b"
+          },
+          {
+            "id": "2",
+            "name": "X13 (+1.5)",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "26.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  {
+    "id": "5:7372595e-6465-4f2b-afd7-c6eb3d7af6cf",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "mythic-vs-cold-ass-riding-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "7372595e-6465-4f2b-afd7-c6eb3d7af6cf"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Mythic vs Cold Ass Riding",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "name": "ESEA Season 37: Premier Relegation - North America",
+        "masterId": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-ESEA_Premier_logo60ec0a15210b0157253167.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T09:23:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-premier-relegation-north-america-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:5116",
+          "name": "Mythic",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/500px-Mythic_Logo25d87155421ca2199079888.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:ef914fca-898b-4ad6-93b9-1659bc5f7781",
+          "name": "Cold Ass Riding",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5dfdc96433bf1453224912607a71367cd8f51955156460e290825305b092559848.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Mythic",
+            "value": "1.33",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:5116"
+          },
+          {
+            "id": "2",
+            "name": "Cold Ass Riding",
+            "value": "3.19",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ef914fca-898b-4ad6-93b9-1659bc5f7781"
+          }
+        ]
+      },
+      {
+        "id": "299h-3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Mythic (-3.5)",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:5116"
+          },
+          {
+            "id": "2",
+            "name": "Cold Ass Riding (+3.5)",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ef914fca-898b-4ad6-93b9-1659bc5f7781"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 83
+  },
+  {
+    "id": "5:3905bd7b-0bd2-44cf-9c95-228b56072ee9",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "censrd-vs-team-villainous-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "3905bd7b-0bd2-44cf-9c95-228b56072ee9"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "CENSRD vs Team Villainous",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "name": "ESEA Season 37: Premier Relegation - North America",
+        "masterId": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-ESEA_Premier_logo60ec0a15210b0157253167.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T09:23:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-premier-relegation-north-america-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:1f99ee74-3c1a-402a-aae0-3c3ed66258b7",
+          "name": "CENSRD",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/sEEIrNcm_400x40060c164975106c737861754.jpeg",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:c068786b-f5a6-4f49-822d-64044d836cf9",
+          "name": "Team Villainous",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/87261841596933144600de101e6200172584584.jpeg",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "CENSRD",
+            "value": "1.47",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1f99ee74-3c1a-402a-aae0-3c3ed66258b7"
+          },
+          {
+            "id": "2",
+            "name": "Team Villainous",
+            "value": "2.60",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c068786b-f5a6-4f49-822d-64044d836cf9"
+          }
+        ]
+      },
+      {
+        "id": "299h-2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "CENSRD (-2.5)",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1f99ee74-3c1a-402a-aae0-3c3ed66258b7"
+          },
+          {
+            "id": "2",
+            "name": "Team Villainous (+2.5)",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c068786b-f5a6-4f49-822d-64044d836cf9"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  {
+    "id": "5:108405dd-7b01-432d-b87c-850b6873e59c",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "langamers-vs-eqole-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "108405dd-7b01-432d-b87c-850b6873e59c"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "LANGamers vs Eqole",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "name": "Alpha Pro League 2021",
+        "masterId": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/Alpha_Pro_League60d6439f947f4727674077.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$5,000 USD",
+        "dateStart": "2021-06-25T20:58:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "alpha-pro-league-2021-25-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:628ba44e-2520-4f4d-a8a5-65ea98048d1a",
+          "name": "LANGamers",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:efe87819-aa5c-4293-a275-98fd76f21220",
+          "name": "Eqole",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "LANGamers",
+            "value": "1.64",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:628ba44e-2520-4f4d-a8a5-65ea98048d1a"
+          },
+          {
+            "id": "2",
+            "name": "Eqole",
+            "value": "2.17",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:efe87819-aa5c-4293-a275-98fd76f21220"
+          }
+        ]
+      }
+    ],
+    "marketsCount": 3
+  },
+  {
+    "id": "5:ea2e9d19-6a22-4678-b0c1-0eb6c9abc4eb",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "cronem-vs-triton-13-07",
+    "meta": [
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "ea2e9d19-6a22-4678-b0c1-0eb6c9abc4eb"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "CRONEM vs Triton",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "name": "ESEA Season 37: Premier Relegation - North America",
+        "masterId": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-ESEA_Premier_logo60ec0a15210b0157253167.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T09:23:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-premier-relegation-north-america-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:00038ebd-b586-4a9e-bc33-04e6ff7c2df3",
+          "name": "CRONEM",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:471fd874-ded8-42e4-a2ea-8c25bb1d86d0",
+          "name": "Triton",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/DiOV5cXMc39HAqbJHc8y2160ea9cdfc2090734436440.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "CRONEM",
+            "value": "2.13",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:00038ebd-b586-4a9e-bc33-04e6ff7c2df3"
+          },
+          {
+            "id": "2",
+            "name": "Triton",
+            "value": "1.68",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:471fd874-ded8-42e4-a2ea-8c25bb1d86d0"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "CRONEM (+1.5)",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:00038ebd-b586-4a9e-bc33-04e6ff7c2df3"
+          },
+          {
+            "id": "2",
+            "name": "Triton (-1.5)",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:471fd874-ded8-42e4-a2ea-8c25bb1d86d0"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  }
+]
