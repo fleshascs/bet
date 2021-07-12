@@ -75,3 +75,8 @@ export interface GetMatchesByFilters {
     matches: Match[];
   };
 }
+
+export interface MatchUpdates {
+  onUpdateSportEvent: Match[];
+  match: Match;
+}
