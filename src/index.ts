@@ -1,4 +1,3 @@
-const schedule = require('node-schedule');
 import { OnUpdateSportEvent, GetMatchesByFilters, Match, MatchUpdates } from './types/ggbetAPI';
 import { getSavedMatch, saveMatch, saveMatches } from './dataProvider/utils';
 // import { buildOperation as getMatchBySlug } from './dataProvider/queries/getMatchBySlug';
@@ -22,7 +21,7 @@ const matchStats: Record<Match['slug'], MatchUpdates> = {};
     throw new Error('Faild to getMatchesByFilters:' + JSON.stringify(matchesResponse));
   }
 
-  // saveMatches(matches);
+  saveMatches(matches);
 
   matches.forEach(watchMatchUpdates);
 })();
@@ -35,21 +34,9 @@ async function watchMatchUpdates(match: Match) {
     onUpdateSportEvent: savedMatchStats?.onUpdateSportEvent ?? []
   };
 
-  if (match.fixture.status === 'NOT_STARTED') {
-    scheduleWatching(match);
-    return;
-  }
-
-  if (match.fixture.status === 'LIVE') {
+  if (['NOT_STARTED', 'LIVE'].includes(match.fixture.status)) {
     startWatching(match);
   }
-}
-
-function scheduleWatching(match: Match) {
-  const startTime = new Date(match.fixture.startTime);
-  const job = schedule.scheduleJob(startTime, function () {
-    startWatching(match);
-  });
 }
 
 function startWatching(match: Match) {
@@ -61,7 +48,23 @@ function startWatching(match: Match) {
 }
 
 function onUpdateSportEventHandler(response: OnUpdateSportEvent) {
-  const match = response.data.onUpdateSportEvent;
-  matchStats[match.slug].onUpdateSportEvent.push(match);
-  saveMatch(match.slug, matchStats[match.slug]);
+  try {
+    const match = response.data.onUpdateSportEvent;
+    if (!matchStats[match.slug]) {
+      console.log('matchStats[match.slug] dont exist: ' + match.slug);
+      const m = findMatchById(match.slug);
+      if (!m) throw new Error('unable to find a match slug: ' + match.slug);
+      match.slug = m.match.slug;
+    }
+    matchStats[match.slug].onUpdateSportEvent.push(match);
+    saveMatch(match.slug, matchStats[match.slug]);
+  } catch (error) {
+    console.log('onUpdateSportEventHandler', response.data.onUpdateSportEvent.slug);
+    console.log('response', response);
+    throw error;
+  }
+}
+
+function findMatchById(id: Match['slug']) {
+  return Object.values(matchStats).find((m) => m.match.id === id);
 }

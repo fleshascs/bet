@@ -24,7 +24,7 @@ export interface Competitor {
 
 export interface Fixture {
   title: string;
-  status: 'LIVE' | 'NOT_STARTED';
+  status: 'LIVE' | 'NOT_STARTED' | 'ENDED';
   type: string;
   startTime: string;
   sportId: string;

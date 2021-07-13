@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node --transpile-only ./src/index.ts",
+    "filterUnfinishedMatches": "ts-node --transpile-only ./scripts/filterUnfinishedMatches.ts",
     "test-server": "node src/test_server.js",
     "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
@@ -42,6 +43,7 @@
     "eslint": "~7.27.0",
     "eslint-config-prettier": "~8.3.0",
     "eslint-plugin-jest": "~24.3.6",
+    "glob": "^7.1.7",
     "jest": "~27.0.3",
     "prettier": "~2.3.0",
     "rimraf": "~3.0.2",
