@@ -10,7 +10,7 @@ export function saveMatch(slug: string, match: MatchUpdates) {
   });
 }
 
-export async function getSavedMatch(slug: string) {
+export async function getSavedMatch(slug: string): Promise<MatchUpdates | null> {
   try {
     return JSON.parse(await fsp.readFile(`./data/${slug}.json`, 'utf8'));
   } catch (error) {
