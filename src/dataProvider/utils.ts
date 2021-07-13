@@ -12,7 +12,7 @@ export function saveMatch(slug: string, match: MatchUpdates) {
 
 export async function getSavedMatch(slug: string) {
   try {
-    return await fsp.readFile(`./data/${slug}.json`, 'utf8');
+    return JSON.parse(await fsp.readFile(`./data/${slug}.json`, 'utf8'));
   } catch (error) {
     return null;
   }
