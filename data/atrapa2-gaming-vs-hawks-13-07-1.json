@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:40746a8b-bbd1-4c89-877f-01d9698faac9",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "atrapa2-gaming-vs-hawks-13-07-1",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "40746a8b-bbd1-4c89-877f-01d9698faac9"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Atrapa2 Gaming vs Hawks",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T22:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:45430",
+          "name": "Hawks",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/1142-Hawks5e3ba8ac40ab7246749233.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+          "name": "Atrapa2 Gaming",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/147px-Atrapa2_Gaming5fbc1ace3290e918481319.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Atrapa2 Gaming",
+            "value": "3.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+          },
+          {
+            "id": "2",
+            "name": "Hawks",
+            "value": "1.22",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45430"
+          }
+        ]
+      },
+      {
+        "id": "299h5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Atrapa2 Gaming (+5.5)",
+            "value": "1.81",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+          },
+          {
+            "id": "2",
+            "name": "Hawks (-5.5)",
+            "value": "1.93",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45430"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.89",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.85",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 13
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:40746a8b-bbd1-4c89-877f-01d9698faac9",
+      "slug": "atrapa2-gaming-vs-hawks-13-07-1",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Atrapa2 Gaming",
+              "value": "4.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            },
+            {
+              "id": "2",
+              "name": "Hawks",
+              "value": "1.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45430"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "40746a8b-bbd1-4c89-877f-01d9698faac9"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45430",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

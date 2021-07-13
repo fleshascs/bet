@@ -1,0 +1,6123 @@
+{
+  "match": {
+    "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "animal-squad-vs-dire-wolves-13-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+      },
+      {
+        "name": "round",
+        "value": "21"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Animal Squad vs Dire Wolves",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-13T08:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3mk4ceqrd7g0kqp1dug",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:e933f167-2f07-43ec-9616-bac8de1d20fd",
+        "name": "LPL Pro League Season 8",
+        "masterId": "gin:e933f167-2f07-43ec-9616-bac8de1d20fd",
+        "countryCode": "WW-OCEANIA",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lpl-pro-league-season-8-02-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:4670",
+          "name": "Dire Wolves",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/dkqT46UMkPOOGxXslgxwkR60472423e58db791821345.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "15",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+          "name": "Animal Squad",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/t55316057d3e59e4ec295022167.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "5",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "299h9_5m2",
+        "name": "2nd map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "hcp",
+            "value": "9.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Animal Squad (+9.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+          },
+          {
+            "id": "2",
+            "name": "Dire Wolves (-9.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:4670"
+          }
+        ]
+      },
+      {
+        "id": "300m2t22_5",
+        "name": "2nd map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "total",
+            "value": "22.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 22.5",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 22.5",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 19
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "1"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "1"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "1"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:2",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:46bee2a6-9ec0-497a-b92a-8fd6deda374a",
+      "slug": "animal-squad-vs-dire-wolves-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Animal Squad",
+              "value": "8.93",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21"
+            },
+            {
+              "id": "2",
+              "name": "Dire Wolves",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gt:4670"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "46bee2a6-9ec0-497a-b92a-8fd6deda374a"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:2",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gt:4670",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3e2ee8fa-8398-4e8c-ac89-92bce07d5b21",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3mk4ceqrd7g0kqp1dug",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lpl_csgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

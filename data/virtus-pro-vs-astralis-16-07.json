@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:e5446e53-abb6-41e5-8753-082111fd6019",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "virtus-pro-vs-astralis-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "e5446e53-abb6-41e5-8753-082111fd6019"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Virtus.Pro vs Astralis",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T14:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:2f422cda-866a-485c-b150-3b9bd9ef4190",
+        "name": "Intel Extreme Masters Season XVI - Cologne",
+        "masterId": "gin:2f422cda-866a-485c-b150-3b9bd9ef4190",
+        "countryCode": "DE",
+        "logo": "cdn.gin.bet/tournaments/IEM-2020-LOGO60d961f4080d0105235523.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$1,000,000 USD",
+        "dateStart": "2021-07-05T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "intel-extreme-masters-season-xvi-cologne-17-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:4636",
+          "name": "Virtus.Pro",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-Virtuspro_20195c3eb21024c8a045660650.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gt:7169",
+          "name": "Astralis",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/t71695d80931f403e0636219199.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Virtus.Pro",
+            "value": "2.31",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:4636"
+          },
+          {
+            "id": "2",
+            "name": "Astralis",
+            "value": "1.58",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7169"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Virtus.Pro (+1.5)",
+            "value": "1.85",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:4636"
+          },
+          {
+            "id": "2",
+            "name": "Astralis (-1.5)",
+            "value": "1.89",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:7169"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.73",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "2.03",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 281
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:e5446e53-abb6-41e5-8753-082111fd6019",
+      "slug": "virtus-pro-vs-astralis-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Virtus.Pro",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4636"
+            },
+            {
+              "id": "2",
+              "name": "Astralis",
+              "value": "1.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:7169"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "e5446e53-abb6-41e5-8753-082111fd6019"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:4636",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gt:7169",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

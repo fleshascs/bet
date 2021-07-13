@@ -1,0 +1,914 @@
+{
+  "match": {
+    "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "intz-vs-cruzeiro-esports-13-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "INTZ vs Cruzeiro Esports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T22:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "name": "Gamers Club Liga Série A: July 2021",
+        "masterId": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "countryCode": "BR",
+        "logo": "cdn.gin.bet/tournaments/Liga_Gamers_Club_S%C3%A9rie_A_allmode60e52ba82f256265569987.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-07T04:20:51+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "gamers-club-liga-serie-a-july-2021-07-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "betting:0:2124-esports_counter_strike",
+          "name": "INTZ",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-Intz5ad6fe4f83f0b100423570.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+          "name": "Cruzeiro Esports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "INTZ",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2124-esports_counter_strike"
+          },
+          {
+            "id": "2",
+            "name": "Cruzeiro Esports",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "INTZ (+1.5)",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2124-esports_counter_strike"
+          },
+          {
+            "id": "2",
+            "name": "Cruzeiro Esports (-1.5)",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 83
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.87",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "1.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "2.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "2.34",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "2.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.65",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "2.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.75",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.87",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:96d7e2dc-cb0e-4a97-bc07-6b86c93bfede",
+      "slug": "intz-vs-cruzeiro-esports-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "1.82",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Cruzeiro Esports",
+              "value": "1.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ab9eb94e-db65-428d-84dc-125df21a4944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "96d7e2dc-cb0e-4a97-bc07-6b86c93bfede"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:ab9eb94e-db65-428d-84dc-125df21a4944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

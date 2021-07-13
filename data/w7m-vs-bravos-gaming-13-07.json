@@ -1,0 +1,332 @@
+{
+  "match": {
+    "id": "5:14a22e02-2edd-440d-bf46-6d67571eb73c",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "w7m-vs-bravos-gaming-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "14a22e02-2edd-440d-bf46-6d67571eb73c"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "W7M vs Bravos Gaming",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T21:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:1102225b-9d90-4918-b828-a579654ae400",
+        "name": "INVie",
+        "masterId": "gin:1102225b-9d90-4918-b828-a579654ae400",
+        "countryCode": "WW-SAM",
+        "logo": "cdn.gin.bet/tournaments/INVIE_CSGO60e4daccd0153527959112.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$15,000 USD",
+        "dateStart": "2021-07-06T22:35:54+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "invie-06-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:25592",
+          "name": "W7M",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/729px-W7M_Gaming_20185d88653975782858182284.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:5e14c7a7-7ed3-4b0e-a462-ac0d83a4e745",
+          "name": "Bravos Gaming",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/1213-Bravos-Gaming5ee02117e63d0549462027.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "W7M",
+            "value": "10.01",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:25592"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "3.01",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "Bravos Gaming",
+            "value": "1.47",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:5e14c7a7-7ed3-4b0e-a462-ac0d83a4e745"
+          }
+        ]
+      },
+      {
+        "id": "299h5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "W7M (+5.5)",
+            "value": "1.93",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:25592"
+          },
+          {
+            "id": "2",
+            "name": "Bravos Gaming (-5.5)",
+            "value": "1.81",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:5e14c7a7-7ed3-4b0e-a462-ac0d83a4e745"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 25
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:14a22e02-2edd-440d-bf46-6d67571eb73c",
+      "slug": "w7m-vs-bravos-gaming-13-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "14a22e02-2edd-440d-bf46-6d67571eb73c"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:25592",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:5e14c7a7-7ed3-4b0e-a462-ac0d83a4e745",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:14a22e02-2edd-440d-bf46-6d67571eb73c",
+      "slug": "w7m-vs-bravos-gaming-13-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "14a22e02-2edd-440d-bf46-6d67571eb73c"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:25592",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:5e14c7a7-7ed3-4b0e-a462-ac0d83a4e745",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

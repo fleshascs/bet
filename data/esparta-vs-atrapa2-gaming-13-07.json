@@ -1,0 +1,558 @@
+{
+  "match": {
+    "id": "5:db592ed2-b1f3-49f5-a98a-a720f2036f17",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "esparta-vs-atrapa2-gaming-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "db592ed2-b1f3-49f5-a98a-a720f2036f17"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Esparta vs Atrapa2 Gaming",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T21:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "name": "Alpha Pro League 2021",
+        "masterId": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/Alpha_Pro_League60d6439f947f4727674077.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$5,000 USD",
+        "dateStart": "2021-06-25T20:58:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "alpha-pro-league-2021-25-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+          "name": "Atrapa2 Gaming",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/147px-Atrapa2_Gaming5fbc1ace3290e918481319.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+          "name": "Esparta",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Esparta",
+            "value": "1.55",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+          },
+          {
+            "id": "2",
+            "name": "Atrapa2 Gaming",
+            "value": "2.35",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+          }
+        ]
+      },
+      {
+        "id": "299h-2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Esparta (-2.5)",
+            "value": "1.85",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+          },
+          {
+            "id": "2",
+            "name": "Atrapa2 Gaming (+2.5)",
+            "value": "1.89",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "26.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 13
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:db592ed2-b1f3-49f5-a98a-a720f2036f17",
+      "slug": "esparta-vs-atrapa2-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Esparta",
+              "value": "1.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+            },
+            {
+              "id": "2",
+              "name": "Atrapa2 Gaming",
+              "value": "2.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "db592ed2-b1f3-49f5-a98a-a720f2036f17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:db592ed2-b1f3-49f5-a98a-a720f2036f17",
+      "slug": "esparta-vs-atrapa2-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Esparta",
+              "value": "1.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+            },
+            {
+              "id": "2",
+              "name": "Atrapa2 Gaming",
+              "value": "2.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "db592ed2-b1f3-49f5-a98a-a720f2036f17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:db592ed2-b1f3-49f5-a98a-a720f2036f17",
+      "slug": "esparta-vs-atrapa2-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Esparta",
+              "value": "1.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+            },
+            {
+              "id": "2",
+              "name": "Atrapa2 Gaming",
+              "value": "2.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "db592ed2-b1f3-49f5-a98a-a720f2036f17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:db592ed2-b1f3-49f5-a98a-a720f2036f17",
+      "slug": "esparta-vs-atrapa2-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Esparta",
+              "value": "1.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+            },
+            {
+              "id": "2",
+              "name": "Atrapa2 Gaming",
+              "value": "2.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "db592ed2-b1f3-49f5-a98a-a720f2036f17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

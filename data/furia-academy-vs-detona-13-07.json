@@ -1,0 +1,558 @@
+{
+  "match": {
+    "id": "5:820663ab-742b-4849-b18f-b5ac290aed2c",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "furia-academy-vs-detona-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "820663ab-742b-4849-b18f-b5ac290aed2c"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "FURIA Academy vs DETONA",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T22:30:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "name": "Gamers Club Liga Série A: July 2021",
+        "masterId": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "countryCode": "BR",
+        "logo": "cdn.gin.bet/tournaments/Liga_Gamers_Club_S%C3%A9rie_A_allmode60e52ba82f256265569987.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-07T04:20:51+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "gamers-club-liga-serie-a-july-2021-07-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:25596",
+          "name": "DETONA",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/DETONA_Gaming_2019_logo5ca04f434f011000061532.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+          "name": "FURIA Academy",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/88855b0f94f1d3572272539341.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "FURIA Academy",
+            "value": "1.70",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+          },
+          {
+            "id": "2",
+            "name": "DETONA",
+            "value": "2.10",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:25596"
+          }
+        ]
+      },
+      {
+        "id": "299h-1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "FURIA Academy (-1.5)",
+            "value": "1.89",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+          },
+          {
+            "id": "2",
+            "name": "DETONA (+1.5)",
+            "value": "1.85",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:25596"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:820663ab-742b-4849-b18f-b5ac290aed2c",
+      "slug": "furia-academy-vs-detona-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "DETONA",
+              "value": "2.13",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:25596"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "820663ab-742b-4849-b18f-b5ac290aed2c"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:25596",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:820663ab-742b-4849-b18f-b5ac290aed2c",
+      "slug": "furia-academy-vs-detona-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.70",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "DETONA",
+              "value": "2.10",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:25596"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "820663ab-742b-4849-b18f-b5ac290aed2c"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:25596",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:820663ab-742b-4849-b18f-b5ac290aed2c",
+      "slug": "furia-academy-vs-detona-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "DETONA",
+              "value": "2.13",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:25596"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "820663ab-742b-4849-b18f-b5ac290aed2c"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:25596",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:820663ab-742b-4849-b18f-b5ac290aed2c",
+      "slug": "furia-academy-vs-detona-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.67",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "DETONA",
+              "value": "2.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:25596"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "820663ab-742b-4849-b18f-b5ac290aed2c"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:25596",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

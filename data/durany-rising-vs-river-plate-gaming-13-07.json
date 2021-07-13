@@ -1,0 +1,558 @@
+{
+  "match": {
+    "id": "5:00bd6844-58ca-43da-93ed-2d38664ffc9b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "durany-rising-vs-river-plate-gaming-13-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "00bd6844-58ca-43da-93ed-2d38664ffc9b"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Durany Rising vs River Plate Gaming",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-13T21:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f",
+          "name": "Durany Rising",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/177px-Durany_Esports_allmode60ed426477b1c515997293.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+          "name": "River Plate Gaming",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/124px-River_plate_logo5f2af695355ea298433606.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Durany Rising",
+            "value": "2.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f"
+          },
+          {
+            "id": "2",
+            "name": "River Plate Gaming",
+            "value": "1.37",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+          }
+        ]
+      },
+      {
+        "id": "299h3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Durany Rising (+3.5)",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f"
+          },
+          {
+            "id": "2",
+            "name": "River Plate Gaming (-3.5)",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.74",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 13
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:00bd6844-58ca-43da-93ed-2d38664ffc9b",
+      "slug": "durany-rising-vs-river-plate-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Durany Rising",
+              "value": "3.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f"
+            },
+            {
+              "id": "2",
+              "name": "River Plate Gaming",
+              "value": "1.34",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "00bd6844-58ca-43da-93ed-2d38664ffc9b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:00bd6844-58ca-43da-93ed-2d38664ffc9b",
+      "slug": "durany-rising-vs-river-plate-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Durany Rising",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f"
+            },
+            {
+              "id": "2",
+              "name": "River Plate Gaming",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "00bd6844-58ca-43da-93ed-2d38664ffc9b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:00bd6844-58ca-43da-93ed-2d38664ffc9b",
+      "slug": "durany-rising-vs-river-plate-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Durany Rising",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f"
+            },
+            {
+              "id": "2",
+              "name": "River Plate Gaming",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "00bd6844-58ca-43da-93ed-2d38664ffc9b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:00bd6844-58ca-43da-93ed-2d38664ffc9b",
+      "slug": "durany-rising-vs-river-plate-gaming-13-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Durany Rising",
+              "value": "2.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f"
+            },
+            {
+              "id": "2",
+              "name": "River Plate Gaming",
+              "value": "1.48",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "00bd6844-58ca-43da-93ed-2d38664ffc9b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:318fbaa3-fade-4edc-8d6d-feed915d7e5f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}
