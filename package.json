@@ -24,6 +24,7 @@
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
     "node-schedule": "^2.0.0",
+    "sanitize-filename": "^1.6.3",
     "subscriptions-transport-ws": "^0.9.19",
     "ws": "^7.4.6"
   },
