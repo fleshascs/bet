@@ -5,4 +5,5 @@ dist/*
 coverage/*
 # data definition files
 **/*.d.ts
-dump/*
+ggc/*
+data/*

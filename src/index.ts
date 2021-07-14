@@ -50,12 +50,14 @@ function startWatching(match: Match) {
 function onUpdateSportEventHandler(response: OnUpdateSportEvent) {
   try {
     const match = response.data.onUpdateSportEvent;
+
+    //match id sometimes gets sent as a slug
     if (!matchStats[match.slug]) {
-      console.log('matchStats[match.slug] dont exist: ' + match.slug);
       const m = findMatchById(match.slug);
       if (!m) throw new Error('unable to find a match slug: ' + match.slug);
       match.slug = m.match.slug;
     }
+
     matchStats[match.slug].onUpdateSportEvent.push(match);
     saveMatch(match.slug, matchStats[match.slug]);
   } catch (error) {
@@ -68,3 +70,9 @@ function onUpdateSportEventHandler(response: OnUpdateSportEvent) {
 function findMatchById(id: Match['slug']) {
   return Object.values(matchStats).find((m) => m.match.id === id);
 }
+
+// const schedule = require('node-schedule');
+// const startTime = new Date(match.fixture.startTime);
+// const job = schedule.scheduleJob(startTime, function () {
+//   startWatching(match);
+// });

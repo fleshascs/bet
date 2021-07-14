@@ -1,3 +1,4 @@
+import { DocumentNode } from 'graphql';
 import gql from 'graphql-tag';
 
 export const query = gql`
@@ -83,7 +84,17 @@ export const query = gql`
   }
 `;
 
-export function buildOperation(sportEventId: string) {
+interface BuildOperation {
+  query: DocumentNode;
+  variables: {
+    sportEventId: string;
+    marketIds: string[];
+    isTopMarkets: boolean;
+    withMarketsCount: boolean;
+  };
+}
+
+export function buildOperation(sportEventId: string): BuildOperation {
   return {
     query,
     variables: {

@@ -1,4 +1,6 @@
+import { DocumentNode } from 'graphql';
 import gql from 'graphql-tag';
+import { Match } from '../../types/ggbetAPI';
 
 export const query = gql`
   query GetMatchBySlug(
@@ -122,7 +124,15 @@ export const query = gql`
   }
 `;
 
-export function buildOperation(slug: string) {
+interface BuildOperation {
+  query: DocumentNode;
+  variables: {
+    slug: Match['slug'];
+    marketStatuses: string[];
+  };
+}
+
+export function buildOperation(slug: string): BuildOperation {
   return {
     query,
     variables: {

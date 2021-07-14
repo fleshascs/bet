@@ -6,7 +6,7 @@ const ws = require('ws');
 
 let link: ApolloLink;
 
-export function getClient() {
+export function getClient(): ApolloLink {
   if (!link) {
     const client = new SubscriptionClient(
       uri,
