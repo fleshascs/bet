@@ -13,7 +13,7 @@ export function getClient() {
       {
         reconnect: true,
         connectionCallback: function (err) {
-          console.log(new Date().toLocaleString() + 'connectionCallback', err);
+          console.log(new Date().toLocaleString() + ' connectionCallback', err);
         },
         connectionParams: {
           headers: authHeaders,
