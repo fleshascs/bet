@@ -29,8 +29,8 @@ export interface Fixture {
   startTime: string;
   sportId: string;
   liveCoverage: boolean;
-  streams: any[];
-  tournament: any;
+  streams: unknown[];
+  tournament: unknown;
   competitors: Competitor[];
 }
 

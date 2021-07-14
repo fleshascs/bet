@@ -1,3 +1,4 @@
+import { DocumentNode } from 'graphql';
 import gql from 'graphql-tag';
 
 export const query = gql`
@@ -152,7 +153,25 @@ export const query = gql`
   }
 `;
 
-export function buildOperation() {
+interface BuildOperation {
+  query: DocumentNode;
+  variables: {
+    offset: number;
+    limit: number;
+    matchStatuses: string[];
+    marketStatuses: string[];
+    sportEventTypes: string[];
+    sportIds: string[];
+    tournamentIds: string[];
+    marketStatusesForSportEvent: string[];
+    marketLimit: number;
+    isTopMarkets: boolean;
+    order: string;
+    providerIds: string[];
+  };
+}
+
+export function buildOperation(): BuildOperation {
   return {
     query,
     variables: {
