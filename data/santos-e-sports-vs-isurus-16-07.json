@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:717ccf4b-b502-4935-8b66-73649301d9dc",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "santos-e-sports-vs-isurus-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "717ccf4b-b502-4935-8b66-73649301d9dc"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Santos e-Sports vs Isurus",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T23:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:94cb7e8c-50f7-47fc-8258-85f59d8e0f2c",
+        "name": "La Liga Season 4: Sur Pro Division - Apertura",
+        "masterId": "gin:94cb7e8c-50f7-47fc-8258-85f59d8e0f2c",
+        "countryCode": "WW-SAM",
+        "logo": "cdn.gin.bet/tournaments/600px-La_Liga_Pro_202160e39fdab8299504662171.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-01T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "la-liga-season-4-sur-pro-division-apertura-06-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:22970",
+          "name": "Isurus",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/60-Isurus-Gaming5ee0224370ce2670271393.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:c27ce621-dd91-4fc8-bfff-81e551548a1e",
+          "name": "Santos e-Sports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/153px-Santos_e-Sports_20195f1a578bb538d329553327.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Santos e-Sports",
+            "value": "3.31",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c27ce621-dd91-4fc8-bfff-81e551548a1e"
+          },
+          {
+            "id": "2",
+            "name": "Isurus",
+            "value": "1.31",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22970"
+          }
+        ]
+      },
+      {
+        "id": "299h4_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "4.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Santos e-Sports (+4.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c27ce621-dd91-4fc8-bfff-81e551548a1e"
+          },
+          {
+            "id": "2",
+            "name": "Isurus (-4.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22970"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 38
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:717ccf4b-b502-4935-8b66-73649301d9dc",
+      "slug": "santos-e-sports-vs-isurus-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Santos e-Sports",
+              "value": "3.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c27ce621-dd91-4fc8-bfff-81e551548a1e"
+            },
+            {
+              "id": "2",
+              "name": "Isurus",
+              "value": "1.32",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22970"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "717ccf4b-b502-4935-8b66-73649301d9dc"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:22970",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c27ce621-dd91-4fc8-bfff-81e551548a1e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

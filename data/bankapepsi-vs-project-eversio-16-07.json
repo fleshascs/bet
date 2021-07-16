@@ -1,0 +1,380 @@
+{
+  "match": {
+    "id": "5:659d82ad-c275-4877-a77f-8ecb3517291b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "bankapepsi-vs-project-eversio-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "659d82ad-c275-4877-a77f-8ecb3517291b"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "bankaPEPSI vs Project Eversio",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T17:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:52f5b493-03d2-4d70-8f3f-478f44167dd8",
+        "name": "European Development Championship Season 5: Closed Qualifier",
+        "masterId": "gin:52f5b493-03d2-4d70-8f3f-478f44167dd8",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-European_Development_Championship60af3c8bdccdb324102861.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-14T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "european-development-championship-season-4-closed-qualifier-26-05",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:54838",
+          "name": "Project Eversio",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/thumb_270_1f0cc1446bff21a93f79839138b3750b60069c3522d12907690055.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+          "name": "bankaPEPSI",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/55px-BankaPEPSI_allmode60a35d8c7fc63611076540.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "bankaPEPSI",
+            "value": "1.08",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+          },
+          {
+            "id": "2",
+            "name": "Project Eversio",
+            "value": "7.19",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:54838"
+          }
+        ]
+      },
+      {
+        "id": "299h-6_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-6.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "bankaPEPSI (-6.5)",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+          },
+          {
+            "id": "2",
+            "name": "Project Eversio (+6.5)",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:54838"
+          }
+        ]
+      },
+      {
+        "id": "300m1t24_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "24.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 24.5",
+            "value": "1.73",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 24.5",
+            "value": "2.03",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 97
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:659d82ad-c275-4877-a77f-8ecb3517291b",
+      "slug": "bankapepsi-vs-project-eversio-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "bankaPEPSI",
+              "value": "1.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            },
+            {
+              "id": "2",
+              "name": "Project Eversio",
+              "value": "7.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:54838"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "659d82ad-c275-4877-a77f-8ecb3517291b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:54838",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:659d82ad-c275-4877-a77f-8ecb3517291b",
+      "slug": "bankapepsi-vs-project-eversio-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "bankaPEPSI",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            },
+            {
+              "id": "2",
+              "name": "Project Eversio",
+              "value": "7.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:54838"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "659d82ad-c275-4877-a77f-8ecb3517291b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:54838",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

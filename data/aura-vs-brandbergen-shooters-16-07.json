@@ -1,0 +1,647 @@
+{
+  "match": {
+    "id": "5:e03d317a-75aa-4298-9b3d-813a0ca740f1",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "aura-vs-brandbergen-shooters-16-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "e03d317a-75aa-4298-9b3d-813a0ca740f1"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Aura vs BRANDBERGEN SHOOTERS",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T18:30:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:8b9605a7-ef0d-40b4-b904-60f6fea8fe98",
+        "name": "ESEA Season 37: Main Division - Europe",
+        "masterId": "gin:8b9605a7-ef0d-40b4-b904-60f6fea8fe98",
+        "countryCode": "",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": false,
+        "prizePool": "",
+        "dateStart": "2021-07-02T15:36:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-main-division-europe-02-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:45092",
+          "name": "Aura",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286175fa9b6ec08e5f722075489.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+          "name": "BRANDBERGEN SHOOTERS",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286176039703cad6e7787282562.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Aura",
+            "value": "3.68",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45092"
+          },
+          {
+            "id": "2",
+            "name": "BRANDBERGEN SHOOTERS",
+            "value": "1.26",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+          }
+        ]
+      },
+      {
+        "id": "299h4_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "4.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Aura (+4.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45092"
+          },
+          {
+            "id": "2",
+            "name": "BRANDBERGEN SHOOTERS (-4.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.73",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "2.03",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:e03d317a-75aa-4298-9b3d-813a0ca740f1",
+      "slug": "aura-vs-brandbergen-shooters-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Aura",
+              "value": "3.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45092"
+            },
+            {
+              "id": "2",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "e03d317a-75aa-4298-9b3d-813a0ca740f1"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45092",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:e03d317a-75aa-4298-9b3d-813a0ca740f1",
+      "slug": "aura-vs-brandbergen-shooters-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Aura",
+              "value": "3.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45092"
+            },
+            {
+              "id": "2",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "e03d317a-75aa-4298-9b3d-813a0ca740f1"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45092",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:e03d317a-75aa-4298-9b3d-813a0ca740f1",
+      "slug": "aura-vs-brandbergen-shooters-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Aura",
+              "value": "2.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45092"
+            },
+            {
+              "id": "2",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "e03d317a-75aa-4298-9b3d-813a0ca740f1"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45092",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:e03d317a-75aa-4298-9b3d-813a0ca740f1",
+      "slug": "aura-vs-brandbergen-shooters-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Aura",
+              "value": "2.51",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45092"
+            },
+            {
+              "id": "2",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.50",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "e03d317a-75aa-4298-9b3d-813a0ca740f1"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45092",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:e03d317a-75aa-4298-9b3d-813a0ca740f1",
+      "slug": "aura-vs-brandbergen-shooters-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Aura",
+              "value": "2.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45092"
+            },
+            {
+              "id": "2",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.53",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "e03d317a-75aa-4298-9b3d-813a0ca740f1"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45092",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

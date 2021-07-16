@@ -1,0 +1,7504 @@
+{
+  "match": {
+    "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "sector-one-vs-4elements-esports-15-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Sector One vs 4Elements eSports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-15T20:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:ac1d3d64-3ca2-483b-b0a2-9d00424ff7a7",
+        "name": "Elite Series Season 1: Summer Split",
+        "masterId": "gin:ac1d3d64-3ca2-483b-b0a2-9d00424ff7a7",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-Team_META_Elite_Series60ec6917ba2be439924133.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T16:08:35+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "elite-series-season-1-summer-split-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:12813",
+          "name": "Sector One",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/t128135d8092fcd3449191260507.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+          "name": "4Elements eSports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/139px-4_Elements_Logo5fa264ccd1b2d604868065.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Sector One",
+            "value": "5.10",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:12813"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "2.21",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "4Elements eSports",
+            "value": "2.20",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1"
+          }
+        ]
+      },
+      {
+        "id": "299h2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "hcp",
+            "value": "2.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Sector One (+2.5)",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:12813"
+          },
+          {
+            "id": "2",
+            "name": "4Elements eSports (-2.5)",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 27
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "31"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "32"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "32"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "33"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "33"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "35"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "35"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "36"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "36"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "17",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "37"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "37"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "38"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "19",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "38"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "18",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "19",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "39"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "19",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "19",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:722a38ee-19d8-4281-a906-9a13e5269f72",
+      "slug": "sector-one-vs-4elements-esports-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "722a38ee-19d8-4281-a906-9a13e5269f72"
+        },
+        {
+          "name": "round",
+          "value": "39"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:12813",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "19",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:3d64a34f-433c-4b2b-8f74-587a3769dfd1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "19",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "round_overtime:2",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o99slavtog08iir6hg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

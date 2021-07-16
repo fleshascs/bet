@@ -1,0 +1,5958 @@
+{
+  "match": {
+    "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "no-org-vs-infinite-gaming-15-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "3"
+      },
+      {
+        "name": "original_id",
+        "value": "684dd6dc-de25-4983-829c-139caa102547"
+      },
+      {
+        "name": "round",
+        "value": "10"
+      }
+    ],
+    "fixture": {
+      "score": "1:1",
+      "title": "NO ORG vs Infinite Gaming",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-15T17:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3o6lh8ps1a007m4ncog",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:52f5b493-03d2-4d70-8f3f-478f44167dd8",
+        "name": "European Development Championship Season 5: Closed Qualifier",
+        "masterId": "gin:52f5b493-03d2-4d70-8f3f-478f44167dd8",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-European_Development_Championship60af3c8bdccdb324102861.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-14T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "european-development-championship-season-4-closed-qualifier-26-05",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:44052",
+          "name": "NO ORG",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/cs%20go5dfdc96433bf1453224912607a71367cd8f51955156460e2ed5ae91b1957373306.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "13",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "16",
+              "number": 2
+            },
+            {
+              "id": "map:3",
+              "type": "map",
+              "points": "2",
+              "number": 3
+            }
+          ]
+        },
+        {
+          "id": "betting:0:2205-esports_counter_strike",
+          "name": "Infinite Gaming",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/lN95mxMP_400x4005fe8d73dbe7d3550063717.jpeg",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "9",
+              "number": 2
+            },
+            {
+              "id": "map:3",
+              "type": "map",
+              "points": "7",
+              "number": 3
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "SUSPENDED",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "NO ORG",
+            "value": "3.14",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:44052"
+          },
+          {
+            "id": "2",
+            "name": "Infinite Gaming",
+            "value": "1.33",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2205-esports_counter_strike"
+          }
+        ]
+      },
+      {
+        "id": "299h4_5m3",
+        "name": "3rd map - round handicap",
+        "status": "SUSPENDED",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "3"
+          },
+          {
+            "name": "hcp",
+            "value": "4.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "NO ORG (+4.5)",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:44052"
+          },
+          {
+            "id": "2",
+            "name": "Infinite Gaming (-4.5)",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2205-esports_counter_strike"
+          }
+        ]
+      },
+      {
+        "id": "300m3t26_5",
+        "name": "3rd map - total rounds",
+        "status": "SUSPENDED",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "3"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.77",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.98",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 18
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.33",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "5.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "5.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.64",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.17",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.20",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "2",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "9",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "3.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "10",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "10",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "10",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "11",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "11",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "8.50",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "3",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "8.50",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "4",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "4",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "5",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.10",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "5",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.10",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "6",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "6",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "12",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "4.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "6",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "13",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "9.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "6",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "13",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "9.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "7",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "13",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.55",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "7",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "13",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "6.55",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "7",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "14",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "12.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "7",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "14",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "12.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "7",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "15",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "14.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "7",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "15",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "14.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "15",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "13.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "15",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "13.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "16",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "16",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:2",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "16",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:684dd6dc-de25-4983-829c-139caa102547",
+      "slug": "no-org-vs-infinite-gaming-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "NO ORG",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:44052"
+            },
+            {
+              "id": "2",
+              "name": "Infinite Gaming",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "betting:0:2205-esports_counter_strike"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "684dd6dc-de25-4983-829c-139caa102547"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "3"
+        }
+      ],
+      "fixture": {
+        "score": "1:2",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gt:44052",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "8",
+                "number": 3
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2205-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "map:3",
+                "type": "map",
+                "points": "16",
+                "number": 3
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o6lh8ps1a007m4ncog",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3100000023841858",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

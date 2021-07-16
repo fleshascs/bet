@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-link-ws": "^1.0.20",
+    "cli-progress": "^3.9.0",
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
     "node-schedule": "^2.0.0",

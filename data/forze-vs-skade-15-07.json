@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:59dae396-8875-4382-818a-a708de8b2072",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "forze-vs-skade-15-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "59dae396-8875-4382-818a-a708de8b2072"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "forZe vs SKADE",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-15T11:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "name": "Pinn Cup II",
+        "masterId": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "countryCode": "WW-EUR",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$100,000 USD",
+        "dateStart": "2021-06-27T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "pinn-cup-ii-22-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:18061",
+          "name": "forZe",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-ForZe_20185b8cfd0e50887988962626.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gt:41006",
+          "name": "SKADE",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/800px-SKADE_December_20195e0984bb5e083035989987.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "forZe",
+            "value": "1.65",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:18061"
+          },
+          {
+            "id": "2",
+            "name": "SKADE",
+            "value": "2.18",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:41006"
+          }
+        ]
+      },
+      {
+        "id": "299h-1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "forZe (-1.5)",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:18061"
+          },
+          {
+            "id": "2",
+            "name": "SKADE (+1.5)",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:41006"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 82
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:59dae396-8875-4382-818a-a708de8b2072",
+      "slug": "forze-vs-skade-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "forZe",
+              "value": "1.67",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18061"
+            },
+            {
+              "id": "2",
+              "name": "SKADE",
+              "value": "2.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:41006"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "59dae396-8875-4382-818a-a708de8b2072"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18061",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gt:41006",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

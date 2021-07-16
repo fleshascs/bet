@@ -1,0 +1,5718 @@
+{
+  "match": {
+    "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "umx-vs-x6tence-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+      },
+      {
+        "name": "round",
+        "value": "22"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "UMX vs x6tence",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-16T14:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3oorvtavtog07mba200",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:d98e9c1a-706a-4afa-8c1e-42149b00d86c",
+        "name": "Funspark ULTI 2021: Europe Season 3 - Open Qualifier",
+        "masterId": "gin:d98e9c1a-706a-4afa-8c1e-42149b00d86c",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/Funspark_ULTI_202160f16edab8208586447041.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-15T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "funspark-ulti-2021-europe-season-3-open-qualifier-16-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+          "name": "x6tence",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/18e4ea55-7427-4c30-9e05-65ff40a3beac-x65f36777083927163781992.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "10",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+          "name": "UMX",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/wxBXndfSKxzA4XETkfrRfN6034f375f0315868789000.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "11",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [],
+    "marketsCount": 6
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.76",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "1",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.37",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "3",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.37",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "3.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "3.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "3.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "3.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.69",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.69",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.69",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.61",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.61",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.74",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.74",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "9",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "2.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "2.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "3.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "3.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "6.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "6.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "11.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "11.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:87406d09-5f02-44ca-9418-cc1db3c818ff",
+      "slug": "umx-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "UMX",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "87406d09-5f02-44ca-9418-cc1db3c818ff"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:bc5b89f5-9aa1-45b5-b178-443131b715ad",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:de64fa12-7943-45ea-a3da-dd346ba2a2da",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oorvtavtog07mba200",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.46000000834465027",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

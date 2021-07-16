@@ -1,0 +1,3122 @@
+{
+  "match": {
+    "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "join-the-force-vs-lowlandlions-15-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "2"
+      },
+      {
+        "name": "original_id",
+        "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+      },
+      {
+        "name": "round",
+        "value": "9"
+      }
+    ],
+    "fixture": {
+      "score": "1:0",
+      "title": "Join The Force vs LowLandLions",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-15T18:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3o7hbhhpltg063lgdb0",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:ac1d3d64-3ca2-483b-b0a2-9d00424ff7a7",
+        "name": "Elite Series Season 1: Summer Split",
+        "masterId": "gin:ac1d3d64-3ca2-483b-b0a2-9d00424ff7a7",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/600px-Team_META_Elite_Series60ec6917ba2be439924133.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T16:08:35+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "elite-series-season-1-summer-split-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+          "name": "LowLandLions",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/220px-LLL[1]5ed16c1dd2d4b893195770.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "14",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "7",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+          "name": "Join The Force",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/jointheforce602dcf63943c7192887143.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "1",
+              "number": 2
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Join The Force",
+            "value": "11.16",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "1.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "LowLandLions",
+            "value": "14.29",
+            "isActive": false,
+            "status": "LOSS",
+            "competitorId": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8"
+          }
+        ]
+      },
+      {
+        "id": "299h9_5m2",
+        "name": "2nd map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "9.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "2"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Join The Force (+9.5)",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf"
+          },
+          {
+            "id": "2",
+            "name": "LowLandLions (-9.5)",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8"
+          }
+        ]
+      },
+      {
+        "id": "300m2t22_5",
+        "name": "2nd map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "total",
+            "value": "22.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 22.5",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 22.5",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 19
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5936b2e6-c6ce-4185-b9e4-cd834ad981bd",
+      "slug": "join-the-force-vs-lowlandlions-15-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5936b2e6-c6ce-4185-b9e4-cd834ad981bd"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:1",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:69d77f4e-16fb-45d9-ba91-5c36e140cdc8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:eab311bf-2a25-4311-bd35-b3a81b70e5cf",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3o7hbhhpltg063lgdb0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esportsprimecsgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5899999737739563",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

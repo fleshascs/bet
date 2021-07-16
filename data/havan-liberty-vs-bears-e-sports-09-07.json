@@ -1,0 +1,332 @@
+{
+  "match": {
+    "id": "5:2c27cfb0-62c0-4677-8ccc-5158edf7e0df",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "havan-liberty-vs-bears-e-sports-09-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "2c27cfb0-62c0-4677-8ccc-5158edf7e0df"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Havan Liberty vs Bears e-Sports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-14T21:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:1102225b-9d90-4918-b828-a579654ae400",
+        "name": "INVie",
+        "masterId": "gin:1102225b-9d90-4918-b828-a579654ae400",
+        "countryCode": "WW-SAM",
+        "logo": "cdn.gin.bet/tournaments/INVIE_CSGO60e4daccd0153527959112.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$15,000 USD",
+        "dateStart": "2021-07-06T22:35:54+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "invie-06-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:774ae696-81c0-4148-9b0f-06bcbf4670c7",
+          "name": "Havan Liberty",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/90px-Havan_Liberty_logo5f34d327b70ea424288502.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:c058e834-01c8-40b7-9dd7-d75bc8dbc779",
+          "name": "Bears e-Sports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/149px-Bears_e-Sports_logo_teamcard5f1689af1b0cd640429598.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Havan Liberty",
+            "value": "1.55",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:774ae696-81c0-4148-9b0f-06bcbf4670c7"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "2.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "Bears e-Sports",
+            "value": "9.10",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c058e834-01c8-40b7-9dd7-d75bc8dbc779"
+          }
+        ]
+      },
+      {
+        "id": "299h-5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Havan Liberty (-5.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:774ae696-81c0-4148-9b0f-06bcbf4670c7"
+          },
+          {
+            "id": "2",
+            "name": "Bears e-Sports (+5.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c058e834-01c8-40b7-9dd7-d75bc8dbc779"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 77
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:2c27cfb0-62c0-4677-8ccc-5158edf7e0df",
+      "slug": "havan-liberty-vs-bears-e-sports-09-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "2c27cfb0-62c0-4677-8ccc-5158edf7e0df"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:774ae696-81c0-4148-9b0f-06bcbf4670c7",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c058e834-01c8-40b7-9dd7-d75bc8dbc779",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:2c27cfb0-62c0-4677-8ccc-5158edf7e0df",
+      "slug": "havan-liberty-vs-bears-e-sports-09-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "2c27cfb0-62c0-4677-8ccc-5158edf7e0df"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:774ae696-81c0-4148-9b0f-06bcbf4670c7",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c058e834-01c8-40b7-9dd7-d75bc8dbc779",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

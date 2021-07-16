@@ -1,5 +1,12 @@
+const cliProgress = require('cli-progress');
 import { OnUpdateSportEvent, GetMatchesByFilters, Match, MatchUpdates } from './types/ggbetAPI';
-import { getSavedMatch, saveMatch, saveMatches } from './dataProvider/utils';
+import {
+  getCurrentMap,
+  getLeadingTeamScore,
+  getSavedMatch,
+  saveMatch,
+  saveMatches
+} from './dataProvider/utils';
 // import { buildOperation as getMatchBySlug } from './dataProvider/queries/getMatchBySlug';
 import { buildOperation as onUpdateSportEvent } from './dataProvider/queries/onUpdateSportEvent';
 import { buildOperation as getMatchesByFilters } from './dataProvider/queries/getMatchesByFilters';
@@ -9,6 +16,15 @@ import { getClient } from './dataProvider/client';
 const link = getClient();
 
 const matchStats: Record<Match['slug'], MatchUpdates> = {};
+const progressbars: Record<Match['slug'], unknown> = {};
+const multibar = new cliProgress.MultiBar(
+  {
+    clearOnComplete: false,
+    hideCursor: true,
+    format: '[{bar}] {percentage}% | map: {map} | {value}/{total} | match: {slug}'
+  },
+  cliProgress.Presets.shades_grey
+);
 
 (async () => {
   const matchesResponse = (await makePromise(
@@ -35,6 +51,12 @@ async function watchMatchUpdates(match: Match) {
   };
 
   if (['NOT_STARTED', 'LIVE'].includes(match.fixture.status)) {
+    const currentMap = getCurrentMap(match.fixture.competitors);
+    const leadingScore = getLeadingTeamScore(match, currentMap);
+    progressbars[match.slug] = multibar.create(16, leadingScore, {
+      map: currentMap,
+      slug: match.slug
+    });
     startWatching(match);
   }
 }
@@ -50,13 +72,16 @@ function startWatching(match: Match) {
 function onUpdateSportEventHandler(response: OnUpdateSportEvent) {
   try {
     const match = response.data.onUpdateSportEvent;
-
     //match id sometimes gets sent as a slug
     if (!matchStats[match.slug]) {
       const m = findMatchById(match.slug);
       if (!m) throw new Error('unable to find a match slug: ' + match.slug);
       match.slug = m.match.slug;
     }
+
+    const currentMap = getCurrentMap(match.fixture.competitors);
+    const leadingScore = getLeadingTeamScore(match, currentMap);
+    progressbars[match.slug].update(leadingScore, { map: currentMap, slug: match.slug });
 
     matchStats[match.slug].onUpdateSportEvent.push(match);
     saveMatch(match.slug, matchStats[match.slug]);

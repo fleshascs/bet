@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:3c4683c2-c33a-43a0-808a-5cde1f35137b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "river-plate-gaming-vs-esparta-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "3c4683c2-c33a-43a0-808a-5cde1f35137b"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "River Plate Gaming vs Esparta",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-16T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "name": "Alpha Pro League 2021",
+        "masterId": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/Alpha_Pro_League60d6439f947f4727674077.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$5,000 USD",
+        "dateStart": "2021-06-25T20:58:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "alpha-pro-league-2021-25-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+          "name": "River Plate Gaming",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/124px-River_plate_logo5f2af695355ea298433606.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+          "name": "Esparta",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "River Plate Gaming",
+            "value": "1.28",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+          },
+          {
+            "id": "2",
+            "name": "Esparta",
+            "value": "3.46",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+          }
+        ]
+      },
+      {
+        "id": "299h-5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "River Plate Gaming (-5.5)",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+          },
+          {
+            "id": "2",
+            "name": "Esparta (+5.5)",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 13
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:3c4683c2-c33a-43a0-808a-5cde1f35137b",
+      "slug": "river-plate-gaming-vs-esparta-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "River Plate Gaming",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c"
+            },
+            {
+              "id": "2",
+              "name": "Esparta",
+              "value": "3.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "3c4683c2-c33a-43a0-808a-5cde1f35137b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:42130c9d-8b0f-4145-a9f6-ea7f151bf46c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9bda5e8d-c0e2-457a-8f20-89dd6d327f86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

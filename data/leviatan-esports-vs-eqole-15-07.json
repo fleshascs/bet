@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:63e30872-9a61-4c30-b19a-65b0159405be",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "leviatan-esports-vs-eqole-15-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "63e30872-9a61-4c30-b19a-65b0159405be"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Leviatan Esports vs Eqole",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-15T22:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "name": "Alpha Pro League 2021",
+        "masterId": "gin:72ec645d-f4a0-4f01-bc28-da3af921e766",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/Alpha_Pro_League60d6439f947f4727674077.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$5,000 USD",
+        "dateStart": "2021-06-25T20:58:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "alpha-pro-league-2021-25-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:22917",
+          "name": "Leviatan Esports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/6015d95c625a4754139253x260191b8ab199e519255448.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:efe87819-aa5c-4293-a275-98fd76f21220",
+          "name": "Eqole",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Leviatan Esports",
+            "value": "1.25",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22917"
+          },
+          {
+            "id": "2",
+            "name": "Eqole",
+            "value": "3.70",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:efe87819-aa5c-4293-a275-98fd76f21220"
+          }
+        ]
+      },
+      {
+        "id": "299h-5_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-5.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Leviatan Esports (-5.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22917"
+          },
+          {
+            "id": "2",
+            "name": "Eqole (+5.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:efe87819-aa5c-4293-a275-98fd76f21220"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 13
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:63e30872-9a61-4c30-b19a-65b0159405be",
+      "slug": "leviatan-esports-vs-eqole-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Leviatan Esports",
+              "value": "1.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22917"
+            },
+            {
+              "id": "2",
+              "name": "Eqole",
+              "value": "3.70",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:efe87819-aa5c-4293-a275-98fd76f21220"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "63e30872-9a61-4c30-b19a-65b0159405be"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:22917",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:efe87819-aa5c-4293-a275-98fd76f21220",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

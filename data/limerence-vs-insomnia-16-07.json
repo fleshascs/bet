@@ -1,0 +1,3726 @@
+{
+  "match": {
+    "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "limerence-vs-insomnia-16-07",
+    "meta": [
+      {
+        "name": "round",
+        "value": "28"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "2.00"
+      },
+      {
+        "name": "original_id",
+        "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+      }
+    ],
+    "fixture": {
+      "score": "1:0",
+      "title": "Limerence vs Insomnia",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-16T12:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3ong5hrjt4g07ugu770",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:3b88db7b-67f2-4427-926e-5da5f0dfa54d",
+        "name": "Eternity League",
+        "masterId": "gin:3b88db7b-67f2-4427-926e-5da5f0dfa54d",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F607008d6328ec391856494.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-04-08T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "eternity-league-09-04",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:40873",
+          "name": "Insomnia",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/insomnia-esports-logo[1]6071478572eb1842537637.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "14",
+              "number": 1
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "14",
+              "number": 2
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+          "name": "Limerence",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b0757202861760a61f5908f56852941147.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "13",
+              "number": 2
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [],
+    "marketsCount": 6
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "4.49",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "4.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "4.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.46",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.46",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.49",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.51",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.71",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.06",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.69",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.34",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.44",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.44",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "2.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "6.55",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "10.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "6.55",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.20",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "4.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.20",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "4.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "2:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5dac7495-ed5b-4bd6-8a1b-fde330b59c8e",
+      "slug": "limerence-vs-insomnia-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Limerence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:d77920eb-794d-41d0-93ea-2a545df84256"
+            },
+            {
+              "id": "2",
+              "name": "Insomnia",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:40873"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5dac7495-ed5b-4bd6-8a1b-fde330b59c8e"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "2:0",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gt:40873",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:d77920eb-794d-41d0-93ea-2a545df84256",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ong5hrjt4g07ugu770",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eternity_leagueru&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.3499999940395355",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "match": {
+    "id": "5:24b8fbf0-0799-479a-b5c4-1fd2b7c77166",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "brandbergen-shooters-vs-oilers-esport-14-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "24b8fbf0-0799-479a-b5c4-1fd2b7c77166"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "BRANDBERGEN SHOOTERS vs Oilers Esport",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-14T17:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:8b9605a7-ef0d-40b4-b904-60f6fea8fe98",
+        "name": "ESEA Season 37: Main Division - Europe",
+        "masterId": "gin:8b9605a7-ef0d-40b4-b904-60f6fea8fe98",
+        "countryCode": "",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": false,
+        "prizePool": "",
+        "dateStart": "2021-07-02T15:36:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-main-division-europe-02-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:1522211a-18a0-4155-98f4-cd185eec43e8",
+          "name": "Oilers Esport",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/nylogo300120x120c5faff560f32d8844666233.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+          "name": "BRANDBERGEN SHOOTERS",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286176039703cad6e7787282562.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "BRANDBERGEN SHOOTERS",
+            "value": "1.85",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+          },
+          {
+            "id": "2",
+            "name": "Oilers Esport",
+            "value": "1.89",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "BRANDBERGEN SHOOTERS (+1.5)",
+            "value": "1.71",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+          },
+          {
+            "id": "2",
+            "name": "Oilers Esport (-1.5)",
+            "value": "2.06",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 29
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:24b8fbf0-0799-479a-b5c4-1fd2b7c77166",
+      "slug": "brandbergen-shooters-vs-oilers-esport-14-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            },
+            {
+              "id": "2",
+              "name": "Oilers Esport",
+              "value": "1.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "24b8fbf0-0799-479a-b5c4-1fd2b7c77166"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1522211a-18a0-4155-98f4-cd185eec43e8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:24b8fbf0-0799-479a-b5c4-1fd2b7c77166",
+      "slug": "brandbergen-shooters-vs-oilers-esport-14-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.82",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            },
+            {
+              "id": "2",
+              "name": "Oilers Esport",
+              "value": "1.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "24b8fbf0-0799-479a-b5c4-1fd2b7c77166"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1522211a-18a0-4155-98f4-cd185eec43e8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:24b8fbf0-0799-479a-b5c4-1fd2b7c77166",
+      "slug": "brandbergen-shooters-vs-oilers-esport-14-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.82",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            },
+            {
+              "id": "2",
+              "name": "Oilers Esport",
+              "value": "1.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "24b8fbf0-0799-479a-b5c4-1fd2b7c77166"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:1522211a-18a0-4155-98f4-cd185eec43e8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:24b8fbf0-0799-479a-b5c4-1fd2b7c77166",
+      "slug": "brandbergen-shooters-vs-oilers-esport-14-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.92",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            },
+            {
+              "id": "2",
+              "name": "Oilers Esport",
+              "value": "2.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "24b8fbf0-0799-479a-b5c4-1fd2b7c77166"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:1522211a-18a0-4155-98f4-cd185eec43e8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:24b8fbf0-0799-479a-b5c4-1fd2b7c77166",
+      "slug": "brandbergen-shooters-vs-oilers-esport-14-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "BRANDBERGEN SHOOTERS",
+              "value": "1.78",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944"
+            },
+            {
+              "id": "2",
+              "name": "Oilers Esport",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1522211a-18a0-4155-98f4-cd185eec43e8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "24b8fbf0-0799-479a-b5c4-1fd2b7c77166"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gin:1522211a-18a0-4155-98f4-cd185eec43e8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:da5988a7-c1cf-4b4c-b020-6b6a3ac15944",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

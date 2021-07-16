@@ -1,0 +1,1893 @@
+{
+  "match": {
+    "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "sinners-vs-copenhagen-flames-15-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Sinners vs Copenhagen Flames",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-15T08:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "name": "Pinn Cup II",
+        "masterId": "gin:7152dd65-594c-404b-b534-ff620ca7affd",
+        "countryCode": "WW-EUR",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$100,000 USD",
+        "dateStart": "2021-06-27T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "pinn-cup-ii-22-06",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:45402",
+          "name": "Sinners",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/151px-Sinners_Esports_logo5e34313b7001c916948606.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+          "name": "Copenhagen Flames",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/74615be1728fca17c804707459.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Sinners",
+            "value": "1.54",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45402"
+          },
+          {
+            "id": "2",
+            "name": "Copenhagen Flames",
+            "value": "2.41",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+          }
+        ]
+      },
+      {
+        "id": "299h-2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Sinners (-2.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45402"
+          },
+          {
+            "id": "2",
+            "name": "Copenhagen Flames (+2.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "3.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "3.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.49",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.55",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.53",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.51",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.48",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:9b880ff5-ec75-4815-a5d6-d4157255a62b",
+      "slug": "sinners-vs-copenhagen-flames-15-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Sinners",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45402"
+            },
+            {
+              "id": "2",
+              "name": "Copenhagen Flames",
+              "value": "2.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9b880ff5-ec75-4815-a5d6-d4157255a62b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45402",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:3ecb245f-5c92-4a1b-a34f-1d8baca5d2c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

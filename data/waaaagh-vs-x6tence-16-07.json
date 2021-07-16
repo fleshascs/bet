@@ -1,0 +1,1686 @@
+{
+  "match": {
+    "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "waaaagh-vs-x6tence-16-07",
+    "meta": [
+      {
+        "name": "round",
+        "value": "21"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "WAAAAGH vs x6tence",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-16T12:10:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3oni1ubo2jg094iovig",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:d98e9c1a-706a-4afa-8c1e-42149b00d86c",
+        "name": "Funspark ULTI 2021: Europe Season 3 - Open Qualifier",
+        "masterId": "gin:d98e9c1a-706a-4afa-8c1e-42149b00d86c",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/Funspark_ULTI_202160f16edab8208586447041.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-15T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "funspark-ulti-2021-europe-season-3-open-qualifier-16-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:4701",
+          "name": "x6tence",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/18e4ea55-7427-4c30-9e05-65ff40a3beac-x65f36b70a9dfb9674826637.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "15",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+          "name": "WAAAAGH",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "5",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [],
+    "marketsCount": 5
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "4",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "5",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "6",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "7",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.17",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.17",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:51e2e112-477c-462c-a96e-851cc08fe6b1",
+      "slug": "waaaagh-vs-x6tence-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "WAAAAGH",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5"
+            },
+            {
+              "id": "2",
+              "name": "x6tence",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gt:4701"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "51e2e112-477c-462c-a96e-851cc08fe6b1"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gt:4701",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:21af18b5-7a4e-4310-a4aa-0baf8361cff5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "8",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3oni1ubo2jg094iovig",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=x6tencetv&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4699999988079071",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

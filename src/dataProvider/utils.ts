@@ -1,4 +1,4 @@
-import { GetMatchesByFilters, MatchUpdates } from '../types/ggbetAPI';
+import { Competitor, GetMatchesByFilters, Match, MatchUpdates } from '../types/ggbetAPI';
 const fs = require('fs');
 const sanitize = require('sanitize-filename');
 
@@ -7,7 +7,7 @@ export function saveMatch(slug: string, match: MatchUpdates): void {
   const matchData = JSON.stringify(match, null, 2);
   fs.writeFile(`./data/${safeSlug}.json`, matchData, function (err) {
     if (err) return console.log(err);
-    console.log(`matchData saved to > ${safeSlug}.json`);
+    // console.log(`matchData saved to > ${safeSlug}.json`);
   });
 }
 
@@ -26,6 +26,37 @@ export function saveMatches(matches: GetMatchesByFilters['data']['matches']): vo
     if (err) return console.log(err);
     console.log('matchesData saved to > matches.json');
   });
+}
+
+export function getCurrentMap(competitors: Competitor[]) {
+  const mapsPlayed = countMapsPlayed(competitors);
+  const totalMaps = competitors[0].score.reduce<number>((totalMaps, map) => {
+    map.type === 'map' && totalMaps++;
+    return totalMaps;
+  }, 0);
+  return Math.min(totalMaps, mapsPlayed + 1);
+}
+
+function countMapsPlayed(competitors: Competitor[]) {
+  return competitors.reduce<number>((totalMapsPlayed, competitor) => {
+    const competitorScore = competitor.score.find((score) => score.id === 'total');
+    return totalMapsPlayed + parseInt(competitorScore.points);
+  }, 0);
+}
+
+export function getLeadingTeamScore(match: Match, mapNumber: number) {
+  let leadingScore: number = 0;
+  match.fixture.competitors.forEach((competitor) => {
+    competitor.score.forEach((score) => {
+      if (score.type !== 'map') return;
+      if (score.number !== mapNumber) return;
+      const roundsWon = parseInt(score.points);
+      if (roundsWon > leadingScore) {
+        leadingScore = roundsWon;
+      }
+    });
+  });
+  return leadingScore;
 }
 
 // export function someParsing(response: OnUpdateSportEvent) {

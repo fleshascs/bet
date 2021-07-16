@@ -1,0 +1,2343 @@
+{
+  "match": {
+    "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "marlian-esports-vs-lqnely-16-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+      },
+      {
+        "name": "round",
+        "value": "15"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Marlian eSports vs LQNELY",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-16T12:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [
+        {
+          "id": "c3ongp2c4hag0732f9mg",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "c3ongplavtog08iir6j0",
+          "locale": "ru_RU",
+          "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:d98e9c1a-706a-4afa-8c1e-42149b00d86c",
+        "name": "Funspark ULTI 2021: Europe Season 3 - Open Qualifier",
+        "masterId": "gin:d98e9c1a-706a-4afa-8c1e-42149b00d86c",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/Funspark_ULTI_202160f16edab8208586447041.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-15T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "funspark-ulti-2021-europe-season-3-open-qualifier-16-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+          "name": "LQNELY",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "2",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+          "name": "Marlian eSports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/2%20Marlian%20eSports60a628bd38a53424898381.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "12",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [],
+    "marketsCount": 5
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "12.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "12.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "13.95",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:92cb26c8-986e-441c-b119-5317b375ddcb",
+      "slug": "marlian-esports-vs-lqnely-16-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Marlian eSports",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2"
+            },
+            {
+              "id": "2",
+              "name": "LQNELY",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "92cb26c8-986e-441c-b119-5317b375ddcb"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:1cd041c2-bbc1-4f1e-891e-95e4dac71108",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "2",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:2fba43eb-0afc-4e12-b965-f922b83ad0e2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3ongp2c4hag0732f9mg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3ongplavtog08iir6j0",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=strtolyan_&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.4099999964237213",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
