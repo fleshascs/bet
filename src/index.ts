@@ -1,5 +1,5 @@
 const schedule = require('node-schedule');
-import { MultiBar, Presets } from 'cli-progress';
+import { MultiBar, Presets, SingleBar } from 'cli-progress';
 import { OnUpdateSportEvent, GetMatchesByFilters, Match, MatchUpdates } from './types/ggbetAPI';
 import {
   getCurrentMap,
@@ -18,7 +18,7 @@ import { getClient } from './dataProvider/client';
 const link = getClient();
 
 const matchStats: Record<Match['slug'], MatchUpdates> = {};
-const progressbars: Record<Match['slug'], unknown> = {};
+const progressbars: Record<Match['slug'], SingleBar> = {};
 const multibar = new MultiBar(
   {
     clearOnComplete: false,
