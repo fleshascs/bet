@@ -1,0 +1,2071 @@
+{
+  "match": {
+    "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "100pg-vs-into-the-breach-19-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "100PG vs Into the Breach",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-18T19:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:c629e3cd-80b1-4b7f-b831-24c8d4529fb6",
+        "name": "ESEA Season 37: Open Division - Europe",
+        "masterId": "gin:c629e3cd-80b1-4b7f-b831-24c8d4529fb6",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/ESEA_League60eeed936d18d031066478.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-05-01T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-open-division-europe-14-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+          "name": "Into the Breach",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5dfdc96433bf1453224912607a71367cd8f51955156460f418f705b92508937962.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+          "name": "100PG",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/10525[1]5f344be848aea051155523.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "100PG",
+            "value": "1.28",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+          },
+          {
+            "id": "2",
+            "name": "Into the Breach",
+            "value": "3.46",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+          }
+        ]
+      },
+      {
+        "id": "299h-4_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-4.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "100PG (-4.5)",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+          },
+          {
+            "id": "2",
+            "name": "Into the Breach (+4.5)",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.74",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 29
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.49",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "2.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "3.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "3.46",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "3.54",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "3.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "3.62",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "4.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "4.49",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "4.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "4.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "ABANDONED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:730cb43b-713e-4b93-9c0b-a8bc5fe3016e",
+      "slug": "100pg-vs-into-the-breach-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "100PG",
+              "value": "1.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397"
+            },
+            {
+              "id": "2",
+              "name": "Into the Breach",
+              "value": "6.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "730cb43b-713e-4b93-9c0b-a8bc5fe3016e"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "ABANDONED",
+        "competitors": [
+          {
+            "id": "gin:3ad2e769-65c2-40fb-bdea-e0290da11de5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fa9d1707-2864-4a0f-bb81-c3bdb619d397",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

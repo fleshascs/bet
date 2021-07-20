@@ -1,0 +1,558 @@
+{
+  "match": {
+    "id": "5:57457e24-8ecf-452a-a56a-4705cc4a1484",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "mouz-nxt-vs-big-academy-21-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "57457e24-8ecf-452a-a56a-4705cc4a1484"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "mouz NXT vs BIG Academy",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-21T16:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "name": "WePlay Academy League 2021",
+        "masterId": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-WePlay_Academy_League_allmode60ea05dd2bd8b390333853.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-18T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "weplay-academy-league-2021-10-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+          "name": "mouz NXT",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-Mouz_logo[1]60d80a245905b877240488.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:c8594713-565c-44f8-b50f-49be4465466f",
+          "name": "BIG Academy",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/229615e5dbe832d451313012731.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "mouz NXT",
+            "value": "1.18",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+          },
+          {
+            "id": "2",
+            "name": "BIG Academy",
+            "value": "4.59",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c8594713-565c-44f8-b50f-49be4465466f"
+          }
+        ]
+      },
+      {
+        "id": "299h-6_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-6.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "mouz NXT (-6.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+          },
+          {
+            "id": "2",
+            "name": "BIG Academy (+6.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c8594713-565c-44f8-b50f-49be4465466f"
+          }
+        ]
+      },
+      {
+        "id": "300m1t24_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "24.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 24.5",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 24.5",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 46
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:57457e24-8ecf-452a-a56a-4705cc4a1484",
+      "slug": "mouz-nxt-vs-big-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "mouz NXT",
+              "value": "1.17",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            },
+            {
+              "id": "2",
+              "name": "BIG Academy",
+              "value": "4.75",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c8594713-565c-44f8-b50f-49be4465466f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57457e24-8ecf-452a-a56a-4705cc4a1484"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c8594713-565c-44f8-b50f-49be4465466f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57457e24-8ecf-452a-a56a-4705cc4a1484",
+      "slug": "mouz-nxt-vs-big-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "mouz NXT",
+              "value": "1.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            },
+            {
+              "id": "2",
+              "name": "BIG Academy",
+              "value": "4.59",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c8594713-565c-44f8-b50f-49be4465466f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57457e24-8ecf-452a-a56a-4705cc4a1484"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c8594713-565c-44f8-b50f-49be4465466f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57457e24-8ecf-452a-a56a-4705cc4a1484",
+      "slug": "mouz-nxt-vs-big-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "mouz NXT",
+              "value": "1.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            },
+            {
+              "id": "2",
+              "name": "BIG Academy",
+              "value": "4.59",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c8594713-565c-44f8-b50f-49be4465466f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57457e24-8ecf-452a-a56a-4705cc4a1484"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c8594713-565c-44f8-b50f-49be4465466f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57457e24-8ecf-452a-a56a-4705cc4a1484",
+      "slug": "mouz-nxt-vs-big-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "mouz NXT",
+              "value": "1.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            },
+            {
+              "id": "2",
+              "name": "BIG Academy",
+              "value": "4.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c8594713-565c-44f8-b50f-49be4465466f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57457e24-8ecf-452a-a56a-4705cc4a1484"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c8594713-565c-44f8-b50f-49be4465466f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

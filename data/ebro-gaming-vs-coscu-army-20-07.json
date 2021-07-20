@@ -1,0 +1,469 @@
+{
+  "match": {
+    "id": "5:7d201721-c061-4091-b810-837450132b41",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "ebro-gaming-vs-coscu-army-20-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "7d201721-c061-4091-b810-837450132b41"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "EBRO Gaming vs Coscu Army",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-20T00:45:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e",
+          "name": "Coscu Army",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/190px-Coscu_Army5b55b2bef2990677477923.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88",
+          "name": "EBRO Gaming",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "EBRO Gaming",
+            "value": "4.59",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88"
+          },
+          {
+            "id": "2",
+            "name": "Coscu Army",
+            "value": "1.18",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+          }
+        ]
+      },
+      {
+        "id": "299h6_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "hcp",
+            "value": "6.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "EBRO Gaming (+6.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88"
+          },
+          {
+            "id": "2",
+            "name": "Coscu Army (-6.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.74",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 37
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:7d201721-c061-4091-b810-837450132b41",
+      "slug": "ebro-gaming-vs-coscu-army-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "EBRO Gaming",
+              "value": "4.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88"
+            },
+            {
+              "id": "2",
+              "name": "Coscu Army",
+              "value": "1.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "7d201721-c061-4091-b810-837450132b41"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:7d201721-c061-4091-b810-837450132b41",
+      "slug": "ebro-gaming-vs-coscu-army-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "EBRO Gaming",
+              "value": "4.59",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88"
+            },
+            {
+              "id": "2",
+              "name": "Coscu Army",
+              "value": "1.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "7d201721-c061-4091-b810-837450132b41"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:7d201721-c061-4091-b810-837450132b41",
+      "slug": "ebro-gaming-vs-coscu-army-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "EBRO Gaming",
+              "value": "4.75",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88"
+            },
+            {
+              "id": "2",
+              "name": "Coscu Army",
+              "value": "1.17",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "7d201721-c061-4091-b810-837450132b41"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7ddb102e-0976-499f-9328-b2c5e55e0c5e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c9b49d92-5250-4a65-a8bb-d223c8417f88",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

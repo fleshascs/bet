@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:9ab6e85a-62f2-4fc8-965f-6c33c520fce5",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "prestigious-vs-ugk-esports-19-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "9ab6e85a-62f2-4fc8-965f-6c33c520fce5"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Prestigious vs UGK Esports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-19T01:30:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:66f73085-74f4-430a-9397-a10f6103e74b",
+        "name": "ESEA Season 37: Intermediate Division - North America",
+        "masterId": "gin:66f73085-74f4-430a-9397-a10f6103e74b",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/ESEA_League60f3b9cde1dae563448349.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-18T05:19:03+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-intermediate-division-north-america-18-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:2d2dd37a-fa58-4f7a-adff-80d3a96ee9f8",
+          "name": "UGK Esports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/UGK-Esports5fdb24e80caf5146125343.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:7da72d82-73c3-4ae2-b047-81ef39720a6b",
+          "name": "Prestigious",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Prestigious",
+            "value": "1.53",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7da72d82-73c3-4ae2-b047-81ef39720a6b"
+          },
+          {
+            "id": "2",
+            "name": "UGK Esports",
+            "value": "2.40",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:2d2dd37a-fa58-4f7a-adff-80d3a96ee9f8"
+          }
+        ]
+      },
+      {
+        "id": "299h-2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "hcp",
+            "value": "-2.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Prestigious (-2.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7da72d82-73c3-4ae2-b047-81ef39720a6b"
+          },
+          {
+            "id": "2",
+            "name": "UGK Esports (+2.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:2d2dd37a-fa58-4f7a-adff-80d3a96ee9f8"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 31
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:9ab6e85a-62f2-4fc8-965f-6c33c520fce5",
+      "slug": "prestigious-vs-ugk-esports-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Prestigious",
+              "value": "1.53",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7da72d82-73c3-4ae2-b047-81ef39720a6b"
+            },
+            {
+              "id": "2",
+              "name": "UGK Esports",
+              "value": "2.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:2d2dd37a-fa58-4f7a-adff-80d3a96ee9f8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "9ab6e85a-62f2-4fc8-965f-6c33c520fce5"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:2d2dd37a-fa58-4f7a-adff-80d3a96ee9f8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:7da72d82-73c3-4ae2-b047-81ef39720a6b",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

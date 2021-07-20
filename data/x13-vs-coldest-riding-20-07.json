@@ -1,0 +1,647 @@
+{
+  "match": {
+    "id": "5:07a8c1b9-14b1-41d1-9339-b488f222ecfc",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "x13-vs-coldest-riding-20-07",
+    "meta": [
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "07a8c1b9-14b1-41d1-9339-b488f222ecfc"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "X13 vs Coldest Riding",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-20T00:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [],
+      "tournament": {
+        "id": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "name": "ESEA Season 37: Premier Relegation - North America",
+        "masterId": "gin:bbcaf2df-e336-4ca9-8a7b-2a2a583f3190",
+        "countryCode": "WW-NAM",
+        "logo": "cdn.gin.bet/tournaments/600px-ESEA_Premier_logo60ec0a15210b0157253167.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T09:23:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-premier-relegation-north-america-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8",
+          "name": "Coldest Riding",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5dfdc96433bf1453224912607a71367cd8f51955156460f570e8baa15160683097.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+          "name": "X13",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/cs%20go5dfdc96433bf145322491260326fd6927bf975461893.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "X13",
+            "value": "1.45",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+          },
+          {
+            "id": "2",
+            "name": "Coldest Riding",
+            "value": "2.66",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+          }
+        ]
+      },
+      {
+        "id": "299h-2_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-2.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "X13 (-2.5)",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+          },
+          {
+            "id": "2",
+            "name": "Coldest Riding (+2.5)",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.80",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:07a8c1b9-14b1-41d1-9339-b488f222ecfc",
+      "slug": "x13-vs-coldest-riding-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "X13",
+              "value": "1.44",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+            },
+            {
+              "id": "2",
+              "name": "Coldest Riding",
+              "value": "2.70",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "07a8c1b9-14b1-41d1-9339-b488f222ecfc"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:07a8c1b9-14b1-41d1-9339-b488f222ecfc",
+      "slug": "x13-vs-coldest-riding-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "X13",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+            },
+            {
+              "id": "2",
+              "name": "Coldest Riding",
+              "value": "2.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "07a8c1b9-14b1-41d1-9339-b488f222ecfc"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:07a8c1b9-14b1-41d1-9339-b488f222ecfc",
+      "slug": "x13-vs-coldest-riding-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "X13",
+              "value": "1.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+            },
+            {
+              "id": "2",
+              "name": "Coldest Riding",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "07a8c1b9-14b1-41d1-9339-b488f222ecfc"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:07a8c1b9-14b1-41d1-9339-b488f222ecfc",
+      "slug": "x13-vs-coldest-riding-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "X13",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+            },
+            {
+              "id": "2",
+              "name": "Coldest Riding",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "07a8c1b9-14b1-41d1-9339-b488f222ecfc"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:07a8c1b9-14b1-41d1-9339-b488f222ecfc",
+      "slug": "x13-vs-coldest-riding-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "X13",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38"
+            },
+            {
+              "id": "2",
+              "name": "Coldest Riding",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "07a8c1b9-14b1-41d1-9339-b488f222ecfc"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:7d9b0c7f-e6dc-42a1-a22b-6071f73de8c8",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:9ad0f932-1817-4cc3-8a43-85f297f57c38",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

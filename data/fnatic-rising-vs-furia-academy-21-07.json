@@ -1,0 +1,1003 @@
+{
+  "match": {
+    "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "fnatic-rising-vs-furia-academy-21-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "fnatic Rising vs FURIA Academy",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-21T18:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "name": "WePlay Academy League 2021",
+        "masterId": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-WePlay_Academy_League_allmode60ea05dd2bd8b390333853.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-18T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "weplay-academy-league-2021-10-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+          "name": "fnatic Rising",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/800px-Fnatic_2020_infoboximage5e4107999741566544991960ebe72d40140952153937.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+          "name": "FURIA Academy",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/88855b0f94f1d3572272539341.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "fnatic Rising",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+          },
+          {
+            "id": "2",
+            "name": "FURIA Academy",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+          }
+        ]
+      },
+      {
+        "id": "299h-1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "fnatic Rising (-1.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+          },
+          {
+            "id": "2",
+            "name": "FURIA Academy (+1.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 38
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.83",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.82",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.95",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.80",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.96",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.78",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.76",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "2.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.78",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.78",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf",
+      "slug": "fnatic-rising-vs-furia-academy-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "fnatic Rising",
+              "value": "1.80",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c"
+            },
+            {
+              "id": "2",
+              "name": "FURIA Academy",
+              "value": "1.96",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "6e1920f1-5e43-4eac-832c-0ebb4bf4f9bf"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:36fbe980-64ee-40f6-bf88-f7a09e21487c",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

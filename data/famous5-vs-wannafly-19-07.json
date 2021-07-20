@@ -1,0 +1,1522 @@
+{
+  "match": {
+    "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "famous5-vs-wannafly-19-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "2"
+      },
+      {
+        "name": "original_id",
+        "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+      },
+      {
+        "name": "round",
+        "value": "20"
+      }
+    ],
+    "fixture": {
+      "score": "1:0",
+      "title": "famous5 vs wannafly",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-19T07:10:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3qibom7f1900l65h9v0",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:be5147a4-a2af-4962-b3b2-2c3afd404db4",
+        "name": "Ultras League",
+        "masterId": "gin:be5147a4-a2af-4962-b3b2-2c3afd404db4",
+        "countryCode": "WW-CIS",
+        "logo": "cdn.gin.bet/tournaments/e48886074296d9a3cf732326411.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-02-14T22:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "ultras-league-12-04",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+          "name": "famous5",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/012c7fc6909fc09a8166cddb4a664b5d6a1daac0627414599783.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "13",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+          "name": "wannafly",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286176075fa2a495ba51069964160ea84d0d485d740201114.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "14",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "6",
+              "number": 2
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "famous5",
+            "value": "1.01",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+          },
+          {
+            "id": "2",
+            "name": "wannafly",
+            "value": "13.05",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+          }
+        ]
+      }
+    ],
+    "marketsCount": 7
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "13.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "13.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "13.56",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "13.56",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.00",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.00",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.28",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "2:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:ffb47354-e3d8-42b8-b7cf-57bcaf39dc03",
+      "slug": "famous5-vs-wannafly-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "famous5",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be"
+            },
+            {
+              "id": "2",
+              "name": "wannafly",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "ffb47354-e3d8-42b8-b7cf-57bcaf39dc03"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "2:0",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:0735f084-6c13-4601-968e-a73ecbb9c9be",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:a1f37db4-5735-4b7a-9d01-9232e93d1bd5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qibom7f1900l65h9v0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=cyberheatmedia2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.27000001072883606",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

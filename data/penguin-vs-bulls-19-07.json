@@ -1,0 +1,7310 @@
+{
+  "match": {
+    "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "penguin-vs-bulls-19-07",
+    "meta": [
+      {
+        "name": "round",
+        "value": "1"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "2"
+      },
+      {
+        "name": "original_id",
+        "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+      }
+    ],
+    "fixture": {
+      "score": "0:1",
+      "title": "PenguiN vs Bulls",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-19T14:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [
+        {
+          "id": "c3qokjqcn9lg06lj4sl0",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:5de8eac1-2091-483a-b190-b12ebe57c565",
+        "name": "ESPORTS BATTLE 2x2",
+        "masterId": "gin:5de8eac1-2091-483a-b190-b12ebe57c565",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/CS-GO-esportsbattle5f0eddd56d4b1512071188[1]5fbbbba983417599810345.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2020-11-23T13:39:22+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esports-battle-2x2-23-11",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+          "name": "Bulls",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/cs%20go5d7da5675355f456673894.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "0",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+          "name": "PenguiN",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "11",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "0",
+              "number": 2
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "PenguiN",
+            "value": "14.29",
+            "isActive": false,
+            "status": "LOSS",
+            "competitorId": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "1.67",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "Bulls",
+            "value": "2.12",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1"
+          }
+        ]
+      },
+      {
+        "id": "299h-1_5m2",
+        "name": "2nd map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "2"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "PenguiN (-1.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4"
+          },
+          {
+            "id": "2",
+            "name": "Bulls (+1.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1"
+          }
+        ]
+      },
+      {
+        "id": "300m2t26_5",
+        "name": "2nd map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 12
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "1"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "20"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "21"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "22"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "23"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "24"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "25"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "31"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "32"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "32"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "1",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "33"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "17",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "33"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "17",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "2",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "18",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "18",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "3",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "19",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "4",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "19",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "4",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:2",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "19",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "4",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:5d0cd71a-537a-484c-ae74-bf10bcb9191b",
+      "slug": "penguin-vs-bulls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "overtime"
+        },
+        {
+          "name": "original_id",
+          "value": "5d0cd71a-537a-484c-ae74-bf10bcb9191b"
+        },
+        {
+          "name": "round",
+          "value": "34"
+        },
+        {
+          "name": "state_number",
+          "value": "1"
+        }
+      ],
+      "fixture": {
+        "score": "0:2",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:49a9df63-4cc4-4974-b546-c4ec95ab09c1",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "19",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "4",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "id": "gin:d810fa63-93e8-432b-b92d-e5bf524a23e4",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              },
+              {
+                "id": "round_overtime:1",
+                "type": "round_overtime",
+                "points": "0",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qokjqcn9lg06lj4sl0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

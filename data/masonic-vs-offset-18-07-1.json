@@ -1,0 +1,647 @@
+{
+  "match": {
+    "id": "5:65906c0b-d1ae-4b52-8930-fa125472b6c3",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "masonic-vs-offset-18-07-1",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "65906c0b-d1ae-4b52-8930-fa125472b6c3"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "MASONIC vs OFFSET",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-18T17:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:8b9605a7-ef0d-40b4-b904-60f6fea8fe98",
+        "name": "ESEA Season 37: Main Division - Europe",
+        "masterId": "gin:8b9605a7-ef0d-40b4-b904-60f6fea8fe98",
+        "countryCode": "",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": false,
+        "prizePool": "",
+        "dateStart": "2021-07-02T15:36:17+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esea-season-37-main-division-europe-02-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b",
+          "name": "MASONIC",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/186px-Masonic5f16e5f579800155508910.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2",
+          "name": "OFFSET",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/678px-Offset_steam5bbd93fd277aa679574762.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "MASONIC",
+            "value": "1.95",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+          },
+          {
+            "id": "2",
+            "name": "OFFSET",
+            "value": "1.81",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "MASONIC (+1.5)",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+          },
+          {
+            "id": "2",
+            "name": "OFFSET (-1.5)",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.91",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.83",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:65906c0b-d1ae-4b52-8930-fa125472b6c3",
+      "slug": "masonic-vs-offset-18-07-1",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "MASONIC",
+              "value": "1.67",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+            },
+            {
+              "id": "2",
+              "name": "OFFSET",
+              "value": "2.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "65906c0b-d1ae-4b52-8930-fa125472b6c3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:65906c0b-d1ae-4b52-8930-fa125472b6c3",
+      "slug": "masonic-vs-offset-18-07-1",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "MASONIC",
+              "value": "1.91",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+            },
+            {
+              "id": "2",
+              "name": "OFFSET",
+              "value": "1.85",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "65906c0b-d1ae-4b52-8930-fa125472b6c3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:65906c0b-d1ae-4b52-8930-fa125472b6c3",
+      "slug": "masonic-vs-offset-18-07-1",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "MASONIC",
+              "value": "2.00",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+            },
+            {
+              "id": "2",
+              "name": "OFFSET",
+              "value": "1.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "65906c0b-d1ae-4b52-8930-fa125472b6c3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:65906c0b-d1ae-4b52-8930-fa125472b6c3",
+      "slug": "masonic-vs-offset-18-07-1",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "MASONIC",
+              "value": "1.95",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+            },
+            {
+              "id": "2",
+              "name": "OFFSET",
+              "value": "1.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "65906c0b-d1ae-4b52-8930-fa125472b6c3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:65906c0b-d1ae-4b52-8930-fa125472b6c3",
+      "slug": "masonic-vs-offset-18-07-1",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "MASONIC",
+              "value": "2.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b"
+            },
+            {
+              "id": "2",
+              "name": "OFFSET",
+              "value": "1.75",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "65906c0b-d1ae-4b52-8930-fa125472b6c3"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:1437fa72-d237-40c5-8e0b-49d28d92a61b",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:88dac9c3-ccf7-4ad5-9bd9-5c5b9b4577b2",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

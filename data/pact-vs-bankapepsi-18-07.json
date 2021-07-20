@@ -1,0 +1,5874 @@
+{
+  "match": {
+    "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "pact-vs-bankapepsi-18-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "PACT vs bankaPEPSI",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-18T14:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:52f5b493-03d2-4d70-8f3f-478f44167dd8",
+        "name": "European Development Championship Season 5: Closed Qualifier",
+        "masterId": "gin:52f5b493-03d2-4d70-8f3f-478f44167dd8",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-European_Development_Championship60af3c8bdccdb324102861.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-14T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "european-development-championship-season-4-closed-qualifier-26-05",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:18133",
+          "name": "PACT",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/1f7701c3-485a-4843-a16c-ed34220d9317-pact-white5f3675eca93fa757955865.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+          "name": "bankaPEPSI",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/55px-BankaPEPSI_allmode60a35d8c7fc63611076540.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "PACT",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:18133"
+          },
+          {
+            "id": "2",
+            "name": "bankaPEPSI",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+          }
+        ]
+      },
+      {
+        "id": "299h1_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "PACT (+1.5)",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:18133"
+          },
+          {
+            "id": "2",
+            "name": "bankaPEPSI (-1.5)",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.90",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.84",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 95
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "2.18",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.65",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "1.95",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "1.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "1.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.79",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "2.00",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "2.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.75",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "2.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "2.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.67",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "10.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "9.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "10.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "10.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "10.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "11.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "10.91",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "10.09",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "9.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "8.50",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "8.50",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "8.50",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "7.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.06",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "7.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.06",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "7.90",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.06",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "11.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "11.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "12.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "12.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "12.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.01",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.93",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "13.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:2",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:958f5358-b4ee-4008-8cfd-1e528323c8ae",
+      "slug": "pact-vs-bankapepsi-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "PACT",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gt:18133"
+            },
+            {
+              "id": "2",
+              "name": "bankaPEPSI",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "958f5358-b4ee-4008-8cfd-1e528323c8ae"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "0:2",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gt:18133",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:8c016c47-c71e-4bce-9043-a82f54b8dfff",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3q3k2g3jabg0i0kdleg",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=edenesports&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.8799999952316284",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

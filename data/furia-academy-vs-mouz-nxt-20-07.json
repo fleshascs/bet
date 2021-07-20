@@ -1,0 +1,2590 @@
+{
+  "match": {
+    "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "furia-academy-vs-mouz-nxt-20-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+      },
+      {
+        "name": "round",
+        "value": "25"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "FURIA Academy vs mouz NXT",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-20T19:10:00+03:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3rf368a61ug06gpurn0",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "c3rf393pfqk007kurp20",
+          "locale": "ru_RU",
+          "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "name": "WePlay Academy League 2021",
+        "masterId": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-WePlay_Academy_League_allmode60ea05dd2bd8b390333853.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-18T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "weplay-academy-league-2021-10-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+          "name": "FURIA Academy",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/88855b0f94f1d3572272539341.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "15",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+          "name": "mouz NXT",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/600px-Mouz_logo[1]60d80a245905b877240488.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "9",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [],
+    "marketsCount": 5
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "4.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.20",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "4.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "4.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.87",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.27",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.32",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "3.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "1.33",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.02",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "11.58",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "7.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "26"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "10",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "7.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "4.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "11",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "4.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "4.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "DEACTIVATED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "4.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:80c7daf1-5ac6-490a-9f4f-9e9761624bbe",
+      "slug": "furia-academy-vs-mouz-nxt-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "RESULTED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "FURIA Academy",
+              "value": "1.00",
+              "isActive": false,
+              "status": "WIN",
+              "competitorId": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86"
+            },
+            {
+              "id": "2",
+              "name": "mouz NXT",
+              "value": "14.29",
+              "isActive": false,
+              "status": "LOSS",
+              "competitorId": "gin:acae0f4c-da51-4901-a886-3713e71a573e"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "80c7daf1-5ac6-490a-9f4f-9e9761624bbe"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:6d8301c4-903d-4d89-868a-d10b059ccc86",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:acae0f4c-da51-4901-a886-3713e71a573e",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "12",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rf368a61ug06gpurn0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "c3rf393pfqk007kurp20",
+            "locale": "ru_RU",
+            "url": "https://player.twitch.tv/?channel=weplaycsgo_ru&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

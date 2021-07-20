@@ -1,0 +1,4646 @@
+{
+  "match": {
+    "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "darcos-vs-ghouls-19-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+      },
+      {
+        "name": "round",
+        "value": "26"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Darcos vs GHOULS",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-19T14:15:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": false,
+      "streams": [
+        {
+          "id": "c3qoj7oa61ug084um020",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:5de8eac1-2091-483a-b190-b12ebe57c565",
+        "name": "ESPORTS BATTLE 2x2",
+        "masterId": "gin:5de8eac1-2091-483a-b190-b12ebe57c565",
+        "countryCode": "",
+        "logo": "cdn.gin.bet/tournaments/CS-GO-esportsbattle5f0eddd56d4b1512071188[1]5fbbbba983417599810345.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2020-11-23T13:39:22+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "esports-battle-2x2-23-11",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+          "name": "GHOULS",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/afd5ef5cc53443162374557266063cea7cb6ce336167475.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "13",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+          "name": "Darcos",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286176066dbf0e76a4098992439.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "12",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "20",
+        "name": "1x2",
+        "status": "ACTIVE",
+        "typeId": 20,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Darcos",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5"
+          },
+          {
+            "id": "2",
+            "name": "Draw",
+            "value": "2.17",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "3",
+            "name": "GHOULS",
+            "value": "6.62",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9"
+          }
+        ]
+      },
+      {
+        "id": "299h-4_5m2",
+        "name": "2nd map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "hcp",
+            "value": "-4.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Darcos (-4.5)",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5"
+          },
+          {
+            "id": "2",
+            "name": "GHOULS (+4.5)",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9"
+          }
+        ]
+      },
+      {
+        "id": "300m2t25_5",
+        "name": "2nd map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 20
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "27"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "28"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "29"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "15",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "30"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "1"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "0",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "3"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "4"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "5"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "6"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "1",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "12",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "13",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "14",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "15",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "1:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "2:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b61a3c3e-85be-4a83-b753-ee3bfe01121b",
+      "slug": "darcos-vs-ghouls-19-07",
+      "disabled": false,
+      "markets": [],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b61a3c3e-85be-4a83-b753-ee3bfe01121b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2"
+        }
+      ],
+      "fixture": {
+        "score": "2:0",
+        "status": "ENDED",
+        "competitors": [
+          {
+            "id": "gin:b4d64f99-d333-4f0b-920b-5caf057cf1e9",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "13",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "2",
+                "number": 2
+              }
+            ]
+          },
+          {
+            "id": "gin:c5573370-5fe8-4ea0-8303-7577e95a39f5",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "2",
+                "number": 0
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "16",
+                "number": 2
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3qoj7oa61ug084um020",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=esbcsgo1&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4946 @@
+{
+  "match": {
+    "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "resist-esports-vs-team-undercover-20-07",
+    "meta": [
+      {
+        "name": "round",
+        "value": "8"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "2.00"
+      },
+      {
+        "name": "original_id",
+        "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+      }
+    ],
+    "fixture": {
+      "score": "0:1",
+      "title": "Resist eSports vs Team Undercover",
+      "status": "LIVE",
+      "type": "MATCH",
+      "startTime": "2021-07-20T20:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [
+        {
+          "id": "c3rimnml0k7g08cghqs0",
+          "locale": "en_US",
+          "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+          "platforms": [
+            {
+              "type": "mobile",
+              "enabled": true
+            },
+            {
+              "type": "desktop",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "tournament": {
+        "id": "gin:2e5ac32d-a917-4900-b2ad-715d3f5c247f",
+        "name": "EEEL. Main Division",
+        "masterId": "gin:2e5ac32d-a917-4900-b2ad-715d3f5c247f",
+        "countryCode": "",
+        "logo": "",
+        "description": "",
+        "showTournamentInfo": false,
+        "prizePool": "",
+        "dateStart": "2021-07-20T19:59:11+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "eeel-main-division-20-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+          "name": "Team Undercover",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "16",
+              "number": 1
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "3",
+              "number": 2
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "1",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+          "name": "Resist eSports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "14",
+              "number": 1
+            },
+            {
+              "id": "map:2",
+              "type": "map",
+              "points": "4",
+              "number": 2
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Resist eSports",
+            "value": "2.57",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+          },
+          {
+            "id": "2",
+            "name": "Team Undercover",
+            "value": "1.47",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+          }
+        ]
+      },
+      {
+        "id": "299h-1_5m2",
+        "name": "2nd map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-1.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "2"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Resist eSports (-1.5)",
+            "value": "1.78",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+          },
+          {
+            "id": "2",
+            "name": "Team Undercover (+1.5)",
+            "value": "1.97",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+          }
+        ]
+      },
+      {
+        "id": "300m2t27_5",
+        "name": "2nd map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "2"
+          },
+          {
+            "name": "total",
+            "value": "27.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 27.5",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 27.5",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 16
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "3.20",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.32",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "7"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.61",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.51",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.53",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "8"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "1.99",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.76",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "9"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "3",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.57",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.47",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "3.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "10"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "3.04",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "11"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.53",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "12"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.53",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.61",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "13"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "8",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.61",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "14"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "9",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "1.91",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.83",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "15"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "4",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "1.91",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.83",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "16"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "5",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.05",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.72",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "17"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "6",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.60",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.52",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "18"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "10",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.52",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "1.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.78",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.06",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.71",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:4effbd3f-997a-4f1c-8e40-275e4309de3b",
+      "slug": "resist-esports-vs-team-undercover-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Resist eSports",
+              "value": "2.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318"
+            },
+            {
+              "id": "2",
+              "name": "Team Undercover",
+              "value": "1.65",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "4effbd3f-997a-4f1c-8e40-275e4309de3b"
+        },
+        {
+          "name": "round",
+          "value": "19"
+        },
+        {
+          "name": "state_number",
+          "value": "2.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:1",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gin:e253d6a4-181c-4cac-b625-f9c4ace3040d",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "16",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "7",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "1",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:eea87976-ccd2-4d9e-9cb8-dab4c3c64318",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "14",
+                "number": 1
+              },
+              {
+                "id": "map:2",
+                "type": "map",
+                "points": "11",
+                "number": 2
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rimnml0k7g08cghqs0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=eeel_csgo&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

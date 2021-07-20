@@ -1,0 +1,647 @@
+{
+  "match": {
+    "id": "5:329337c9-b234-4814-b0cb-e86987ce0a17",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "leviatan-esports-vs-boca-juniors-19-07",
+    "meta": [
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "329337c9-b234-4814-b0cb-e86987ce0a17"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Leviatan Esports vs Boca Juniors",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-19T21:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:22917",
+          "name": "Leviatan Esports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/6015d95c625a4754139253x260191b8ab199e519255448.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:778134fa-4dc4-41c4-85e6-235026f84510",
+          "name": "Boca Juniors",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/BW6kv1UvLqXaHMC1lV9ulc6031e52a63849636161501.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Leviatan Esports",
+            "value": "2.94",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22917"
+          },
+          {
+            "id": "2",
+            "name": "Boca Juniors",
+            "value": "1.38",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+          }
+        ]
+      },
+      {
+        "id": "299h3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Leviatan Esports (+3.5)",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:22917"
+          },
+          {
+            "id": "2",
+            "name": "Boca Juniors (-3.5)",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "2.02",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.74",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 38
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:329337c9-b234-4814-b0cb-e86987ce0a17",
+      "slug": "leviatan-esports-vs-boca-juniors-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Leviatan Esports",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22917"
+            },
+            {
+              "id": "2",
+              "name": "Boca Juniors",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "329337c9-b234-4814-b0cb-e86987ce0a17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:22917",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:778134fa-4dc4-41c4-85e6-235026f84510",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:329337c9-b234-4814-b0cb-e86987ce0a17",
+      "slug": "leviatan-esports-vs-boca-juniors-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Leviatan Esports",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22917"
+            },
+            {
+              "id": "2",
+              "name": "Boca Juniors",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "329337c9-b234-4814-b0cb-e86987ce0a17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:22917",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:778134fa-4dc4-41c4-85e6-235026f84510",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:329337c9-b234-4814-b0cb-e86987ce0a17",
+      "slug": "leviatan-esports-vs-boca-juniors-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Leviatan Esports",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22917"
+            },
+            {
+              "id": "2",
+              "name": "Boca Juniors",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "329337c9-b234-4814-b0cb-e86987ce0a17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:22917",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:778134fa-4dc4-41c4-85e6-235026f84510",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:329337c9-b234-4814-b0cb-e86987ce0a17",
+      "slug": "leviatan-esports-vs-boca-juniors-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Leviatan Esports",
+              "value": "2.89",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22917"
+            },
+            {
+              "id": "2",
+              "name": "Boca Juniors",
+              "value": "1.39",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "329337c9-b234-4814-b0cb-e86987ce0a17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:22917",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:778134fa-4dc4-41c4-85e6-235026f84510",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:329337c9-b234-4814-b0cb-e86987ce0a17",
+      "slug": "leviatan-esports-vs-boca-juniors-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Leviatan Esports",
+              "value": "2.84",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:22917"
+            },
+            {
+              "id": "2",
+              "name": "Boca Juniors",
+              "value": "1.52",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:778134fa-4dc4-41c4-85e6-235026f84510"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "329337c9-b234-4814-b0cb-e86987ce0a17"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:22917",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:778134fa-4dc4-41c4-85e6-235026f84510",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

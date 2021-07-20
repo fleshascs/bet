@@ -1,0 +1,291 @@
+{
+  "match": {
+    "id": "5:37b6d30b-30fd-4353-82a7-3e03adfb4726",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "stone-esports-vs-nocturns-19-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "37b6d30b-30fd-4353-82a7-3e03adfb4726"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Stone Esports vs Nocturns",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-19T23:30:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "name": "LVP Unity League Argentina Clausura 2021",
+        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
+        "countryCode": "AR",
+        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:11778",
+          "name": "Nocturns",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/5ed92c49eb53b074146417x2%20%281%295ee00a06a634f360561874.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca",
+          "name": "Stone Esports",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/vjDO40_e3pFe97cyKCsHmX60e3f0e291164883029305.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Stone Esports",
+            "value": "1.44",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca"
+          },
+          {
+            "id": "2",
+            "name": "Nocturns",
+            "value": "2.70",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:11778"
+          }
+        ]
+      },
+      {
+        "id": "299h-3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Stone Esports (-3.5)",
+            "value": "1.86",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca"
+          },
+          {
+            "id": "2",
+            "name": "Nocturns (+3.5)",
+            "value": "1.88",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:11778"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.98",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.77",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 39
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:37b6d30b-30fd-4353-82a7-3e03adfb4726",
+      "slug": "stone-esports-vs-nocturns-19-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Stone Esports",
+              "value": "1.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca"
+            },
+            {
+              "id": "2",
+              "name": "Nocturns",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:11778"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "37b6d30b-30fd-4353-82a7-3e03adfb4726"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:11778",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:cbc7798b-e4be-4a41-9e0a-7163089adaca",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

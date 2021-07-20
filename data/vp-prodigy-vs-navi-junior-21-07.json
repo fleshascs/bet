@@ -1,0 +1,469 @@
+{
+  "match": {
+    "id": "5:1345ca59-fb53-4ece-89a7-6ab71303d93d",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "vp-prodigy-vs-navi-junior-21-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "1345ca59-fb53-4ece-89a7-6ab71303d93d"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "VP.Prodigy vs NAVI Junior",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-21T18:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "name": "WePlay Academy League 2021",
+        "masterId": "gin:eb4b5914-f669-4a5a-a9cc-4c472d261f52",
+        "countryCode": "WW-EUR",
+        "logo": "cdn.gin.bet/tournaments/600px-WePlay_Academy_League_allmode60ea05dd2bd8b390333853.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-18T21:00:00+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "weplay-academy-league-2021-10-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:ca360799-ff41-496f-868b-0d93f9d45206",
+          "name": "VP.Prodigy",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/XeVFqoxRuwHgJKTL-BJfzH5f73a9bc6c072887097865.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa",
+          "name": "NAVI Junior",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/103715e269be21e8d1069353426.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "VP.Prodigy",
+            "value": "2.81",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ca360799-ff41-496f-868b-0d93f9d45206"
+          },
+          {
+            "id": "2",
+            "name": "NAVI Junior",
+            "value": "1.41",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa"
+          }
+        ]
+      },
+      {
+        "id": "299h3_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "3.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "VP.Prodigy (+3.5)",
+            "value": "1.92",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:ca360799-ff41-496f-868b-0d93f9d45206"
+          },
+          {
+            "id": "2",
+            "name": "NAVI Junior (-3.5)",
+            "value": "1.82",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 46
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:1345ca59-fb53-4ece-89a7-6ab71303d93d",
+      "slug": "vp-prodigy-vs-navi-junior-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "VP.Prodigy",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ca360799-ff41-496f-868b-0d93f9d45206"
+            },
+            {
+              "id": "2",
+              "name": "NAVI Junior",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "1345ca59-fb53-4ece-89a7-6ab71303d93d"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:ca360799-ff41-496f-868b-0d93f9d45206",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:1345ca59-fb53-4ece-89a7-6ab71303d93d",
+      "slug": "vp-prodigy-vs-navi-junior-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "VP.Prodigy",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ca360799-ff41-496f-868b-0d93f9d45206"
+            },
+            {
+              "id": "2",
+              "name": "NAVI Junior",
+              "value": "1.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "1345ca59-fb53-4ece-89a7-6ab71303d93d"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:ca360799-ff41-496f-868b-0d93f9d45206",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:1345ca59-fb53-4ece-89a7-6ab71303d93d",
+      "slug": "vp-prodigy-vs-navi-junior-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "VP.Prodigy",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:ca360799-ff41-496f-868b-0d93f9d45206"
+            },
+            {
+              "id": "2",
+              "name": "NAVI Junior",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "1345ca59-fb53-4ece-89a7-6ab71303d93d"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:ca360799-ff41-496f-868b-0d93f9d45206",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:fbb6da71-4307-4337-a8cd-969efbe937aa",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

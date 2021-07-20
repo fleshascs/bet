@@ -1,0 +1,1804 @@
+{
+  "match": {
+    "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "party-astronauts-vs-rbg-esports-18-07",
+    "meta": [
+      {
+        "name": "original_id",
+        "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "Party Astronauts vs RBG Esports",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-18T23:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:6acf2434-0174-4fd4-8d31-be406ad37c22",
+        "name": "Mythic Summer Cup 2021",
+        "masterId": "gin:6acf2434-0174-4fd4-8d31-be406ad37c22",
+        "countryCode": "WW-NAM",
+        "logo": "cdn.gin.bet/tournaments/490px-Mythic_Cup_new60e4e1612870c226880366.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "$3,500 USD",
+        "dateStart": "2021-07-06T23:03:49+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "mythic-summer-cup-2021-06-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+          "name": "Party Astronauts",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/c1bd2510f1a1411ac68cff6cead4005ccf6262669ed329143160.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+          "name": "RBG Esports",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/190px-RBG_Esports_20195d584e601de5b022107014.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Party Astronauts",
+            "value": "1.29",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+          },
+          {
+            "id": "2",
+            "name": "RBG Esports",
+            "value": "3.45",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+          }
+        ]
+      },
+      {
+        "id": "299h-4_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "-4.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "Party Astronauts (-4.5)",
+            "value": "1.96",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+          },
+          {
+            "id": "2",
+            "name": "RBG Esports (+4.5)",
+            "value": "1.79",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+          }
+        ]
+      },
+      {
+        "id": "300m1t26_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "mapnr",
+            "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "26.5"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 26.5",
+            "value": "1.98",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 26.5",
+            "value": "1.77",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 79
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.66",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.46",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.63",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.44",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.70",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.43",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.73",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.42",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.94",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.41",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "2.81",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.36",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.03",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.35",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.08",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.34",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.33",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.29",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.45",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476",
+      "slug": "party-astronauts-vs-rbg-esports-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Party Astronauts",
+              "value": "1.30",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6"
+            },
+            {
+              "id": "2",
+              "name": "RBG Esports",
+              "value": "3.38",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "57da4f0a-3e7e-4ee1-ba6a-51c86d6a8476"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:8ec6734b-676c-458f-8ee3-9ab3c5a951b6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:e6e78ce1-c695-49b4-8493-7897ddbdd01f",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}

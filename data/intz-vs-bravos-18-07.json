@@ -1,0 +1,825 @@
+{
+  "match": {
+    "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+    "disabled": false,
+    "providerId": "5",
+    "hasMatchLog": false,
+    "slug": "intz-vs-bravos-18-07",
+    "meta": [
+      {
+        "name": "game_state",
+        "value": "map"
+      },
+      {
+        "name": "state_number",
+        "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+      }
+    ],
+    "fixture": {
+      "score": "0:0",
+      "title": "INTZ vs Bravos",
+      "status": "NOT_STARTED",
+      "type": "MATCH",
+      "startTime": "2021-07-18T22:00:00+00:00",
+      "sportId": "esports_counter_strike",
+      "liveCoverage": true,
+      "streams": [],
+      "tournament": {
+        "id": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "name": "Gamers Club Liga Série A: July 2021",
+        "masterId": "gin:42f8514a-0a75-4d48-9197-3d4419c415ed",
+        "countryCode": "BR",
+        "logo": "cdn.gin.bet/tournaments/Liga_Gamers_Club_S%C3%A9rie_A_allmode60e52ba82f256265569987.png",
+        "description": "",
+        "showTournamentInfo": true,
+        "prizePool": "",
+        "dateStart": "2021-07-07T04:20:51+00:00",
+        "dateEnd": "",
+        "isLocalizationOverridden": false,
+        "slug": "gamers-club-liga-serie-a-july-2021-07-07",
+        "sportId": "esports_counter_strike"
+      },
+      "competitors": [
+        {
+          "id": "gt:45829",
+          "name": "Bravos",
+          "type": "TEAM",
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/106055e382b1aa39fb278260460.png",
+          "templatePosition": 2,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        },
+        {
+          "id": "betting:0:2124-esports_counter_strike",
+          "name": "INTZ",
+          "type": "TEAM",
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/600px-Intz5ad6fe4f83f0b100423570.png",
+          "templatePosition": 1,
+          "score": [
+            {
+              "id": "map:1",
+              "type": "map",
+              "points": "0",
+              "number": 1
+            },
+            {
+              "id": "total",
+              "type": "total",
+              "points": "0",
+              "number": 0
+            }
+          ]
+        }
+      ]
+    },
+    "markets": [
+      {
+        "id": "1",
+        "name": "Winner",
+        "status": "ACTIVE",
+        "typeId": 1,
+        "priority": 1,
+        "tags": [],
+        "specifiers": [],
+        "odds": [
+          {
+            "id": "1",
+            "name": "INTZ",
+            "value": "4.07",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2124-esports_counter_strike"
+          },
+          {
+            "id": "2",
+            "name": "Bravos",
+            "value": "1.22",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45829"
+          }
+        ]
+      },
+      {
+        "id": "299h4_5m1",
+        "name": "1st map - round handicap",
+        "status": "ACTIVE",
+        "typeId": 299,
+        "priority": 33,
+        "tags": [
+          "hcp"
+        ],
+        "specifiers": [
+          {
+            "name": "hcp",
+            "value": "4.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "INTZ (+4.5)",
+            "value": "1.93",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "betting:0:2124-esports_counter_strike"
+          },
+          {
+            "id": "2",
+            "name": "Bravos (-4.5)",
+            "value": "1.81",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": "gt:45829"
+          }
+        ]
+      },
+      {
+        "id": "300m1t25_5",
+        "name": "1st map - total rounds",
+        "status": "ACTIVE",
+        "typeId": 300,
+        "priority": 35,
+        "tags": [
+          "total"
+        ],
+        "specifiers": [
+          {
+            "name": "total",
+            "value": "25.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
+          }
+        ],
+        "odds": [
+          {
+            "id": "1",
+            "name": "over 25.5",
+            "value": "1.76",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          },
+          {
+            "id": "2",
+            "name": "under 25.5",
+            "value": "1.99",
+            "isActive": true,
+            "status": "NOT_RESULTED",
+            "competitorId": ""
+          }
+        ]
+      }
+    ],
+    "marketsCount": 81
+  },
+  "onUpdateSportEvent": [
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "4.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "3.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.26",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "4.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "4.31",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.20",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "4.19",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.21",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "4.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:f8f90c70-a70c-40ab-9b2f-9761f3c130b4",
+      "slug": "intz-vs-bravos-18-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "INTZ",
+              "value": "4.07",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "betting:0:2124-esports_counter_strike"
+            },
+            {
+              "id": "2",
+              "name": "Bravos",
+              "value": "1.22",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:45829"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "f8f90c70-a70c-40ab-9b2f-9761f3c130b4"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:45829",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "betting:0:2124-esports_counter_strike",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    }
+  ]
+}
