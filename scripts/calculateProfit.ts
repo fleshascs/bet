@@ -8,8 +8,8 @@ glob('./data/**/*.json', null, async function (er, files: string[]) {
   let totalBets = 0;
   let totalWon = 0;
   let totalLoss = 0;
-  let totalWonMoney = [];
-  let totalLostMoney = [];
+  const totalWonMoney = [];
+  const totalLostMoney = [];
 
   const readTasks = files.map(async (filePath) => {
     try {
@@ -77,16 +77,16 @@ function getPreMatchLowestOdds(matchStats: MatchUpdates) {
   throw new Error('match already started');
 }
 
-function findOddsBetween(matchStats: MatchUpdates, odd1: number, odd2: number) {
-  const min = Math.min(odd1, odd2);
-  const max = Math.max(odd1, odd2);
-  for (const match of matchStats.onUpdateSportEvent) {
-    const market = match.markets.find((market) => market.id === '1');
-    for (const odd of market.odds) {
-      const value = parseFloat(odd.value);
-      if (value > min && value < max) {
-        return odd;
-      }
-    }
-  }
-}
+// function findOddsBetween(matchStats: MatchUpdates, odd1: number, odd2: number) {
+//   const min = Math.min(odd1, odd2);
+//   const max = Math.max(odd1, odd2);
+//   for (const match of matchStats.onUpdateSportEvent) {
+//     const market = match.markets.find((market) => market.id === '1');
+//     for (const odd of market.odds) {
+//       const value = parseFloat(odd.value);
+//       if (value > min && value < max) {
+//         return odd;
+//       }
+//     }
+//   }
+// }
