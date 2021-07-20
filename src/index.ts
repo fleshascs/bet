@@ -1,3 +1,4 @@
+const schedule = require('node-schedule');
 const cliProgress = require('cli-progress');
 import { OnUpdateSportEvent, GetMatchesByFilters, Match, MatchUpdates } from './types/ggbetAPI';
 import {
@@ -8,6 +9,7 @@ import {
   saveMatches
 } from './dataProvider/utils';
 // import { buildOperation as getMatchBySlug } from './dataProvider/queries/getMatchBySlug';
+import { buildOperation as getCategorizer } from './dataProvider/queries/getCategorizer';
 import { buildOperation as onUpdateSportEvent } from './dataProvider/queries/onUpdateSportEvent';
 import { buildOperation as getMatchesByFilters } from './dataProvider/queries/getMatchesByFilters';
 import { execute, makePromise } from 'apollo-link';
@@ -27,6 +29,10 @@ const multibar = new cliProgress.MultiBar(
 );
 
 (async () => {
+  const pingTask = schedule.scheduleJob('*/1 * * * *', async function () {
+    execute(link, getCategorizer()); // do nothing with it
+  });
+
   const matchesResponse = (await makePromise(
     execute(link, getMatchesByFilters())
   )) as GetMatchesByFilters;
@@ -37,7 +43,7 @@ const multibar = new cliProgress.MultiBar(
     throw new Error('Faild to getMatchesByFilters:' + JSON.stringify(matchesResponse));
   }
 
-  saveMatches(matches);
+  //saveMatches(matches);
 
   matches.forEach(watchMatchUpdates);
 })();

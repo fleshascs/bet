@@ -46,7 +46,7 @@ export interface Match {
 }
 
 export interface Market {
-  id: number;
+  id: string;
   name: string;
   status: 'ACTIVE' | 'RESULTED';
   typeId: number;
@@ -59,7 +59,7 @@ export interface Market {
 export interface Odd {
   id: number;
   name: string;
-  value: number;
+  value: string; // "15.05"
   isActive: true;
   status: 'NOT_RESULTED' | 'WIN' | 'LOSS';
   competitorId: CompetitorId;
