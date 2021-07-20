@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node --transpile-only ./src/index.ts",
-    "filterUnfinishedMatches": "ts-node --transpile-only ./scripts/filterUnfinishedMatches.ts",
-    "test-server": "node src/test_server.js",
+    "filterFinishedMatches": "ts-node --transpile-only ./scripts/filterFinishedMatches.ts",
+    "calculateProfit": "ts-node --transpile-only ./scripts/calculateProfit.ts",
+    "placeBet": "ts-node --transpile-only ./src/bettingBot/index.ts",
     "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
@@ -25,6 +26,9 @@
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
     "node-schedule": "^2.0.0",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
     "sanitize-filename": "^1.6.3",
     "subscriptions-transport-ws": "^0.9.19",
     "ws": "^7.4.6"

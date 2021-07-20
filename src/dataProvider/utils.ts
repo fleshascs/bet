@@ -59,6 +59,10 @@ export function getLeadingTeamScore(match: Match, mapNumber: number) {
   return leadingScore;
 }
 
+export function didMatchEnded(match: MatchUpdates) {
+  return match.onUpdateSportEvent?.some((update) => update.fixture.status === 'ENDED');
+}
+
 // export function someParsing(response: OnUpdateSportEvent) {
 //   const match = response.data.onUpdateSportEvent;
 //   const market = match.markets.find((market) => market.name === 'Winner');
