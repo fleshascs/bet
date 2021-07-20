@@ -1,12 +1,12 @@
 const schedule = require('node-schedule');
-const cliProgress = require('cli-progress');
+import { MultiBar, Presets } from 'cli-progress';
 import { OnUpdateSportEvent, GetMatchesByFilters, Match, MatchUpdates } from './types/ggbetAPI';
 import {
   getCurrentMap,
   getLeadingTeamScore,
   getSavedMatch,
-  saveMatch,
-  saveMatches
+  saveMatch
+  // saveMatches
 } from './dataProvider/utils';
 // import { buildOperation as getMatchBySlug } from './dataProvider/queries/getMatchBySlug';
 import { buildOperation as getCategorizer } from './dataProvider/queries/getCategorizer';
@@ -19,17 +19,17 @@ const link = getClient();
 
 const matchStats: Record<Match['slug'], MatchUpdates> = {};
 const progressbars: Record<Match['slug'], unknown> = {};
-const multibar = new cliProgress.MultiBar(
+const multibar = new MultiBar(
   {
     clearOnComplete: false,
     hideCursor: true,
     format: '[{bar}] {percentage}% | map: {map} | {value}/{total} | match: {slug}'
   },
-  cliProgress.Presets.shades_grey
+  Presets.shades_grey
 );
 
 (async () => {
-  const pingTask = schedule.scheduleJob('*/1 * * * *', async function () {
+  schedule.scheduleJob('*/1 * * * *', async function () {
     execute(link, getCategorizer()); // do nothing with it
   });
 
