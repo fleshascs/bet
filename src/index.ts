@@ -2,7 +2,7 @@ import { OnUpdateSportEvent, Match } from './types/ggbetAPI';
 import { fixMatchSlug, getCurrentMap, getLeadingTeamScore } from './dataProvider/utils';
 import { getMatchesByFilters } from './dataProvider/getMatchesByFilters';
 import { getClient } from './dataProvider/client';
-import { progressBarManager } from './ProgressBarManager';
+import { progressBarManager } from './progressBarManager';
 import { matchDataManager } from './matchDataManager';
 import { matchSubscriptionManager } from './matchSubscriptionManager';
 
