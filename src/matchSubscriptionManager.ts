@@ -16,8 +16,7 @@ export function matchSubscriptionManager() {
     ) => {
       const subscription = execute(link, onUpdateSportEvent(match.id)).subscribe({
         next: onUpdateSportEventHandler,
-        error: (error) =>
-          console.log(`${match.slug} -> onUpdateSportEvent received error ${error}`),
+        error: (error) => console.log(`${match.slug} -> onUpdateSportEvent received error:`, error),
         complete: () => console.log(`${match.slug} -> onUpdateSportEvent complete`)
       });
       if (subscriptions[match.slug]) {

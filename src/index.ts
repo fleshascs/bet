@@ -17,6 +17,8 @@ const matchSubscription = matchSubscriptionManager();
 
 async function startCollecting() {
   const matches = await getMatchesByFilters(link);
+  console.log('matches total:', matches.length);
+
   matches.forEach(watchMatchUpdates);
 }
 
