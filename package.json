@@ -31,7 +31,8 @@
     "puppeteer-extra-plugin-stealth": "^2.7.8",
     "sanitize-filename": "^1.6.3",
     "subscriptions-transport-ws": "^0.9.19",
-    "ws": "^7.4.6"
+    "ws": "^7.4.6",
+    "zen-observable-ts": "^0.8.21"
   },
   "devDependencies": {
     "@types/cli-progress": "^3.9.2",
