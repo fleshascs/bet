@@ -8,7 +8,9 @@ import { matchSubscriptionManager } from './matchSubscriptionManager';
 
 const link = getClient(function (err, result) {
   startCollecting();
-  console.log(new Date().toLocaleString() + ' connectionCallback err: ', err, 'result: ', result);
+  if (err || result) {
+    console.log(new Date().toLocaleString() + ' connectionCallback err: ', err, 'result: ', result);
+  }
 });
 
 const progressBar = progressBarManager();
@@ -17,20 +19,15 @@ const matchSubscription = matchSubscriptionManager();
 
 async function startCollecting() {
   const matches = await getMatchesByFilters(link);
-  console.log('matches total:', matches.length);
-
   matches.forEach(watchMatchUpdates);
 }
 
 async function watchMatchUpdates(match: Match) {
   await matchData.loadMatchData(match);
-
-  if (['NOT_STARTED', 'LIVE'].includes(match.fixture.status)) {
-    const currentMap = getCurrentMap(match.fixture.competitors);
-    const leadingScore = getLeadingTeamScore(match, currentMap);
-    progressBar.create(match.slug, leadingScore, currentMap);
-    matchSubscription.subscribe(link, match, onUpdateSportEventHandler);
-  }
+  const currentMap = getCurrentMap(match.fixture.competitors);
+  const leadingScore = getLeadingTeamScore(match, currentMap);
+  progressBar.create(match.slug, leadingScore, currentMap);
+  matchSubscription.subscribe(link, match, onUpdateSportEventHandler);
 }
 
 function onUpdateSportEventHandler(response: OnUpdateSportEvent) {

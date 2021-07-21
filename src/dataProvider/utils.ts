@@ -25,7 +25,7 @@ export function saveMatches(matches: GetMatchesByFilters['data']['matches']): vo
   const matchesData = JSON.stringify(matches, null, 2);
   fs.writeFile('./matches.json', matchesData, function (err) {
     if (err) return console.log(err);
-    console.log('matchesData saved to > matches.json');
+    // console.log('matchesData saved to > matches.json');
   });
 }
 
@@ -72,6 +72,23 @@ export function fixMatchSlug(match: Match, data: ReturnType<typeof matchDataMana
     match.slug = m.match.slug;
   }
   return match;
+}
+
+export async function retry(
+  fn: () => any,
+  retriesLeft = 3,
+  interval = 1000,
+  exponential = false
+): Promise<ReturnType<typeof fn>> {
+  try {
+    const result = await fn();
+    return result;
+  } catch (error) {
+    if (retriesLeft) {
+      await new Promise((r) => setTimeout(r, interval));
+      return retry(fn, retriesLeft - 1, exponential ? interval * 2 : interval, exponential);
+    } else throw new Error('Max retries reached');
+  }
 }
 
 // export function someParsing(response: OnUpdateSportEvent) {
