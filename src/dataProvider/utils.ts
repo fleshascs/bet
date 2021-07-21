@@ -1,3 +1,4 @@
+import { matchDataManager } from '../matchDataManager';
 import { Competitor, GetMatchesByFilters, Match, MatchUpdates } from '../types/ggbetAPI';
 const fs = require('fs');
 const sanitize = require('sanitize-filename');
@@ -61,6 +62,16 @@ export function getLeadingTeamScore(match: Match, mapNumber: number) {
 
 export function didMatchEnded(match: MatchUpdates) {
   return match.onUpdateSportEvent?.some((update) => update.fixture.status === 'ENDED');
+}
+
+export function fixMatchSlug(match: Match, data: ReturnType<typeof matchDataManager>) {
+  //match id sometimes gets sent as a slug
+  if (!data.getMatchBySlug(match.slug)) {
+    const m = data.findMatchById(match.slug);
+    if (!m) throw new Error('unable to find a match slug: ' + match.slug);
+    match.slug = m.match.slug;
+  }
+  return match;
 }
 
 // export function someParsing(response: OnUpdateSportEvent) {
