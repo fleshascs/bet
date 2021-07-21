@@ -1,10 +1,10 @@
 {
   "match": {
-    "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
+    "id": "5:7562bf32-5d8f-45c8-bbd8-e9441bcc3412",
     "disabled": false,
     "providerId": "5",
     "hasMatchLog": false,
-    "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+    "slug": "supremacy-vs-stmn-21-07",
     "meta": [
       {
         "name": "game_state",
@@ -16,40 +16,40 @@
       },
       {
         "name": "original_id",
-        "value": "84afa946-97f0-444d-bcba-d6d126393918"
+        "value": "7562bf32-5d8f-45c8-bbd8-e9441bcc3412"
       }
     ],
     "fixture": {
       "score": "0:0",
-      "title": "Atrapa2 Gaming vs Malvinas Gaming",
+      "title": "Supremacy vs STMN",
       "status": "NOT_STARTED",
       "type": "MATCH",
-      "startTime": "2021-07-20T22:15:00+00:00",
+      "startTime": "2021-07-21T23:10:00+00:00",
       "sportId": "esports_counter_strike",
-      "liveCoverage": true,
+      "liveCoverage": false,
       "streams": [],
       "tournament": {
-        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
-        "name": "LVP Unity League Argentina Clausura 2021",
-        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
-        "countryCode": "AR",
-        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "id": "gin:34ad063e-8d5b-40d3-9f80-c06f60e6a5b1",
+        "name": "FiReLEAGUE 2021: Andes",
+        "masterId": "gin:34ad063e-8d5b-40d3-9f80-c06f60e6a5b1",
+        "countryCode": "WW-SAM",
+        "logo": "cdn.gin.bet/tournaments/600px-FiReLEAGUE_allmode60f6e16f92dde565182413.png",
         "description": "",
         "showTournamentInfo": true,
         "prizePool": "",
-        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateStart": "2021-07-20T21:00:00+00:00",
         "dateEnd": "",
         "isLocalizationOverridden": false,
-        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "slug": "fireleague-2021-andes-20-07",
         "sportId": "esports_counter_strike"
       },
       "competitors": [
         {
-          "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
-          "name": "Atrapa2 Gaming",
+          "id": "gt:45149",
+          "name": "Supremacy",
           "type": "TEAM",
           "homeAway": "HOME",
-          "logo": "cdn.gin.bet/team/147px-Atrapa2_Gaming5fbc1ace3290e918481319.png",
+          "logo": "cdn.gin.bet/team/t451495e17783ad3280658809526.png?38",
           "templatePosition": 1,
           "score": [
             {
@@ -67,11 +67,11 @@
           ]
         },
         {
-          "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
-          "name": "Malvinas Gaming",
+          "id": "gin:363ca71c-f08f-42b5-a54d-b2834cc26695",
+          "name": "STMN",
           "type": "TEAM",
           "homeAway": "AWAY",
-          "logo": "cdn.gin.bet/team/190px-MalvinasG-logo_new5b9facbf3df2c420729169.png",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286175fa6e2f398495642456215.png",
           "templatePosition": 2,
           "score": [
             {
@@ -102,24 +102,24 @@
         "odds": [
           {
             "id": "1",
-            "name": "Atrapa2 Gaming",
-            "value": "6.77",
+            "name": "Supremacy",
+            "value": "1.27",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            "competitorId": "gt:45149"
           },
           {
             "id": "2",
-            "name": "Malvinas Gaming",
-            "value": "1.09",
+            "name": "STMN",
+            "value": "3.54",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+            "competitorId": "gin:363ca71c-f08f-42b5-a54d-b2834cc26695"
           }
         ]
       },
       {
-        "id": "299h7_5m1",
+        "id": "299h-3_5m1",
         "name": "1st map - round handicap",
         "status": "ACTIVE",
         "typeId": 299,
@@ -129,35 +129,35 @@
         ],
         "specifiers": [
           {
-            "name": "hcp",
-            "value": "7.5"
-          },
-          {
             "name": "mapnr",
             "value": "1"
+          },
+          {
+            "name": "hcp",
+            "value": "-3.5"
           }
         ],
         "odds": [
           {
             "id": "1",
-            "name": "Atrapa2 Gaming (+7.5)",
-            "value": "1.87",
+            "name": "Supremacy (-3.5)",
+            "value": "1.76",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            "competitorId": "gt:45149"
           },
           {
             "id": "2",
-            "name": "Malvinas Gaming (-7.5)",
-            "value": "1.87",
+            "name": "STMN (+3.5)",
+            "value": "1.99",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+            "competitorId": "gin:363ca71c-f08f-42b5-a54d-b2834cc26695"
           }
         ]
       },
       {
-        "id": "300m1t24_5",
+        "id": "300m1t26_5",
         "name": "1st map - total rounds",
         "status": "ACTIVE",
         "typeId": 300,
@@ -172,22 +172,22 @@
           },
           {
             "name": "total",
-            "value": "24.5"
+            "value": "26.5"
           }
         ],
         "odds": [
           {
             "id": "1",
-            "name": "over 24.5",
-            "value": "1.93",
+            "name": "over 26.5",
+            "value": "2.03",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
           },
           {
             "id": "2",
-            "name": "under 24.5",
-            "value": "1.81",
+            "name": "under 26.5",
+            "value": "1.73",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -195,12 +195,12 @@
         ]
       }
     ],
-    "marketsCount": 34
+    "marketsCount": 29
   },
   "onUpdateSportEvent": [
     {
-      "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
-      "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+      "id": "5:7562bf32-5d8f-45c8-bbd8-e9441bcc3412",
+      "slug": "supremacy-vs-stmn-21-07",
       "disabled": false,
       "markets": [
         {
@@ -214,19 +214,19 @@
           "odds": [
             {
               "id": "1",
-              "name": "Atrapa2 Gaming",
-              "value": "6.41",
+              "name": "Supremacy",
+              "value": "1.30",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+              "competitorId": "gt:45149"
             },
             {
               "id": "2",
-              "name": "Malvinas Gaming",
-              "value": "1.10",
+              "name": "STMN",
+              "value": "3.32",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+              "competitorId": "gin:363ca71c-f08f-42b5-a54d-b2834cc26695"
             }
           ]
         }
@@ -238,7 +238,7 @@
         },
         {
           "name": "original_id",
-          "value": "84afa946-97f0-444d-bcba-d6d126393918"
+          "value": "7562bf32-5d8f-45c8-bbd8-e9441bcc3412"
         },
         {
           "name": "state_number",
@@ -250,7 +250,7 @@
         "status": "NOT_STARTED",
         "competitors": [
           {
-            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "id": "gt:45149",
             "score": [
               {
                 "id": "map:1",
@@ -267,96 +267,7 @@
             ]
           },
           {
-            "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
-            "score": [
-              {
-                "id": "map:1",
-                "type": "map",
-                "points": "0",
-                "number": 1
-              },
-              {
-                "id": "total",
-                "type": "total",
-                "points": "0",
-                "number": 0
-              }
-            ]
-          }
-        ],
-        "streams": []
-      }
-    },
-    {
-      "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
-      "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
-      "disabled": false,
-      "markets": [
-        {
-          "id": "1",
-          "name": "Winner",
-          "status": "ACTIVE",
-          "typeId": 1,
-          "priority": 1,
-          "tags": [],
-          "specifiers": [],
-          "odds": [
-            {
-              "id": "1",
-              "name": "Atrapa2 Gaming",
-              "value": "5.81",
-              "isActive": true,
-              "status": "NOT_RESULTED",
-              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
-            },
-            {
-              "id": "2",
-              "name": "Malvinas Gaming",
-              "value": "1.12",
-              "isActive": true,
-              "status": "NOT_RESULTED",
-              "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
-            }
-          ]
-        }
-      ],
-      "meta": [
-        {
-          "name": "game_state",
-          "value": "map"
-        },
-        {
-          "name": "original_id",
-          "value": "84afa946-97f0-444d-bcba-d6d126393918"
-        },
-        {
-          "name": "state_number",
-          "value": "1.00"
-        }
-      ],
-      "fixture": {
-        "score": "0:0",
-        "status": "NOT_STARTED",
-        "competitors": [
-          {
-            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
-            "score": [
-              {
-                "id": "map:1",
-                "type": "map",
-                "points": "0",
-                "number": 1
-              },
-              {
-                "id": "total",
-                "type": "total",
-                "points": "0",
-                "number": 0
-              }
-            ]
-          },
-          {
-            "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
+            "id": "gin:363ca71c-f08f-42b5-a54d-b2834cc26695",
             "score": [
               {
                 "id": "map:1",

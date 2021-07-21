@@ -1,56 +1,56 @@
 {
   "match": {
-    "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
+    "id": "5:e6bbffe4-940e-45ce-82e8-52c1e72f712e",
     "disabled": false,
     "providerId": "5",
     "hasMatchLog": false,
-    "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+    "slug": "d13-vs-team-renewal-21-07",
     "meta": [
-      {
-        "name": "game_state",
-        "value": "map"
-      },
       {
         "name": "state_number",
         "value": "1.00"
       },
       {
         "name": "original_id",
-        "value": "84afa946-97f0-444d-bcba-d6d126393918"
+        "value": "e6bbffe4-940e-45ce-82e8-52c1e72f712e"
+      },
+      {
+        "name": "game_state",
+        "value": "map"
       }
     ],
     "fixture": {
       "score": "0:0",
-      "title": "Atrapa2 Gaming vs Malvinas Gaming",
+      "title": "D13 vs Team Renewal",
       "status": "NOT_STARTED",
       "type": "MATCH",
-      "startTime": "2021-07-20T22:15:00+00:00",
+      "startTime": "2021-07-21T12:00:00+00:00",
       "sportId": "esports_counter_strike",
-      "liveCoverage": true,
+      "liveCoverage": false,
       "streams": [],
       "tournament": {
-        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
-        "name": "LVP Unity League Argentina Clausura 2021",
-        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
-        "countryCode": "AR",
-        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "id": "gin:8e6d3c80-810a-4254-9cd5-dd8ebaca0231",
+        "name": "MESA Pro Series 2021",
+        "masterId": "gin:8e6d3c80-810a-4254-9cd5-dd8ebaca0231",
+        "countryCode": "MN",
+        "logo": "cdn.gin.bet/tournaments/600px-MESA_Pro_Series_202160e357423e101116474240.png",
         "description": "",
         "showTournamentInfo": true,
         "prizePool": "",
-        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateStart": "2021-07-03T21:00:00+00:00",
         "dateEnd": "",
         "isLocalizationOverridden": false,
-        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "slug": "mesa-pro-series-2021-05-07",
         "sportId": "esports_counter_strike"
       },
       "competitors": [
         {
-          "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
-          "name": "Atrapa2 Gaming",
+          "id": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803",
+          "name": "Team Renewal",
           "type": "TEAM",
-          "homeAway": "HOME",
-          "logo": "cdn.gin.bet/team/147px-Atrapa2_Gaming5fbc1ace3290e918481319.png",
-          "templatePosition": 1,
+          "homeAway": "AWAY",
+          "logo": "cdn.gin.bet/team/600px-Team_Renewal_infobox60a0aa18a2641042395091.png",
+          "templatePosition": 2,
           "score": [
             {
               "id": "map:1",
@@ -67,12 +67,12 @@
           ]
         },
         {
-          "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
-          "name": "Malvinas Gaming",
+          "id": "gin:77a138b5-498a-4036-9366-44085b0ce6da",
+          "name": "D13",
           "type": "TEAM",
-          "homeAway": "AWAY",
-          "logo": "cdn.gin.bet/team/190px-MalvinasG-logo_new5b9facbf3df2c420729169.png",
-          "templatePosition": 2,
+          "homeAway": "HOME",
+          "logo": "cdn.gin.bet/team/147px-D13_20185bc59a8a8c0dc620940486.png",
+          "templatePosition": 1,
           "score": [
             {
               "id": "map:1",
@@ -102,24 +102,24 @@
         "odds": [
           {
             "id": "1",
-            "name": "Atrapa2 Gaming",
-            "value": "6.77",
+            "name": "D13",
+            "value": "4.07",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            "competitorId": "gin:77a138b5-498a-4036-9366-44085b0ce6da"
           },
           {
             "id": "2",
-            "name": "Malvinas Gaming",
-            "value": "1.09",
+            "name": "Team Renewal",
+            "value": "1.22",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+            "competitorId": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803"
           }
         ]
       },
       {
-        "id": "299h7_5m1",
+        "id": "299h4_5m1",
         "name": "1st map - round handicap",
         "status": "ACTIVE",
         "typeId": 299,
@@ -130,7 +130,7 @@
         "specifiers": [
           {
             "name": "hcp",
-            "value": "7.5"
+            "value": "4.5"
           },
           {
             "name": "mapnr",
@@ -140,24 +140,24 @@
         "odds": [
           {
             "id": "1",
-            "name": "Atrapa2 Gaming (+7.5)",
+            "name": "D13 (+4.5)",
             "value": "1.87",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            "competitorId": "gin:77a138b5-498a-4036-9366-44085b0ce6da"
           },
           {
             "id": "2",
-            "name": "Malvinas Gaming (-7.5)",
+            "name": "Team Renewal (-4.5)",
             "value": "1.87",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+            "competitorId": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803"
           }
         ]
       },
       {
-        "id": "300m1t24_5",
+        "id": "300m1t25_5",
         "name": "1st map - total rounds",
         "status": "ACTIVE",
         "typeId": 300,
@@ -172,22 +172,22 @@
           },
           {
             "name": "total",
-            "value": "24.5"
+            "value": "25.5"
           }
         ],
         "odds": [
           {
             "id": "1",
-            "name": "over 24.5",
-            "value": "1.93",
+            "name": "over 25.5",
+            "value": "1.76",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
           },
           {
             "id": "2",
-            "name": "under 24.5",
-            "value": "1.81",
+            "name": "under 25.5",
+            "value": "1.99",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -195,12 +195,12 @@
         ]
       }
     ],
-    "marketsCount": 34
+    "marketsCount": 81
   },
   "onUpdateSportEvent": [
     {
-      "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
-      "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+      "id": "5:e6bbffe4-940e-45ce-82e8-52c1e72f712e",
+      "slug": "d13-vs-team-renewal-21-07",
       "disabled": false,
       "markets": [
         {
@@ -214,19 +214,19 @@
           "odds": [
             {
               "id": "1",
-              "name": "Atrapa2 Gaming",
-              "value": "6.41",
+              "name": "D13",
+              "value": "4.07",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+              "competitorId": "gin:77a138b5-498a-4036-9366-44085b0ce6da"
             },
             {
               "id": "2",
-              "name": "Malvinas Gaming",
-              "value": "1.10",
+              "name": "Team Renewal",
+              "value": "1.22",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+              "competitorId": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803"
             }
           ]
         }
@@ -238,7 +238,7 @@
         },
         {
           "name": "original_id",
-          "value": "84afa946-97f0-444d-bcba-d6d126393918"
+          "value": "e6bbffe4-940e-45ce-82e8-52c1e72f712e"
         },
         {
           "name": "state_number",
@@ -247,10 +247,10 @@
       ],
       "fixture": {
         "score": "0:0",
-        "status": "NOT_STARTED",
+        "status": "UNKNOWN",
         "competitors": [
           {
-            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "id": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803",
             "score": [
               {
                 "id": "map:1",
@@ -267,7 +267,7 @@
             ]
           },
           {
-            "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
+            "id": "gin:77a138b5-498a-4036-9366-44085b0ce6da",
             "score": [
               {
                 "id": "map:1",
@@ -288,8 +288,8 @@
       }
     },
     {
-      "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
-      "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+      "id": "5:e6bbffe4-940e-45ce-82e8-52c1e72f712e",
+      "slug": "d13-vs-team-renewal-21-07",
       "disabled": false,
       "markets": [
         {
@@ -303,19 +303,19 @@
           "odds": [
             {
               "id": "1",
-              "name": "Atrapa2 Gaming",
-              "value": "5.81",
+              "name": "D13",
+              "value": "3.71",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+              "competitorId": "gin:77a138b5-498a-4036-9366-44085b0ce6da"
             },
             {
               "id": "2",
-              "name": "Malvinas Gaming",
-              "value": "1.12",
+              "name": "Team Renewal",
+              "value": "1.35",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+              "competitorId": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803"
             }
           ]
         }
@@ -327,7 +327,7 @@
         },
         {
           "name": "original_id",
-          "value": "84afa946-97f0-444d-bcba-d6d126393918"
+          "value": "e6bbffe4-940e-45ce-82e8-52c1e72f712e"
         },
         {
           "name": "state_number",
@@ -336,10 +336,10 @@
       ],
       "fixture": {
         "score": "0:0",
-        "status": "NOT_STARTED",
+        "status": "UNKNOWN",
         "competitors": [
           {
-            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "id": "gin:368cea04-5e33-4e2a-b5ea-b11377c69803",
             "score": [
               {
                 "id": "map:1",
@@ -356,7 +356,7 @@
             ]
           },
           {
-            "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
+            "id": "gin:77a138b5-498a-4036-9366-44085b0ce6da",
             "score": [
               {
                 "id": "map:1",

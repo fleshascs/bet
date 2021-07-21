@@ -1,10 +1,10 @@
 {
   "match": {
-    "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
+    "id": "5:a29c0110-c66e-4876-94f5-ffe922236f90",
     "disabled": false,
     "providerId": "5",
     "hasMatchLog": false,
-    "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+    "slug": "sharks-vs-patins-da-ferrari-21-07",
     "meta": [
       {
         "name": "game_state",
@@ -16,40 +16,40 @@
       },
       {
         "name": "original_id",
-        "value": "84afa946-97f0-444d-bcba-d6d126393918"
+        "value": "a29c0110-c66e-4876-94f5-ffe922236f90"
       }
     ],
     "fixture": {
       "score": "0:0",
-      "title": "Atrapa2 Gaming vs Malvinas Gaming",
+      "title": "Sharks vs Patins da Ferrari",
       "status": "NOT_STARTED",
       "type": "MATCH",
-      "startTime": "2021-07-20T22:15:00+00:00",
+      "startTime": "2021-07-21T21:30:00+00:00",
       "sportId": "esports_counter_strike",
       "liveCoverage": true,
       "streams": [],
       "tournament": {
-        "id": "gin:9f689752-638e-4861-8acb-e734092f1174",
-        "name": "LVP Unity League Argentina Clausura 2021",
-        "masterId": "gin:9f689752-638e-4861-8acb-e734092f1174",
-        "countryCode": "AR",
-        "logo": "cdn.gin.bet/tournaments/600px-LVP_Unity_league_flow60ebec5c098e2290988400.png",
+        "id": "gin:d2557e74-3a26-4333-aff6-1a056f002a48",
+        "name": "CBCS Elite League Season 2",
+        "masterId": "gin:d2557e74-3a26-4333-aff6-1a056f002a48",
+        "countryCode": "BR",
+        "logo": "cdn.gin.bet/tournaments/CBCS_Elite_League_Season_260f11660a05bc888665664.png",
         "description": "",
         "showTournamentInfo": true,
         "prizePool": "",
-        "dateStart": "2021-07-12T07:16:28+00:00",
+        "dateStart": "2021-07-20T21:00:00+00:00",
         "dateEnd": "",
         "isLocalizationOverridden": false,
-        "slug": "lvp-unity-league-argentina-clausura-2021-12-07",
+        "slug": "cbcs-elite-league-season-2-16-07",
         "sportId": "esports_counter_strike"
       },
       "competitors": [
         {
-          "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
-          "name": "Atrapa2 Gaming",
+          "id": "gt:18221",
+          "name": "Sharks",
           "type": "TEAM",
           "homeAway": "HOME",
-          "logo": "cdn.gin.bet/team/147px-Atrapa2_Gaming5fbc1ace3290e918481319.png",
+          "logo": "cdn.gin.bet/team/648px-Sharks_Esports5d82c94824a78822350245.png",
           "templatePosition": 1,
           "score": [
             {
@@ -67,11 +67,11 @@
           ]
         },
         {
-          "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
-          "name": "Malvinas Gaming",
+          "id": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463",
+          "name": "Patins da Ferrari",
           "type": "TEAM",
           "homeAway": "AWAY",
-          "logo": "cdn.gin.bet/team/190px-MalvinasG-logo_new5b9facbf3df2c420729169.png",
+          "logo": "cdn.gin.bet/team/cs%20go5ea90703a1b075720286176031ff705333a147547365.png",
           "templatePosition": 2,
           "score": [
             {
@@ -102,24 +102,24 @@
         "odds": [
           {
             "id": "1",
-            "name": "Atrapa2 Gaming",
-            "value": "6.77",
+            "name": "Sharks",
+            "value": "1.13",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            "competitorId": "gt:18221"
           },
           {
             "id": "2",
-            "name": "Malvinas Gaming",
-            "value": "1.09",
+            "name": "Patins da Ferrari",
+            "value": "5.55",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+            "competitorId": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463"
           }
         ]
       },
       {
-        "id": "299h7_5m1",
+        "id": "299h-6_5m1",
         "name": "1st map - round handicap",
         "status": "ACTIVE",
         "typeId": 299,
@@ -130,7 +130,7 @@
         "specifiers": [
           {
             "name": "hcp",
-            "value": "7.5"
+            "value": "-6.5"
           },
           {
             "name": "mapnr",
@@ -140,19 +140,19 @@
         "odds": [
           {
             "id": "1",
-            "name": "Atrapa2 Gaming (+7.5)",
-            "value": "1.87",
+            "name": "Sharks (-6.5)",
+            "value": "1.79",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+            "competitorId": "gt:18221"
           },
           {
             "id": "2",
-            "name": "Malvinas Gaming (-7.5)",
-            "value": "1.87",
+            "name": "Patins da Ferrari (+6.5)",
+            "value": "1.96",
             "isActive": true,
             "status": "NOT_RESULTED",
-            "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+            "competitorId": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463"
           }
         ]
       },
@@ -179,7 +179,7 @@
           {
             "id": "1",
             "name": "over 24.5",
-            "value": "1.93",
+            "value": "1.79",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -187,7 +187,7 @@
           {
             "id": "2",
             "name": "under 24.5",
-            "value": "1.81",
+            "value": "1.96",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -195,12 +195,12 @@
         ]
       }
     ],
-    "marketsCount": 34
+    "marketsCount": 43
   },
   "onUpdateSportEvent": [
     {
-      "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
-      "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+      "id": "5:a29c0110-c66e-4876-94f5-ffe922236f90",
+      "slug": "sharks-vs-patins-da-ferrari-21-07",
       "disabled": false,
       "markets": [
         {
@@ -214,19 +214,19 @@
           "odds": [
             {
               "id": "1",
-              "name": "Atrapa2 Gaming",
-              "value": "6.41",
+              "name": "Sharks",
+              "value": "1.13",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+              "competitorId": "gt:18221"
             },
             {
               "id": "2",
-              "name": "Malvinas Gaming",
-              "value": "1.10",
+              "name": "Patins da Ferrari",
+              "value": "5.55",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+              "competitorId": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463"
             }
           ]
         }
@@ -238,7 +238,7 @@
         },
         {
           "name": "original_id",
-          "value": "84afa946-97f0-444d-bcba-d6d126393918"
+          "value": "a29c0110-c66e-4876-94f5-ffe922236f90"
         },
         {
           "name": "state_number",
@@ -250,7 +250,7 @@
         "status": "NOT_STARTED",
         "competitors": [
           {
-            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "id": "gt:18221",
             "score": [
               {
                 "id": "map:1",
@@ -267,7 +267,7 @@
             ]
           },
           {
-            "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
+            "id": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463",
             "score": [
               {
                 "id": "map:1",
@@ -288,8 +288,8 @@
       }
     },
     {
-      "id": "5:84afa946-97f0-444d-bcba-d6d126393918",
-      "slug": "atrapa2-gaming-vs-malvinas-gaming-20-07",
+      "id": "5:a29c0110-c66e-4876-94f5-ffe922236f90",
+      "slug": "sharks-vs-patins-da-ferrari-21-07",
       "disabled": false,
       "markets": [
         {
@@ -303,19 +303,19 @@
           "odds": [
             {
               "id": "1",
-              "name": "Atrapa2 Gaming",
-              "value": "5.81",
+              "name": "Sharks",
+              "value": "1.14",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:1357a881-6495-4856-89a5-d535b26f9caf"
+              "competitorId": "gt:18221"
             },
             {
               "id": "2",
-              "name": "Malvinas Gaming",
-              "value": "1.12",
+              "name": "Patins da Ferrari",
+              "value": "5.32",
               "isActive": true,
               "status": "NOT_RESULTED",
-              "competitorId": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30"
+              "competitorId": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463"
             }
           ]
         }
@@ -327,7 +327,7 @@
         },
         {
           "name": "original_id",
-          "value": "84afa946-97f0-444d-bcba-d6d126393918"
+          "value": "a29c0110-c66e-4876-94f5-ffe922236f90"
         },
         {
           "name": "state_number",
@@ -339,7 +339,7 @@
         "status": "NOT_STARTED",
         "competitors": [
           {
-            "id": "gin:1357a881-6495-4856-89a5-d535b26f9caf",
+            "id": "gt:18221",
             "score": [
               {
                 "id": "map:1",
@@ -356,7 +356,7 @@
             ]
           },
           {
-            "id": "gin:387446ec-f897-4ee3-ad9d-e980d5349a30",
+            "id": "gin:81f2d829-a0ea-42b3-a832-fbb0c2abe463",
             "score": [
               {
                 "id": "map:1",

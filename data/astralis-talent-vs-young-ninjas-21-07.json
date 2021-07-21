@@ -103,7 +103,7 @@
           {
             "id": "1",
             "name": "Astralis Talent",
-            "value": "4.93",
+            "value": "3.97",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
@@ -111,7 +111,7 @@
           {
             "id": "2",
             "name": "Young Ninjas",
-            "value": "1.16",
+            "value": "1.23",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
@@ -119,7 +119,7 @@
         ]
       },
       {
-        "id": "299h6_5m1",
+        "id": "299h5_5m1",
         "name": "1st map - round handicap",
         "status": "ACTIVE",
         "typeId": 299,
@@ -130,7 +130,7 @@
         "specifiers": [
           {
             "name": "hcp",
-            "value": "6.5"
+            "value": "5.5"
           },
           {
             "name": "mapnr",
@@ -140,16 +140,16 @@
         "odds": [
           {
             "id": "1",
-            "name": "Astralis Talent (+6.5)",
-            "value": "1.86",
+            "name": "Astralis Talent (+5.5)",
+            "value": "1.79",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
           },
           {
             "id": "2",
-            "name": "Young Ninjas (-6.5)",
-            "value": "1.88",
+            "name": "Young Ninjas (-5.5)",
+            "value": "1.95",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
@@ -167,19 +167,19 @@
         ],
         "specifiers": [
           {
-            "name": "total",
-            "value": "25.5"
-          },
-          {
             "name": "mapnr",
             "value": "1"
+          },
+          {
+            "name": "total",
+            "value": "25.5"
           }
         ],
         "odds": [
           {
             "id": "1",
             "name": "over 25.5",
-            "value": "2.02",
+            "value": "1.92",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -187,7 +187,7 @@
           {
             "id": "2",
             "name": "under 25.5",
-            "value": "1.74",
+            "value": "1.82",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -195,7 +195,7 @@
         ]
       }
     ],
-    "marketsCount": 46
+    "marketsCount": 44
   },
   "onUpdateSportEvent": [
     {
@@ -224,6 +224,451 @@
               "id": "2",
               "name": "Young Ninjas",
               "value": "1.16",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "0b91451a-532c-4f77-9df8-56474dbaa0b7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:26897f79-0a84-4be1-854b-4a677b57f717",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:0b91451a-532c-4f77-9df8-56474dbaa0b7",
+      "slug": "astralis-talent-vs-young-ninjas-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Astralis Talent",
+              "value": "3.87",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
+            },
+            {
+              "id": "2",
+              "name": "Young Ninjas",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "0b91451a-532c-4f77-9df8-56474dbaa0b7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:26897f79-0a84-4be1-854b-4a677b57f717",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:0b91451a-532c-4f77-9df8-56474dbaa0b7",
+      "slug": "astralis-talent-vs-young-ninjas-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Astralis Talent",
+              "value": "3.97",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
+            },
+            {
+              "id": "2",
+              "name": "Young Ninjas",
+              "value": "1.23",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "0b91451a-532c-4f77-9df8-56474dbaa0b7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:26897f79-0a84-4be1-854b-4a677b57f717",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:0b91451a-532c-4f77-9df8-56474dbaa0b7",
+      "slug": "astralis-talent-vs-young-ninjas-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Astralis Talent",
+              "value": "3.87",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
+            },
+            {
+              "id": "2",
+              "name": "Young Ninjas",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "0b91451a-532c-4f77-9df8-56474dbaa0b7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:26897f79-0a84-4be1-854b-4a677b57f717",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:0b91451a-532c-4f77-9df8-56474dbaa0b7",
+      "slug": "astralis-talent-vs-young-ninjas-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Astralis Talent",
+              "value": "3.77",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
+            },
+            {
+              "id": "2",
+              "name": "Young Ninjas",
+              "value": "1.25",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "0b91451a-532c-4f77-9df8-56474dbaa0b7"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:26897f79-0a84-4be1-854b-4a677b57f717",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:0b91451a-532c-4f77-9df8-56474dbaa0b7",
+      "slug": "astralis-talent-vs-young-ninjas-21-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Astralis Talent",
+              "value": "3.68",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:26897f79-0a84-4be1-854b-4a677b57f717"
+            },
+            {
+              "id": "2",
+              "name": "Young Ninjas",
+              "value": "1.26",
               "isActive": true,
               "status": "NOT_RESULTED",
               "competitorId": "gin:0f45adee-34b3-4b9e-b463-bd5bb97f2ab6"

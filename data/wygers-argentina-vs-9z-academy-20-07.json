@@ -7,16 +7,16 @@
     "slug": "wygers-argentina-vs-9z-academy-20-07",
     "meta": [
       {
-        "name": "original_id",
-        "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
-      },
-      {
         "name": "game_state",
         "value": "map"
       },
       {
         "name": "state_number",
         "value": "1.00"
+      },
+      {
+        "name": "original_id",
+        "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
       }
     ],
     "fixture": {
@@ -103,7 +103,7 @@
           {
             "id": "1",
             "name": "Wygers Argentina",
-            "value": "5.55",
+            "value": "5.32",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
@@ -111,7 +111,7 @@
           {
             "id": "2",
             "name": "9z Academy",
-            "value": "1.13",
+            "value": "1.14",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gt:47113"
@@ -141,7 +141,7 @@
           {
             "id": "1",
             "name": "Wygers Argentina (+6.5)",
-            "value": "1.89",
+            "value": "1.86",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
@@ -149,7 +149,7 @@
           {
             "id": "2",
             "name": "9z Academy (-6.5)",
-            "value": "1.85",
+            "value": "1.88",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": "gt:47113"
@@ -167,19 +167,19 @@
         ],
         "specifiers": [
           {
-            "name": "mapnr",
-            "value": "1"
-          },
-          {
             "name": "total",
             "value": "24.5"
+          },
+          {
+            "name": "mapnr",
+            "value": "1"
           }
         ],
         "odds": [
           {
             "id": "1",
             "name": "over 24.5",
-            "value": "1.80",
+            "value": "1.76",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -187,7 +187,7 @@
           {
             "id": "2",
             "name": "under 24.5",
-            "value": "1.94",
+            "value": "1.99",
             "isActive": true,
             "status": "NOT_RESULTED",
             "competitorId": ""
@@ -195,7 +195,7 @@
         ]
       }
     ],
-    "marketsCount": 36
+    "marketsCount": 38
   },
   "onUpdateSportEvent": [
     {
@@ -285,6 +285,1137 @@
           }
         ],
         "streams": []
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.32",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.14",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": []
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "NOT_STARTED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.11",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.15",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "4.91",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "UNKNOWN",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "4.91",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.24",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.13",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "SUSPENDED",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "SUSPENDED",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.13",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:b6c35d94-b271-4fae-8a68-3e50dcd8340b",
+      "slug": "wygers-argentina-vs-9z-academy-20-07",
+      "disabled": false,
+      "markets": [
+        {
+          "id": "1",
+          "name": "Winner",
+          "status": "ACTIVE",
+          "typeId": 1,
+          "priority": 1,
+          "tags": [],
+          "specifiers": [],
+          "odds": [
+            {
+              "id": "1",
+              "name": "Wygers Argentina",
+              "value": "5.40",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gin:16d8b3dd-b16f-4a77-b499-170671251715"
+            },
+            {
+              "id": "2",
+              "name": "9z Academy",
+              "value": "1.13",
+              "isActive": true,
+              "status": "NOT_RESULTED",
+              "competitorId": "gt:47113"
+            }
+          ]
+        }
+      ],
+      "meta": [
+        {
+          "name": "game_state",
+          "value": "map"
+        },
+        {
+          "name": "original_id",
+          "value": "b6c35d94-b271-4fae-8a68-3e50dcd8340b"
+        },
+        {
+          "name": "state_number",
+          "value": "1.00"
+        }
+      ],
+      "fixture": {
+        "score": "0:0",
+        "status": "LIVE",
+        "competitors": [
+          {
+            "id": "gt:47113",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          },
+          {
+            "id": "gin:16d8b3dd-b16f-4a77-b499-170671251715",
+            "score": [
+              {
+                "id": "map:1",
+                "type": "map",
+                "points": "0",
+                "number": 1
+              },
+              {
+                "id": "total",
+                "type": "total",
+                "points": "0",
+                "number": 0
+              }
+            ]
+          }
+        ],
+        "streams": [
+          {
+            "id": "c3rji0jpfqk006muuaa0",
+            "locale": "en_US",
+            "url": "https://player.twitch.tv/?channel=lvparg2&enableExtensions=true&muted=true&parent=twitch.tv&player=popout&volume=0.5",
+            "priority": 1,
+            "platforms": [
+              {
+                "type": "mobile",
+                "allowedCountries": [],
+                "enabled": true
+              },
+              {
+                "type": "desktop",
+                "allowedCountries": [],
+                "enabled": true
+              }
+            ]
+          }
+        ]
       }
     }
   ]
