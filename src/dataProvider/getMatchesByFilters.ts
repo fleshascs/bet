@@ -1,8 +1,8 @@
 import { ApolloLink, execute, makePromise } from 'apollo-link';
-import { GetMatchesByFilters } from '../types/ggbetAPI';
+import { GetMatchesByFilters, Match } from '../types/ggbetAPI';
 import { buildOperation } from './queries/getMatchesByFilters';
 
-export async function getMatchesByFilters(link: ApolloLink) {
+export async function getMatchesByFilters(link: ApolloLink): Promise<Match[]> {
   const matchesResponse = (await makePromise(
     execute(link, buildOperation())
   )) as GetMatchesByFilters;
