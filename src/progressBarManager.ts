@@ -1,7 +1,12 @@
 import { MultiBar, Presets, SingleBar } from 'cli-progress';
 import { Match } from './types/ggbetAPI';
 
-export function progressBarManager() {
+interface ProgressBarManager {
+  create: (slug: Match['slug'], leadingScore: number, currentMap: number) => void;
+  update: (slug: Match['slug'], leadingScore: number, currentMap: number) => void;
+}
+
+export function progressBarManager(): ProgressBarManager {
   const progressbars: Record<Match['slug'], SingleBar> = {};
   const multibar = new MultiBar(
     {
