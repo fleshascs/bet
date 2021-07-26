@@ -15,7 +15,7 @@
           "awslogs-stream-prefix": "ecs"
         }
       },
-      "name": "sample-fargate-app",
+      "name": "sample-app",
       "portMappings": [
         {
           "containerPort": 80,
