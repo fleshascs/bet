@@ -74,6 +74,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: fleshas-bet
+          service: sample-app-service
           cluster: bet-cluster
           wait-for-service-stability: true
