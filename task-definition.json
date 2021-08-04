@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/bet-task",
+          "awslogs-group": "/ecs/bet-task2",
           "awslogs-region": "us-east-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -60,10 +60,10 @@
   "placementConstraints": [],
   "memory": null,
   "taskRoleArn": "arn:aws:iam::881003758956:role/ecsTaskExecutionRole",
-  "family": "bet-task",
+  "family": "bet-task2",
   "pidMode": null,
   "requiresCompatibilities": ["EC2"],
-  "networkMode": "awsvpc",
+  "networkMode": "host",
   "cpu": null,
   "inferenceAccelerators": null,
   "proxyConfiguration": null,

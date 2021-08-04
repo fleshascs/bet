@@ -74,6 +74,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: bet-service
+          service: dsfv
           cluster: bet-cluster2
           wait-for-service-stability: true
