@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/bet-task-family",
+          "awslogs-group": "/ecs/bet-task",
           "awslogs-region": "us-east-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -61,14 +61,20 @@
   "memory": null,
   "taskRoleArn": "arn:aws:iam::881003758956:role/ecsTaskExecutionRole",
   "compatibilities": ["EC2"],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:881003758956:task-definition/bet-task-family:1",
-  "family": "bet-task-family",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:881003758956:task-definition/bet-task:2",
+  "family": "bet-task",
   "requiresAttributes": [
     {
       "targetId": null,
       "targetType": null,
       "value": null,
       "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+    },
+    {
+      "targetId": null,
+      "targetType": null,
+      "value": null,
+      "name": "ecs.capability.execution-role-awslogs"
     },
     {
       "targetId": null,
@@ -99,7 +105,7 @@
   "requiresCompatibilities": ["EC2"],
   "networkMode": "awsvpc",
   "cpu": null,
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,

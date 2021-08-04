@@ -75,5 +75,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: bet-service
-          cluster: ec2-cluster
+          cluster: bet-cluster2
           wait-for-service-stability: true
