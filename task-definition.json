@@ -19,7 +19,7 @@
         {
           "hostPort": 80,
           "protocol": "tcp",
-          "containerPort": 80
+          "containerPort": 3000
         }
       ],
       "command": null,
@@ -63,7 +63,7 @@
   "family": "bet-task2",
   "pidMode": null,
   "requiresCompatibilities": ["EC2"],
-  "networkMode": "host",
+  "networkMode": "bridge",
   "cpu": null,
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
