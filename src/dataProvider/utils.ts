@@ -29,7 +29,7 @@ export function saveMatches(matches: GetMatchesByFilters['data']['matches']): vo
   });
 }
 
-export function getCurrentMap(competitors: Competitor[]) {
+export function getCurrentMap(competitors: Competitor[]): number {
   const mapsPlayed = countMapsPlayed(competitors);
   const totalMaps = competitors[0].score.reduce<number>((totalMaps, map) => {
     map.type === 'map' && totalMaps++;
@@ -38,15 +38,15 @@ export function getCurrentMap(competitors: Competitor[]) {
   return Math.min(totalMaps, mapsPlayed + 1);
 }
 
-function countMapsPlayed(competitors: Competitor[]) {
+function countMapsPlayed(competitors: Competitor[]): number {
   return competitors.reduce<number>((totalMapsPlayed, competitor) => {
     const competitorScore = competitor.score.find((score) => score.id === 'total');
     return totalMapsPlayed + parseInt(competitorScore.points);
   }, 0);
 }
 
-export function getLeadingTeamScore(match: Match, mapNumber: number) {
-  let leadingScore: number = 0;
+export function getLeadingTeamScore(match: Match, mapNumber: number): number {
+  let leadingScore = 0;
   match.fixture.competitors.forEach((competitor) => {
     competitor.score.forEach((score) => {
       if (score.type !== 'map') return;
@@ -60,11 +60,11 @@ export function getLeadingTeamScore(match: Match, mapNumber: number) {
   return leadingScore;
 }
 
-export function didMatchEnded(match: MatchUpdates) {
+export function didMatchEnded(match: MatchUpdates): boolean {
   return match.onUpdateSportEvent?.some((update) => update.fixture.status === 'ENDED');
 }
 
-export function fixMatchSlug(match: Match, data: ReturnType<typeof matchDataManager>) {
+export function fixMatchSlug(match: Match, data: ReturnType<typeof matchDataManager>): Match {
   //match id sometimes gets sent as a slug
   if (!data.getMatchBySlug(match.slug)) {
     const m = data.findMatchById(match.slug);

@@ -1,7 +1,14 @@
 import { getSavedMatch, saveMatch } from './dataProvider/utils';
 import { Match, MatchUpdates } from './types/ggbetAPI';
 
-export function matchDataManager() {
+interface MatchDataManager {
+  loadMatchData: (match: Match) => Promise<void>;
+  onUpdateSportEvent: (match: Match) => void;
+  findMatchById: (slug: Match['slug']) => MatchUpdates;
+  getMatchBySlug: (slug: Match['slug']) => MatchUpdates;
+}
+
+export function matchDataManager(): MatchDataManager {
   const matchStats: Record<Match['slug'], MatchUpdates> = {};
   return {
     loadMatchData: async (match: Match) => {
