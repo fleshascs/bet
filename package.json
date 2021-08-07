@@ -43,7 +43,6 @@
     "eslint-plugin-jest": "~24.3.6",
     "glob": "^7.1.7",
     "jest": "~27.0.3",
-    "prettier": "~2.3.0",
     "rimraf": "~3.0.2",
     "ts-jest": "~27.0.2",
     "tsutils": "~3.21.0",
