@@ -12,5 +12,4 @@ FROM node:14-alpine
 WORKDIR /usr/app
 COPY --from=BUILD_IMAGE /usr/app/build ./build
 COPY --from=BUILD_IMAGE /usr/app/node_modules ./node_modules
-COPY --from=BUILD_IMAGE /usr/app/package.json ./package.json
-CMD [ "npm", "start" ]
+CMD [ "node", "./build/src/index.js" ]
