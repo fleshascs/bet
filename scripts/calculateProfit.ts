@@ -17,6 +17,7 @@ glob('./data/**/*.json', null, async function (er, files: string[]) {
       const hasMatchEnded = didMatchEnded(matchStats);
 
       if (!hasMatchEnded) return;
+      // const lowestOdds = getPreMatchLowestOddsWithDiff(matchStats, 1);
       const lowestOdds = getPreMatchLowestOdds(matchStats); // 1.54 eur.
       // const lowestOdds = findOddsBetween(matchStats, 1.1, 1.2); // -1.6 eur.
       // const lowestOdds = findOddsBetween(matchStats, 1.02, 1.05); // -1.0 eur.
@@ -43,7 +44,7 @@ glob('./data/**/*.json', null, async function (er, files: string[]) {
       myProfit -= 1; // I'm betting 1 eur every match
       totalBets++;
     } catch (error) {
-      console.log(filePath, ' error', error);
+      console.log(filePath, ' error', error.message);
     }
   });
 
@@ -76,6 +77,32 @@ function getPreMatchLowestOdds(matchStats: MatchUpdates) {
   }
   throw new Error('match already started');
 }
+
+// function getPreMatchLowestOddsWithDiff(matchStats: MatchUpdates, requiredDiff: number) {
+//   const beginingOfTheMatch = matchStats.onUpdateSportEvent[0].markets.find(
+//     (market) => market.id === '1'
+//   );
+//   const sortedOdds = beginingOfTheMatch.odds.sort((odd1, odd2) => {
+//     if (parseFloat(odd1.value) < parseFloat(odd2.value)) {
+//       return -1;
+//     }
+//     if (parseFloat(odd1.value) > parseFloat(odd2.value)) {
+//       return 1;
+//     }
+//     return 0;
+//   });
+
+//   const lowestOdd = sortedOdds[0];
+//   const highestOdd = sortedOdds[sortedOdds.length - 1];
+//   const difference = parseFloat(highestOdd.value) - parseFloat(lowestOdd.value);
+//   if (difference < requiredDiff) {
+//     throw new Error(`odds difference is to low: ${difference}`);
+//   }
+//   if (matchStats.onUpdateSportEvent[0].fixture.status === 'NOT_STARTED') {
+//     return lowestOdd;
+//   }
+//   throw new Error('match already started');
+// }
 
 // function findOddsBetween(matchStats: MatchUpdates, odd1: number, odd2: number) {
 //   const min = Math.min(odd1, odd2);

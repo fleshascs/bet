@@ -5,7 +5,8 @@ import { retry } from './utils';
 
 export async function getMatchesByFilters(link: ApolloLink): Promise<Match[]> {
   const matchesResponse = (await retry(() =>
-    makePromise(execute(link, buildOperation()))) as GetMatchesByFilters;
+    makePromise(execute(link, buildOperation()))
+  )) as GetMatchesByFilters;
 
   const matches = matchesResponse?.data?.matches;
 
