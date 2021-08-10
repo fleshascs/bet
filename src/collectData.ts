@@ -1,28 +1,38 @@
 import { OnUpdateSportEvent, Match } from './types/ggbetAPI';
 import { fixMatchSlug, getCurrentMap, getLeadingTeamScore } from './dataProvider/utils';
-import { getMatchesByFilters } from './dataProvider/getMatchesByFilters';
 import { getClient } from './dataProvider/client';
 import { progressBarManager } from './progressBarManager';
 import { matchDataManager } from './matchDataManager';
 import { matchSubscriptionManager } from './matchSubscriptionManager';
+import { Subscription } from 'rxjs';
+import { matchListManager } from './matchListManager';
 
 const link = getClient(function (err, result) {
   startCollecting();
-  console.log(new Date().toLocaleString() + ' connectionCallback err: ', err, 'result: ', result);
+  // console.log(new Date().toLocaleString() + ' connectionCallback err: ', err, 'result: ', result);
 });
 
 const progressBar = progressBarManager();
 const matchData = matchDataManager();
 const matchSubscription = matchSubscriptionManager();
 
+let matchListSubscription: Subscription;
+
 async function startCollecting() {
-  const matches = await getMatchesByFilters(link);
-  matches.forEach(watchMatchUpdates);
+  const matchList = matchListManager(link);
+  if (matchListSubscription) {
+    matchListSubscription.unsubscribe();
+  }
+  matchListSubscription = matchList.subscribe((matches) => {
+    matches.forEach(watchMatchUpdates);
+    // console.log('next', matches);
+  });
 }
 
 async function watchMatchUpdates(match: Match) {
-  await matchData.loadMatchData(match);
-
+  if (!matchData.getMatchBySlug(match.slug)) {
+    await matchData.loadMatchData(match);
+  }
   const currentMap = getCurrentMap(match.fixture.competitors);
   const leadingScore = getLeadingTeamScore(match, currentMap);
   progressBar.create(match.slug, leadingScore, currentMap);
@@ -40,8 +50,6 @@ function onUpdateSportEventHandler(response: OnUpdateSportEvent) {
     if (match.fixture.status === 'ENDED') {
       matchSubscription.unsubscribe(match.slug);
       //remove progressBar?
-      // save match here instead of on every  update (but what if server crashes)?
-      // console.log('match ended', match.slug);
     }
   } catch (error) {
     console.log('onUpdateSportEventHandler', response.data.onUpdateSportEvent.slug);

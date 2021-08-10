@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node --transpile-only ./src/index.ts",
+    "collectData": "ts-node --transpile-only ./src/collectData.ts",
     "filterFinishedMatches": "ts-node --transpile-only ./scripts/filterFinishedMatches.ts",
     "calculateProfit": "ts-node --transpile-only ./scripts/calculateProfit.ts",
     "start": "node build/src/index.js",
@@ -26,6 +27,7 @@
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
     "node-schedule": "^2.0.0",
+    "rxjs": "^7.3.0",
     "sanitize-filename": "^1.6.3",
     "subscriptions-transport-ws": "^0.9.19",
     "ws": "^7.4.6",
