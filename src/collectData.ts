@@ -8,8 +8,10 @@ import { Subscription } from 'rxjs';
 import { matchListManager } from './matchListManager';
 
 const link = getClient(function (err, result) {
+  if (err || result) {
+    console.log(new Date().toLocaleString() + ' connectionCallback err: ', err, 'result: ', result);
+  }
   startCollecting();
-  // console.log(new Date().toLocaleString() + ' connectionCallback err: ', err, 'result: ', result);
 });
 
 const progressBar = progressBarManager();
@@ -25,7 +27,6 @@ async function startCollecting() {
   }
   matchListSubscription = matchList.subscribe((matches) => {
     matches.forEach(watchMatchUpdates);
-    // console.log('next', matches);
   });
 }
 
@@ -49,7 +50,6 @@ function onUpdateSportEventHandler(response: OnUpdateSportEvent) {
 
     if (match.fixture.status === 'ENDED') {
       matchSubscription.unsubscribe(match.slug);
-      //remove progressBar?
     }
   } catch (error) {
     console.log('onUpdateSportEventHandler', response.data.onUpdateSportEvent.slug);
