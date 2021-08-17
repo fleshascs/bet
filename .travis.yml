@@ -8,4 +8,4 @@ cache:
     - node_modules
 script:
   - cd ./data-provider && npm run build
-  - cd ./data-provider && npm run test
+  - npm run test
