@@ -7,7 +7,7 @@ services:
     labels:
       description: "Data Provider Service"
     depends_on: 
-      - kousa
+      - web
 
   web:
     restart: unless-stopped
