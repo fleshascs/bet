@@ -6,4 +6,4 @@ export const authHeaders = {
   'X-Auth-Token': token
 };
 
-export const uri = 'wss://betting-public-gql.gin.bet/graphql';
+export const url = 'wss://betting-public-gql.gin.bet/graphql';

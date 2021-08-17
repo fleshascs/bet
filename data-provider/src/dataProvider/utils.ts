@@ -1,14 +1,13 @@
-import { matchDataManager } from '../matchDataManager';
 import { Competitor, GetMatchesByFilters, Match, MatchUpdates } from '../types/ggbetAPI';
 const fs = require('fs');
 const sanitize = require('sanitize-filename');
+import { logger } from '../logger';
 
 export function saveMatch(slug: string, match: MatchUpdates): void {
   const safeSlug = sanitize(slug);
   const matchData = JSON.stringify(match, null, 2);
   fs.writeFile(`./data/${safeSlug}.json`, matchData, function (err) {
-    if (err) return console.log(err);
-    // console.log(`matchData saved to > ${safeSlug}.json`);
+    if (err) logger.error(err);
   });
 }
 
@@ -24,8 +23,7 @@ export async function getSavedMatch(slug: string): Promise<MatchUpdates | null> 
 export function saveMatches(matches: GetMatchesByFilters['data']['matches']): void {
   const matchesData = JSON.stringify(matches, null, 2);
   fs.writeFile('./matches.json', matchesData, function (err) {
-    if (err) return console.log(err);
-    // console.log('matchesData saved to > matches.json');
+    if (err) logger.error(err);
   });
 }
 
@@ -64,15 +62,15 @@ export function didMatchEnded(match: MatchUpdates): boolean {
   return match.onUpdateSportEvent?.some((update) => update.fixture.status === 'ENDED');
 }
 
-export function fixMatchSlug(match: Match, data: ReturnType<typeof matchDataManager>): Match {
-  //match id sometimes gets sent as a slug
-  if (!data.getMatchBySlug(match.slug)) {
-    const m = data.findMatchById(match.slug);
-    if (!m) throw new Error('unable to find a match slug: ' + match.slug);
-    match.slug = m.match.slug;
-  }
-  return match;
-}
+// export function fixMatchSlug(match: Match, data: ReturnType<typeof matchDataManager>): Match {
+//   //match id sometimes gets sent as a slug
+//   if (!data.getMatchBySlug(match.slug)) {
+//     const m = data.findMatchById(match.slug);
+//     if (!m) throw new Error('unable to find a match slug: ' + match.slug);
+//     match.slug = m.match.slug;
+//   }
+//   return match;
+// }
 
 export async function retry(
   fn: () => any,

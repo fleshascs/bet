@@ -1,8 +1,18 @@
 import { ApolloLink } from 'apollo-link';
 import { Match } from './types/ggbetAPI';
 import { getMatchesByFilters } from './dataProvider/getMatchesByFilters';
-import { repeat, share, startWith, switchMap, takeUntil } from 'rxjs/operators';
+import {
+  delayWhen,
+  repeat,
+  retryWhen,
+  share,
+  startWith,
+  switchMap,
+  takeUntil,
+  tap
+} from 'rxjs/operators';
 import { Subject, Subscription, timer } from 'rxjs';
+import { logger } from './logger';
 
 const interval = 30 * 1000;
 
@@ -18,12 +28,20 @@ export function matchListManager(link: ApolloLink): MatchListManager {
     startWith(() => getMatchesByFilters(link)),
     switchMap(() => getMatchesByFilters(link)),
     repeat(),
+    retryWhen((errors) =>
+      errors.pipe(
+        // log error message
+        tap((error) => logger.error(error, 'matchListManager caught an error')),
+        // restart in 5 seconds
+        delayWhen((_val) => timer(5 * 1000))
+      )
+    ),
     takeUntil(subject),
     share()
   );
 
   // matches$.subscribe({
-  //   next: (next) => console.log('next', next),
+  //   next: (next) => console.log('getMatchesByFilters: ', next.length),
   //   error: (error) => console.log(` -> onUpdateSportEvent received error:`, error),
   //   complete: () => console.log(` -> onUpdateSportEvent complete`)
   // });

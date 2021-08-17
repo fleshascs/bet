@@ -1,0 +1,20 @@
+version: "3"
+
+# service_name:
+#   build: 
+#     context: .
+#     dockerfile: path/to/Dockerfile
+#
+
+services:
+
+  web:
+    build: ./status-web
+    ports: 
+      - 3000:3000
+
+  dataProvider:
+    build: ./data-provider
+    ports: 
+      - 4001:3000
+

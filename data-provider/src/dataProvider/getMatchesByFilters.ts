@@ -11,7 +11,7 @@ export async function getMatchesByFilters(link: ApolloLink): Promise<Match[]> {
   const matches = matchesResponse?.data?.matches;
 
   if (!matches) {
-    throw new Error('Faild to getMatchesByFilters:' + JSON.stringify(matchesResponse));
+    throw new Error('Failed to getMatchesByFilters:' + JSON.stringify(matchesResponse));
   }
 
   return matches;
