@@ -8,7 +8,8 @@ import { matchListManager } from './matchListManager';
 
 //https://stackoverflow.com/questions/51628752/how-do-i-implement-a-database-connection-select-close-using-rxjs-observables
 
-const [link, client] = getClient();
+// const [link, client] = getClient();
+const [link] = getClient();
 
 // client.onConnected((...args) => {
 //   console.log('onConnected', ...args);
