@@ -6,13 +6,9 @@
       "dnsSearchDomains": null,
       "environmentFiles": null,
       "logConfiguration": {
-        "logDriver": "awslogs",
+        "logDriver": "none",
         "secretOptions": null,
-        "options": {
-          "awslogs-group": "/ecs/bet-task2",
-          "awslogs-region": "us-east-2",
-          "awslogs-stream-prefix": "ecs"
-        }
+        "options": null
       },
       "entryPoint": null,
       "portMappings": [
