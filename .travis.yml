@@ -11,6 +11,7 @@ matrix:
     include:
         - env: TARGET=data-provider
         - env: TARGET=status-web
-script:
-  - npm run build
-  - npm run test
+script: 
+  - cd $TARGET
+  - yarn test
+  - yarn build
