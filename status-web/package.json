@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "ts-node --project tsconfig.server.json ./server/index.ts",
+    "build:server": "tsc --project tsconfig.server.json",
+    "build:next": "next build",
+    "build": "npm run build:next && npm run build:server",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint . --ext ts --ext tsx --ext js"
@@ -17,6 +19,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.23",
     "@types/node": "^14.14.25",
