@@ -1,31 +1,20 @@
-import { createServer } from 'http';
-import { SubscriptionServer } from 'subscriptions-transport-ws';
-import { execute, subscribe } from 'graphql';
-import { schema } from './my-schema';
+import express from 'express';
+import next from 'next';
 
-const WS_PORT = 5000;
+const port = parseInt(process.env.PORT, 10) || 3000;
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
-// Create WebSocket listener server
-const websocketServer = createServer((request, response) => {
-  response.writeHead(404);
-  response.end();
+app.prepare().then(() => {
+  const server = express();
+
+  server.all('*', (req, res) => {
+    return handle(req, res);
+  });
+
+  server.listen(port, (err) => {
+    if (err) throw err;
+    console.log(`> Ready on http://localhost:${port}`);
+  });
 });
-
-// Bind it to port and start listening
-websocketServer.listen(WS_PORT, () =>
-  console.log(`Websocket Server is now running on http://localhost:${WS_PORT}`)
-);
-
-const subscriptionServer = SubscriptionServer.create(
-  {
-    schema,
-    execute,
-    subscribe
-  },
-  {
-    server: websocketServer,
-    path: '/graphql'
-  }
-);
-
-//https://github.com/vercel/next.js/blob/canary/examples/with-http2/server.js
