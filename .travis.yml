@@ -13,5 +13,5 @@ matrix:
         - env: TARGET=status-web
 script: 
   - cd $TARGET
-  - yarn test
-  - yarn build
+  - npm run build
+  - npm run test
