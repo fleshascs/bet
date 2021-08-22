@@ -22,7 +22,13 @@ const Home = () => (
           <h3>Documentation &rarr;</h3>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
-
+        <button
+          onClick={() => {
+            window.alert('With typescript and Jest');
+          }}
+        >
+          Test Button
+        </button>
         <a href='https://nextjs.org/learn' className={styles.card}>
           <h3>Learn &rarr;</h3>
           <p>Learn about Next.js in an interactive course with quizzes!</p>
