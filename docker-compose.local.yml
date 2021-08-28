@@ -8,12 +8,12 @@ version: "3"
 
 services:
 
-  web:
+  status-web:
     build: ./status-web
     ports: 
       - 3000:3000
 
-  dataProvider:
+  data-provider:
     build: ./data-provider
     ports: 
       - 4001:3000

@@ -2,19 +2,17 @@ version: "3"
 
 services:
 
-  dataProvider:
+  data-provider:
     restart: unless-stopped
     labels:
       description: "Data Provider Service"
-    depends_on: 
-      - web
 
-  web:
+  status-web:
     restart: unless-stopped
     labels:
       description: "Website Service"
     depends_on: 
-      - dataProvider
+      - data-provider
       
 
 
