@@ -65,6 +65,18 @@ function getPreMatchLowestOdds(matchStats: MatchUpdates) {
   const beginingOfTheMatch = matchStats.onUpdateSportEvent[0].markets.find(
     (market) => market.id === '1'
   );
+
+  // const withDefaultLogo = matchStats.match.fixture.competitors.find((competitor) => {
+  //   return competitor.logo.includes('team/cs%20go');
+  // });
+
+  // if (withDefaultLogo) {
+  //   throw new Error('has no logo');
+  // }
+  // if (matchStats.match.fixture.tournament.countryCode !== 'WW-EUR') {
+  //   throw new Error('invalid tournament countryCode');
+  // }
+
   const lowestOdd = beginingOfTheMatch.odds.reduce<Odd>((lowestOdds, odds) => {
     if (parseFloat(odds.value) < parseFloat(lowestOdds.value)) {
       lowestOdds = odds;
@@ -77,6 +89,23 @@ function getPreMatchLowestOdds(matchStats: MatchUpdates) {
   }
   throw new Error('match already started');
 }
+
+// function getPreMatchLowestOdds(matchStats: MatchUpdates) {
+//   const beginingOfTheMatch = matchStats.onUpdateSportEvent[0].markets.find(
+//     (market) => market.id === '1'
+//   );
+//   const lowestOdd = beginingOfTheMatch.odds.reduce<Odd>((lowestOdds, odds) => {
+//     if (parseFloat(odds.value) < parseFloat(lowestOdds.value)) {
+//       lowestOdds = odds;
+//     }
+//     return lowestOdds;
+//   }, beginingOfTheMatch.odds[0]);
+
+//   if (matchStats.onUpdateSportEvent[0].fixture.status === 'NOT_STARTED') {
+//     return lowestOdd;
+//   }
+//   throw new Error('match already started');
+// }
 
 // function getPreMatchLowestOddsWithDiff(matchStats: MatchUpdates, requiredDiff: number) {
 //   const beginingOfTheMatch = matchStats.onUpdateSportEvent[0].markets.find(

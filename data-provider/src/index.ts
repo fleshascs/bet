@@ -1,25 +1,36 @@
-import { join } from 'path';
-import { fork } from 'child_process';
+import { logger } from './logger';
+import schedule from 'node-schedule';
+import { collectDataManager } from './collectDataManager';
 
-const controller = new AbortController();
-const { signal } = controller;
+// utc = -3hrs from lithuania time (GMT+3)
 
-const child = fork(join(__dirname, 'collectData.ts'), ['child'], { signal });
+const collectData = collectDataManager();
 
-child.on('error', (err) => {
-  // This will be called with err being an AbortError if the controller aborts
+// 11 morning at Vilnius
+schedule.scheduleJob(getUTCDate(8), function () {
+  logger.info('11 morning at Vilnius, starting to collect Data');
+  collectData.kill();
+  collectData.start();
 });
 
-// controller.abort(); // Stops the child process
-
-child.on('close', function (code) {
-  console.log('child process exited with code ' + code);
+// 1 morning at Vilnius
+schedule.scheduleJob(getUTCDate(22), function () {
+  logger.info('1 morning at Vilnius, stoping to collect Data');
+  collectData.kill();
 });
 
-child.on('message', function (message) {
-  console.log('child process message ', message);
-});
+const currentUTCHour = new Date().getUTCHours();
+if (currentUTCHour > 8 && currentUTCHour < 22) {
+  collectData.start();
+}
 
 // How to useforkfunctioninchild_process
 // https://www.tabnine.com/code/javascript/functions/child_process/fork
 // https://sebhastian.com/nodejs-fork/
+
+function getUTCDate(hour: number) {
+  const rule = new schedule.RecurrenceRule();
+  rule.hour = hour;
+  rule.tz = 'Etc/UTC';
+  return rule;
+}

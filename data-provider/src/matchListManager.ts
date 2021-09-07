@@ -33,7 +33,7 @@ export function matchListManager(link: ApolloLink): MatchListManager {
         // log error message
         tap((error) => logger.error(error, 'matchListManager caught an error')),
         // restart in 5 seconds
-        delayWhen((_val) => timer(5 * 1000))
+        delayWhen(() => timer(5 * 1000))
       )
     ),
     takeUntil(subject),

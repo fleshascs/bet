@@ -12,8 +12,8 @@ interface Subscription {
 export function subscriptionManager(): SubscriptionManager {
   let subscriptions = [];
   return {
-    add(...subscriptions: Subscription[]) {
-      subscriptions = subscriptions.concat(subscriptions);
+    add(...subs: Subscription[]) {
+      subscriptions = subscriptions.concat(subs);
     },
     unsubscribeAll() {
       subscriptions.forEach((sub) => sub && sub.unsubscribe());
