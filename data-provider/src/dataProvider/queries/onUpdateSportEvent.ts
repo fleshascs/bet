@@ -88,9 +88,7 @@ interface BuildOperation {
   query: DocumentNode;
   variables: {
     sportEventId: string;
-    marketIds: string[];
-    isTopMarkets: boolean;
-    withMarketsCount: boolean;
+    marketStatuses: ('ACTIVE' | 'SUSPENDED')[];
   };
 }
 
@@ -99,9 +97,7 @@ export function buildOperation(sportEventId: string): BuildOperation {
     query,
     variables: {
       sportEventId, //'5:4c03d1b7-bbed-4a4c-8944-ee1af6884b3b',
-      marketIds: ['1'],
-      isTopMarkets: false,
-      withMarketsCount: false
+      marketStatuses: ['ACTIVE', 'SUSPENDED']
     }
   };
 }
