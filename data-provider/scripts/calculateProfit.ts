@@ -10,6 +10,7 @@ glob('./data/**/*.json', null, async function (er, files: string[]) {
   let totalLoss = 0;
   const totalWonMoney = [];
   const totalLostMoney = [];
+  const matchesLost = [];
 
   const readTasks = files.map(async (filePath) => {
     try {
@@ -36,6 +37,7 @@ glob('./data/**/*.json', null, async function (er, files: string[]) {
         totalWon++;
       } else if (myOdds.status === 'LOSS') {
         totalLostMoney.push(parseFloat(lowestOdds.value));
+        matchesLost.push(matchResuts.slug);
         // nothing happens
         totalLoss++;
       } else {
@@ -49,6 +51,9 @@ glob('./data/**/*.json', null, async function (er, files: string[]) {
   });
 
   await Promise.all(readTasks);
+
+  console.log('matchesLost', matchesLost);
+
   console.log(
     'totalWonMoney',
     totalWonMoney,
