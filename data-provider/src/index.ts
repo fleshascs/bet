@@ -20,7 +20,9 @@ schedule.scheduleJob(getUTCDate(22), function () {
 });
 
 const currentUTCHour = new Date().getUTCHours();
-if (currentUTCHour > 8 && currentUTCHour < 22) {
+logger.info('currentUTCHour: ' + currentUTCHour);
+if (currentUTCHour >= 8 && currentUTCHour <= 22) {
+  logger.info('Time is between 11 - 1 morning at Vilnius, starting to collect Data');
   collectData.start();
 }
 
@@ -31,6 +33,8 @@ if (currentUTCHour > 8 && currentUTCHour < 22) {
 function getUTCDate(hour: number) {
   const rule = new schedule.RecurrenceRule();
   rule.hour = hour;
+  rule.minute = 0;
+  rule.second = 0;
   rule.tz = 'Etc/UTC';
   return rule;
 }
