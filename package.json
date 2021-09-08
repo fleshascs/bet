@@ -3,14 +3,11 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "web",
-      "dataProvider"
+      "status-web",
+      "data-provider"
     ],
     "nohoist": [
       "**"
     ]
-  },
-  "devDependencies": {
-    "eslint": "~7.27.0"
   }
 }
