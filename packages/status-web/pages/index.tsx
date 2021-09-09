@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { FC, useEffect, useState } from 'react';
-import { getClient } from 'services/client';
+import { getClient } from '../services/client';
 import { execute } from 'apollo-link';
-import { buildOperation } from 'queries/numberIncremented';
+import { buildOperation } from '../queries/numberIncremented';
 
 const Home: FC = () => {
   const [responses, setResponses] = useState([]);
@@ -11,9 +11,11 @@ const Home: FC = () => {
 
     execute(link, buildOperation()).subscribe({
       next: function saveMatchUpdates({ data }) {
-        setResponses((responses) => [...responses, data!.numberIncremented]);
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        setResponses((responses) => [...responses, data.numberIncremented]);
         // eslint-disable-next-line no-console
-        console.log('data', data!.numberIncremented);
+        console.log('data', data);
       },
       // eslint-disable-next-line no-console
       error: (error) => console.log(error, 'onUpdateSportEvent received error'),

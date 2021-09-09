@@ -28,12 +28,8 @@ export function getClient(
   return [link, client];
 }
 
-export function defaultCallback(err: Error[], result): void {
+export function defaultCallback(err: Error[]): void {
   if (err) {
     console.error(err, 'connectionCallback err');
-  }
-  if (result) {
-    // eslint-disable-next-line no-console
-    console.log(result, 'connectionCallback result');
   }
 }
