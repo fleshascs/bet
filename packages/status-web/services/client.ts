@@ -1,9 +1,6 @@
-import { authHeaders, token, url } from './config';
 import { WebSocketLink } from 'apollo-link-ws';
 import { ApolloLink } from 'apollo-link';
 import { ClientOptions, SubscriptionClient } from 'subscriptions-transport-ws';
-const ws = require('ws');
-import { logger } from '../logger';
 
 let link: ApolloLink;
 let client: SubscriptionClient;
@@ -13,17 +10,17 @@ export function getClient(
 ): [ApolloLink, SubscriptionClient] {
   if (!link) {
     client = new SubscriptionClient(
-      url,
+      'ws://localhost:3000/graphql',
       {
         reconnect: true,
         inactivityTimeout: 0,
-        connectionCallback: connectionCallback,
-        connectionParams: {
-          headers: authHeaders,
-          'X-Auth-Token': token
-        }
-      },
-      ws
+        connectionCallback: connectionCallback
+        // connectionParams: {
+        //   headers: authHeaders,
+        //   'X-Auth-Token': token
+        // }
+      }
+      // ws
     );
 
     link = ApolloLink.from([new WebSocketLink(client)]);
@@ -33,9 +30,10 @@ export function getClient(
 
 export function defaultCallback(err: Error[], result): void {
   if (err) {
-    logger.error(err, 'connectionCallback err');
+    console.error(err, 'connectionCallback err');
   }
   if (result) {
-    logger.info(result, 'connectionCallback result');
+    // eslint-disable-next-line no-console
+    console.log(result, 'connectionCallback result');
   }
 }

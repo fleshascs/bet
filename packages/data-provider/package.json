@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node --transpile-only ./src/index.ts",
+    "dev": "ts-node --transpile-only ./src/index.ts | pino-pretty",
     "collectData": "ts-node --transpile-only ./src/collectData.ts | pino-pretty",
     "filterFinishedMatches": "ts-node --transpile-only ./scripts/filterFinishedMatches.ts",
     "calculateProfit": "ts-node --transpile-only ./scripts/calculateProfit.ts",
