@@ -15,6 +15,11 @@ export function collectDataManager(): CollectDataManager {
     const index = processes.push(controller) - 1;
     child.on('close', function (code) {
       logger.info('CollectData process exited with code ' + code);
+      if (code === null) {
+        logger.info('Not restarting, process aborted by parent');
+        return;
+      }
+      logger.info('Restarting....');
       processes.splice(index, 1);
       startCollectingData();
     });

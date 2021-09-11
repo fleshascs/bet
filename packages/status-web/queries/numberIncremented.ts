@@ -1,6 +1,7 @@
 import { DocumentNode } from 'graphql';
 import gql from 'graphql-tag';
 
+//https://www.apollographql.com/docs/apollo-server/testing/build-run-queries/
 export const query = gql`
   subscription {
     numberIncremented
