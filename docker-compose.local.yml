@@ -8,9 +8,9 @@ services:
       dockerfile: Dockerfile.dev
     stdin_open: true
     volumes:
-      - ./:/usr/app
-      - /usr/app/node_modules
-      - /usr/app/.next
+      - ./packages/status-web:/usr/app
+      - ./packages/status-web/node_modules:/usr/app/node_modules
+      - ./packages/status-web/.next:/usr/app/.next
     ports: 
       - 3000:3000
 
