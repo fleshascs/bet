@@ -3,19 +3,25 @@ version: "3"
 services:
 
   status-web:
-    build: ./packages/status-web
+    build:
+      context: ./packages/status-web
+      dockerfile: Dockerfile.dev
     stdin_open: true
+    volumes:
+      - ./:/usr/app
+      - /usr/app/node_modules
+      - /usr/app/.next
     ports: 
       - 3000:3000
 
   data-provider: 
     build:
       context: ./packages/data-provider
-      dockerfile: Dockerfile.dev
+    #  dockerfile: Dockerfile.dev
     volumes:
-      - './packages/data-provider:/usr/app'
-      - './data:/usr/app/data'
-      - /usr/app/node_modules
+    - './data:/usr/app/data'
+    #  - ./packages/data-provider:/usr/app
+    #  - /usr/app/node_modules
     ports: 
       - 4001:3000
 
