@@ -1,20 +1,21 @@
 version: "3"
 
-# service_name:
-#   build: 
-#     context: .
-#     dockerfile: path/to/Dockerfile
-#
-
 services:
 
   status-web:
     build: ./packages/status-web
+    stdin_open: true
     ports: 
       - 3000:3000
 
-  data-provider:
-    build: ./packages/data-provider
+  data-provider: 
+    build:
+      context: ./packages/data-provider
+      dockerfile: Dockerfile.dev
+    volumes:
+      - './packages/data-provider:/usr/app'
+      - './data:/usr/app/data'
+      - /usr/app/node_modules
     ports: 
       - 4001:3000
 
