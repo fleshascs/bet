@@ -47,7 +47,7 @@ function forkProcess(): ForkProcess {
   const controller = new AbortController();
   const { signal } = controller;
 
-  const child = fork(join(__dirname, 'collectData.ts'), ['child'], { signal, detached: false });
+  const child = fork(join(__dirname, 'collectData'), ['child'], { signal, detached: false });
 
   child.on('error', (err) => {
     // This will be called with err being an AbortError if the controller aborts
