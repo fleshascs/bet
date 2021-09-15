@@ -6,6 +6,7 @@ import { PubSub } from 'graphql-subscriptions';
 import { SubscriptionServer } from 'subscriptions-transport-ws';
 import { makeExecutableSchema } from '@graphql-tools/schema';
 import next from 'next';
+import './connectRabbitMQ';
 
 (async () => {
   const PORT = 3000;

@@ -55,10 +55,7 @@ const Home: FC = () => {
             </p>
           </a>
           <ul>
-            {responses.map((r) => (
-              <li key={r}>{r}</li>
-            ))}
-
+            <li>{responses.length}</li>
             <li>
               <Link href='/a' as='/a'>
                 <a>a</a>

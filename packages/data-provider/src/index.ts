@@ -1,6 +1,7 @@
 import { logger } from './logger';
 import schedule from 'node-schedule';
 import { collectDataManager } from './collectDataManager';
+import './connectRabbitMQ';
 
 // utc = -3hrs from lithuania time (GMT+3)
 

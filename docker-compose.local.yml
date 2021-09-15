@@ -1,10 +1,29 @@
 version: "3"
 
 services:
+
+  dynamodb-local:
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath ./data"
+    image: "amazon/dynamodb-local:latest"
+    container_name: dynamodb-local
+    ports:
+      - "8000:8000"
+    volumes:
+      - "./docker/dynamodb:/home/dynamodblocal/data"
+    working_dir: /home/dynamodblocal
+
+  rabbitmq:
+    environment: 
+      RABBITMQ_ERLANG_COOKIE: erlang_dev_only_cookie
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
   status-web:
     build:
       context: ./packages/status-web
       dockerfile: Dockerfile.dev
+    environment: 
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672
     stdin_open: true
     volumes:
       - ./packages/status-web:/usr/app
@@ -17,10 +36,15 @@ services:
     build:
       context: ./packages/data-provider
       dockerfile: Dockerfile.dev
+    environment: 
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672
     volumes:
      - ./data:/usr/app/data
      - ./packages/data-provider:/usr/app
      - ./packages/data-provider/node_modules:/usr/app/node_modules
     ports: 
       - 4001:3000
+    depends_on:
+      - dynamodb-local
+      - rabbitmq
 
